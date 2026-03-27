@@ -49,10 +49,16 @@ header {
 
 .logo span { color: var(--green-mid); }
 
+nav {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
 nav a {
   font-size: 0.9rem;
   color: var(--text-secondary);
-  margin-left: 24px;
+  white-space: nowrap;
 }
 
 nav a:hover { color: var(--green); text-decoration: none; }
