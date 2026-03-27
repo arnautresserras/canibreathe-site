@@ -252,4 +252,8 @@ footer a:hover { color: var(--green); }
 @media (max-width: 500px) {
   .hero h1 { font-size: 1.8rem; }
   .hero { padding: 48px 0 40px; }
+  header { padding: 0 16px; }
+  nav a { font-size: 0.82rem; }
+  .lang-switcher { margin-left: 8px; }
+  .lang-btn { padding: 3px 6px; }
 }
