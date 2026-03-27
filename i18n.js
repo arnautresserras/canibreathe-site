@@ -27,7 +27,7 @@ const TRANSLATIONS = {
     'policy.date':  'Data d\'efecte: 1 d\'abril de 2025 &nbsp;·&nbsp; Darrera actualització: 1 d\'abril de 2025',
     'policy.highlight': '<strong>Resum breu:</strong> canIbreathe no recull, emmagatzema ni comparteix cap informació personal als nostres servidors. El teu perfil de localització i al·lèrgies es desa únicament al teu dispositiu.',
     's1.h': '1. Qui som',
-    's1.body': 'canIbreathe és un projecte personal desenvolupat per Arnau Tresserras. Si tens alguna pregunta sobre aquesta política, posa\'t en contacte a <a href="mailto:arnau@tresserras.dev">arnau@tresserras.dev</a>.',
+    's1.body': 'canIbreathe és un projecte personal desenvolupat per Arnau Tresserras. Si tens alguna pregunta sobre aquesta política, posa\'t en contacte a <a href="mailto:arnautresserras@gmail.com">arnautresserras@gmail.com</a>.',
     's2.h': '2. Quines dades utilitza l\'app',
     's2.body': `
       <p>canIbreathe desa la informació següent <strong>únicament al teu dispositiu</strong>, usant l'emmagatzematge privat del dispositiu. Aquestes dades mai no surten del dispositiu ni es transmeten als nostres servidors:</p>
@@ -57,7 +57,7 @@ const TRANSLATIONS = {
     's6.h': '6. Canvis en aquesta política',
     's6.body': 'Si fem canvis importants en aquesta política, actualitzarem la data de "Darrera actualització" a la part superior d\'aquesta pàgina. L\'ús continuat de l\'app després d\'un canvi implica l\'acceptació de la política actualitzada.',
     's7.h': '7. Contacte',
-    's7.body': 'Les preguntes o sol·licituds sobre les teves dades es poden enviar a <a href="mailto:arnau@tresserras.dev">arnau@tresserras.dev</a>.',
+    's7.body': 'Les preguntes o sol·licituds sobre les teves dades es poden enviar a <a href="mailto:arnautresserras@gmail.com">arnautresserras@gmail.com</a>.',
   },
 
   en: {
@@ -88,7 +88,7 @@ const TRANSLATIONS = {
     'policy.date':  'Effective date: 1 April 2025 &nbsp;·&nbsp; Last updated: 1 April 2025',
     'policy.highlight': '<strong>Short version:</strong> canIbreathe does not collect, store, or share any personal information on our servers. Your location and allergy profile are stored only on your device.',
     's1.h': '1. Who we are',
-    's1.body': 'canIbreathe is a personal project developed by Arnau Tresserras. If you have any questions about this policy, please contact <a href="mailto:arnau@tresserras.dev">arnau@tresserras.dev</a>.',
+    's1.body': 'canIbreathe is a personal project developed by Arnau Tresserras. If you have any questions about this policy, please contact <a href="mailto:arnautresserras@gmail.com">arnautresserras@gmail.com</a>.',
     's2.h': '2. What data the app uses',
     's2.body': `
       <p>canIbreathe stores the following information <strong>locally on your device only</strong>, using your device's private storage. This data never leaves your device and is never transmitted to our servers:</p>
@@ -118,7 +118,7 @@ const TRANSLATIONS = {
     's6.h': '6. Changes to this policy',
     's6.body': 'If we make material changes to this policy, we will update the "Last updated" date at the top of this page. Continued use of the app after a change constitutes acceptance of the updated policy.',
     's7.h': '7. Contact',
-    's7.body': 'Questions or requests regarding your data can be sent to <a href="mailto:arnau@tresserras.dev">arnau@tresserras.dev</a>.',
+    's7.body': 'Questions or requests regarding your data can be sent to <a href="mailto:arnautresserras@gmail.com">arnautresserras@gmail.com</a>.',
   },
 
   es: {
@@ -149,7 +149,7 @@ const TRANSLATIONS = {
     'policy.date':  'Fecha de entrada en vigor: 1 de abril de 2025 &nbsp;·&nbsp; Última actualización: 1 de abril de 2025',
     'policy.highlight': '<strong>Resumen breve:</strong> canIbreathe no recopila, almacena ni comparte ningún dato personal en nuestros servidores. Tu perfil de localización y alergias se guarda únicamente en tu dispositivo.',
     's1.h': '1. Quiénes somos',
-    's1.body': 'canIbreathe es un proyecto personal desarrollado por Arnau Tresserras. Si tienes alguna pregunta sobre esta política, ponte en contacto en <a href="mailto:arnau@tresserras.dev">arnau@tresserras.dev</a>.',
+    's1.body': 'canIbreathe es un proyecto personal desarrollado por Arnau Tresserras. Si tienes alguna pregunta sobre esta política, ponte en contacto en <a href="mailto:arnautresserras@gmail.com">arnautresserras@gmail.com</a>.',
     's2.h': '2. Qué datos utiliza la app',
     's2.body': `
       <p>canIbreathe guarda la siguiente información <strong>únicamente en tu dispositivo</strong>, usando el almacenamiento privado del dispositivo. Estos datos nunca abandonan el dispositivo ni se transmiten a nuestros servidores:</p>
@@ -179,7 +179,7 @@ const TRANSLATIONS = {
     's6.h': '6. Cambios en esta política',
     's6.body': 'Si realizamos cambios importantes en esta política, actualizaremos la fecha de "Última actualización" en la parte superior de esta página. El uso continuado de la app tras un cambio implica la aceptación de la política actualizada.',
     's7.h': '7. Contacto',
-    's7.body': 'Las preguntas o solicitudes sobre tus datos pueden enviarse a <a href="mailto:arnau@tresserras.dev">arnau@tresserras.dev</a>.',
+    's7.body': 'Las preguntas o solicitudes sobre tus datos pueden enviarse a <a href="mailto:arnautresserras@gmail.com">arnautresserras@gmail.com</a>.',
   },
 };
 
