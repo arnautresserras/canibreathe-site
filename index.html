@@ -1,20 +1,25 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ca">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>canIbreathe — Pollen &amp; Allergen Forecast</title>
-  <meta name="description" content="Daily pollen and allergen forecasts for the allergens you care about. Available on Android." />
+  <title>canIbreathe — Previsió de pol·len i al·lèrgens</title>
+  <meta name="description" content="Previsions diàries de pol·len i al·lèrgens adaptades als que t'afecten. Disponible a Android." />
   <link rel="stylesheet" href="style.css" />
   <link rel="icon" href="favicon.png" />
 </head>
-<body>
+<body data-title-key="page.title.index">
 
   <header>
     <div class="header-inner">
       <span class="logo">can<span>I</span>breathe</span>
       <nav>
-        <a href="privacy.html">Privacy policy</a>
+        <a href="privacy.html" data-i18n="nav.privacy">Política de privacitat</a>
+        <div class="lang-switcher" aria-label="Canvia l'idioma">
+          <button class="lang-btn" data-lang="ca" aria-pressed="true">CA</button>
+          <button class="lang-btn" data-lang="en" aria-pressed="false">EN</button>
+          <button class="lang-btn" data-lang="es" aria-pressed="false">ES</button>
+        </div>
       </nav>
     </div>
   </header>
@@ -23,21 +28,21 @@
     <section class="hero">
       <div class="hero-icon">🌿</div>
       <h1>canIbreathe</h1>
-      <p class="subtitle">
-        Daily pollen and allergen forecasts tailored to the plants that affect you — so you can plan your day with confidence.
+      <p class="subtitle" data-i18n="hero.subtitle">
+        Previsions diàries de pol·len i al·lèrgens adaptades a les plantes que t'afecten — per planificar el teu dia amb confiança.
       </p>
       <div class="badge-row">
         <!--
           Replace the href below with your Play Store listing URL once published.
           Example: https://play.google.com/store/apps/details?id=com.arnautr.canibreathe
         -->
-        <a class="store-badge" href="#" aria-label="Get it on Google Play">
+        <a class="store-badge" href="#" aria-label="Google Play">
           <!-- Google Play icon -->
           <svg width="22" height="22" viewBox="0 0 24 24" fill="white" xmlns="http://www.w3.org/2000/svg">
             <path d="M3.18 23.76c.39.22.84.24 1.25.07l11.4-6.58-2.49-2.49-10.16 8.97v.03zm-1.18-21.5v19.48c0 .54.29 1.02.76 1.28l10.98-10.98L2.76.98A1.5 1.5 0 0 0 2 2.26zM21.1 10.3l-2.42-1.4-2.78 2.78 2.78 2.78 2.44-1.41c.7-.4.7-1.35-.02-1.75zM4.43.17 15.83 6.75l-2.49 2.49L2.76.26A1.53 1.53 0 0 1 4.43.17z"/>
           </svg>
           <span class="badge-label">
-            <small>Get it on</small>
+            <small data-i18n="badge.get-on">Disponible a</small>
             Google Play
           </span>
         </a>
@@ -45,37 +50,38 @@
     </section>
 
     <section class="features">
-      <h2>What it does</h2>
+      <h2 data-i18n="features.title">Què fa</h2>
       <div class="feature-grid">
         <div class="feature-card">
           <div class="icon">🎯</div>
-          <h3>Your allergens only</h3>
-          <p>Pick the pollens and spores that affect you. The app shows only what matters to you, not everything at once.</p>
+          <h3 data-i18n="feat1.title">Els teus al·lèrgens</h3>
+          <p data-i18n="feat1.desc">Tria els pol·lens i espores que t'afecten. L'app mostra només el que t'importa, no tot alhora.</p>
         </div>
         <div class="feature-card">
           <div class="icon">📍</div>
-          <h3>Local forecasts</h3>
-          <p>Detailed station data for Catalonia and the Balearic Islands, plus global coverage powered by Open-Meteo.</p>
+          <h3 data-i18n="feat2.title">Previsions locals</h3>
+          <p data-i18n="feat2.desc">Dades detallades d'estació per a Catalunya i les Illes Balears, amb cobertura global gràcies a Open-Meteo.</p>
         </div>
         <div class="feature-card">
           <div class="icon">🔔</div>
-          <h3>Daily alerts</h3>
-          <p>Get a morning notification when your tracked allergens reach the level you choose. No noise, just what you need.</p>
+          <h3 data-i18n="feat3.title">Alertes diàries</h3>
+          <p data-i18n="feat3.desc">Rep una notificació al matí quan els teus al·lèrgens arribin al nivell que tries. Sense soroll, just el que necessites.</p>
         </div>
         <div class="feature-card">
           <div class="icon">🌍</div>
-          <h3>Three languages</h3>
-          <p>Available in English, Català, and Español. The app follows your device language automatically.</p>
+          <h3 data-i18n="feat4.title">Tres idiomes</h3>
+          <p data-i18n="feat4.desc">Disponible en anglès, català i castellà. L'app segueix l'idioma del dispositiu automàticament.</p>
         </div>
       </div>
     </section>
   </main>
 
   <footer>
-    <a href="privacy.html">Privacy policy</a>
-    <a href="mailto:arnau@tresserras.dev">Contact</a>
-    <p style="margin-top: 12px;">&copy; 2025 Arnau Tresserras</p>
+    <a href="privacy.html" data-i18n="footer.privacy">Política de privacitat</a>
+    <a href="mailto:arnau@tresserras.dev" data-i18n="footer.contact">Contacte</a>
+    <p style="margin-top: 12px;" data-i18n="footer.copy">&copy; 2025 Arnau Tresserras</p>
   </footer>
 
+  <script src="i18n.js"></script>
 </body>
 </html>

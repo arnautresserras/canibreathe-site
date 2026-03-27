@@ -214,6 +214,34 @@ footer a:hover { color: var(--green); }
   color: var(--text);
 }
 
+/* ── Lang switcher ── */
+.lang-switcher {
+  display: flex;
+  gap: 4px;
+  margin-left: 16px;
+}
+
+.lang-btn {
+  background: none;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  color: var(--text-secondary);
+  cursor: pointer;
+  font-size: 0.78rem;
+  font-weight: 600;
+  letter-spacing: 0.3px;
+  padding: 3px 8px;
+  transition: background 0.12s, color 0.12s, border-color 0.12s;
+}
+
+.lang-btn:hover { border-color: var(--green); color: var(--green); }
+
+.lang-btn.active {
+  background: var(--green);
+  border-color: var(--green);
+  color: var(--white);
+}
+
 /* ── Responsive ── */
 @media (max-width: 500px) {
   .hero h1 { font-size: 1.8rem; }
