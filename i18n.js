@@ -3,9 +3,12 @@ const TRANSLATIONS = {
     // ── Shared ──────────────────────────────────────────────────
     'nav.home':    'Inici',
     'nav.privacy': 'Política de privacitat',
+    'lang-switcher.label': 'Canvia l\'idioma',
+    'meta.description.index': 'Previsions diàries de pol·len i al·lèrgens adaptades als que t\'afecten. Disponible a Android.',
+    'meta.description.privacy': 'Política de privacitat de l\'app canIbreathe de previsió de pol·len i al·lèrgens.',
     'footer.privacy': 'Política de privacitat',
     'footer.contact': 'Contacte',
-    'footer.copy': '&copy; 2025 Arnau Tresserras',
+    'footer.copy': '&copy; 2026 Arnau Tresserras',
 
     // ── index.html ───────────────────────────────────────────────
     'page.title.index': 'canIbreathe — Previsió de pol·len i al·lèrgens',
@@ -64,9 +67,12 @@ const TRANSLATIONS = {
     // ── Shared ──────────────────────────────────────────────────
     'nav.home':    'Home',
     'nav.privacy': 'Privacy policy',
+    'lang-switcher.label': 'Change language',
+    'meta.description.index': 'Daily pollen and allergen forecasts tailored to the plants that affect you. Available on Android.',
+    'meta.description.privacy': 'Privacy policy for the canIbreathe pollen and allergen forecast app.',
     'footer.privacy': 'Privacy policy',
     'footer.contact': 'Contact',
-    'footer.copy': '&copy; 2025 Arnau Tresserras',
+    'footer.copy': '&copy; 2026 Arnau Tresserras',
 
     // ── index.html ───────────────────────────────────────────────
     'page.title.index': 'canIbreathe — Pollen & Allergen Forecast',
@@ -125,9 +131,12 @@ const TRANSLATIONS = {
     // ── Shared ──────────────────────────────────────────────────
     'nav.home':    'Inicio',
     'nav.privacy': 'Política de privacidad',
+    'lang-switcher.label': 'Cambia el idioma',
+    'meta.description.index': 'Previsiones diarias de polen y alérgenos adaptadas a las plantas que te afectan. Disponible en Android.',
+    'meta.description.privacy': 'Política de privacidad de la app canIbreathe de previsión de polen y alérgenos.',
     'footer.privacy': 'Política de privacidad',
     'footer.contact': 'Contacto',
-    'footer.copy': '&copy; 2025 Arnau Tresserras',
+    'footer.copy': '&copy; 2026 Arnau Tresserras',
 
     // ── index.html ───────────────────────────────────────────────
     'page.title.index': 'canIbreathe — Previsión de polen y alérgenos',
@@ -208,6 +217,16 @@ function applyLang(lang) {
   document.querySelectorAll('[data-i18n]').forEach(el => {
     const key = el.dataset.i18n;
     if (t[key] !== undefined) el.innerHTML = t[key];
+  });
+
+  document.querySelectorAll('[data-i18n-aria-label]').forEach(el => {
+    const key = el.dataset.i18nAriaLabel;
+    if (t[key] !== undefined) el.setAttribute('aria-label', t[key]);
+  });
+
+  document.querySelectorAll('[data-i18n-content]').forEach(el => {
+    const key = el.dataset.i18nContent;
+    if (t[key] !== undefined) el.setAttribute('content', t[key]);
   });
 
   // Update active state on lang buttons
