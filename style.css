@@ -111,6 +111,14 @@ main {
   margin-bottom: 16px;
 }
 
+.beta-notice {
+  font-size: 0.88rem;
+  color: var(--text-secondary);
+  max-width: 360px;
+  margin: 0 auto 20px;
+  line-height: 1.55;
+}
+
 .beta-steps {
   display: flex;
   flex-direction: column;
