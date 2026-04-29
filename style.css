@@ -119,6 +119,17 @@ main {
   line-height: 1.55;
 }
 
+.ios-note {
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: var(--text-secondary);
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 20px;
+  opacity: 0.6;
+}
+
 .beta-steps {
   display: flex;
   flex-direction: column;
@@ -155,12 +166,12 @@ main {
 .beta-step-text small { font-size: 0.72rem; opacity: 0.65; }
 
 /* ── Features ── */
-.features {
+.features, .install {
   padding: 48px 0;
   border-top: 1px solid var(--border);
 }
 
-.features h2 {
+.features h2, .install h2 {
   font-size: 1.4rem;
   font-weight: 700;
   color: var(--green-dark);
