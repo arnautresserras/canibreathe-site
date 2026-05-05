@@ -72,7 +72,7 @@
       <div class="platform-block">
         <p class="beta-label" data-i18n="ios.label">Disponible · iOS</p>
         <div class="beta-steps">
-          <a class="beta-step" href="https://apps.apple.com/us/app/can-i-breathe/id6764886469" target="_blank" rel="noopener">
+          <a class="beta-step" href="https://apps.apple.com/us/app/can-i-breathe/id6764886469" target="_blank" rel="noopener" onclick="posthog.capture('install_ios_clicked')">
             <span class="beta-step-text">
               <strong data-i18n="ios.step.title">Descarrega a l'App Store</strong>
               <small data-i18n="ios.step.desc">Per a iPhone i iPad</small>
@@ -84,14 +84,14 @@
         <p class="beta-label" data-i18n="beta.label">Beta tancada · Android</p>
         <p class="beta-notice" data-i18n="beta.notice">L'app encara no és al Play Store públic perquè Google l'està revisant. Mentrestant, pots instal·lar-la a través de la beta tancada. Assegura't d'usar el mateix compte de Google al grup i a Google Play.</p>
         <div class="beta-steps">
-          <a class="beta-step" href="https://groups.google.com/g/canibreathe-beta" target="_blank" rel="noopener">
+          <a class="beta-step" href="https://groups.google.com/g/canibreathe-beta" target="_blank" rel="noopener" onclick="posthog.capture('install_android_group_clicked')">
             <span class="beta-step-num">1</span>
             <span class="beta-step-text">
               <strong data-i18n="beta.step1.title">Uneix-te al grup de beta</strong>
               <small data-i18n="beta.step1.desc">Per ser inclòs a la llista d'accés</small>
             </span>
           </a>
-          <a class="beta-step" href="https://play.google.com/apps/testing/com.arnautr.canibreathe" target="_blank" rel="noopener">
+          <a class="beta-step" href="https://play.google.com/apps/testing/com.arnautr.canibreathe" target="_blank" rel="noopener" onclick="posthog.capture('install_android_play_clicked')">
             <span class="beta-step-num">2</span>
             <span class="beta-step-text">
               <strong data-i18n="beta.step2.title">Activa la beta a Google Play</strong>
