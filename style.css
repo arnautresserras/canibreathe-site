@@ -119,16 +119,12 @@ main {
   line-height: 1.55;
 }
 
-.ios-note {
-  font-size: 0.78rem;
-  font-weight: 600;
-  color: var(--text-secondary);
-  letter-spacing: 0.5px;
-  text-transform: uppercase;
+.platform-block {
   text-align: center;
-  margin-top: 20px;
-  opacity: 0.6;
+  margin-bottom: 36px;
 }
+
+.platform-block:last-child { margin-bottom: 0; }
 
 .beta-steps {
   display: flex;
