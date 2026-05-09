@@ -7,6 +7,7 @@
   <meta name="description" content="Previsions diàries de pol·len i al·lèrgens adaptades als que t'afecten. Disponible a Android." data-i18n-content="meta.description.index" />
   <link rel="stylesheet" href="style.css" />
   <link rel="icon" href="favicon.png" />
+  <link rel="apple-touch-icon" href="favicon.png" />
   <script>
     !function(t,e){var o,n,p,r;e.__SV||(window.posthog && window.posthog.__loaded)||(window.posthog=e,e._i=[],e.init=function(i,s,a){function g(t,e){var o=e.split(".");2==o.length&&(t=t[o[0]],e=o[1]),t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}}(p=t.createElement("script")).type="text/javascript",p.crossOrigin="anonymous",p.async=!0,p.src=s.api_host.replace(".i.posthog.com","-assets.i.posthog.com")+"/static/array.js",(r=t.getElementsByTagName("script")[0]).parentNode.insertBefore(p,r);var u=e;for(void 0!==a?u=e[a]=[]:a="posthog",u.people=u.people||[],u.toString=function(t){var e="posthog";return"posthog"!==a&&(e+="."+a),t||(e+=" (stub)"),e},u.people.toString=function(){return u.toString(1)+".people (stub)"},o="Ei Ni init zi Gi Nr Ui Xi Hi capture calculateEventProperties tn register register_once register_for_session unregister unregister_for_session an getFeatureFlag getFeatureFlagPayload getFeatureFlagResult isFeatureEnabled reloadFeatureFlags updateFlags updateEarlyAccessFeatureEnrollment getEarlyAccessFeatures on onFeatureFlags onSurveysLoaded onSessionId getSurveys getActiveMatchingSurveys renderSurvey displaySurvey cancelPendingSurvey canRenderSurvey canRenderSurveyAsync ln identify setPersonProperties group resetGroups setPersonPropertiesForFlags resetPersonPropertiesForFlags setGroupPropertiesForFlags resetGroupPropertiesForFlags reset setIdentity clearIdentity get_distinct_id getGroups get_session_id get_session_replay_url alias set_config startSessionRecording stopSessionRecording sessionRecordingStarted captureException addExceptionStep captureLog startExceptionAutocapture stopExceptionAutocapture loadToolbar get_property getSessionProperty nn Qi createPersonProfile setInternalOrTestUser sn qi cn opt_in_capturing opt_out_capturing has_opted_in_capturing has_opted_out_capturing get_explicit_consent_status is_capturing clear_opt_in_out_capturing Ji debug Fr rn getPageViewId captureTraceFeedback captureTraceMetric Bi".split(" "),n=0;n<o.length;n++)g(u,o[n]);e._i.push([i,s,a])},e.__SV=1)}(document,window.posthog||[]);
     posthog.init('phc_LRrSer0JCHmHAlgUVe1UBUHwa6GLvBOArZXyOaQ2EX9', {
@@ -27,6 +28,10 @@
           <button class="lang-btn" data-lang="ca" aria-pressed="true">CA</button>
           <button class="lang-btn" data-lang="en" aria-pressed="false">EN</button>
           <button class="lang-btn" data-lang="es" aria-pressed="false">ES</button>
+          <button class="lang-btn" data-lang="fr" aria-pressed="false">FR</button>
+          <button class="lang-btn" data-lang="pt" aria-pressed="false">PT</button>
+          <button class="lang-btn" data-lang="it" aria-pressed="false">IT</button>
+          <button class="lang-btn" data-lang="de" aria-pressed="false">DE</button>
         </div>
       </nav>
     </div>
@@ -72,7 +77,12 @@
       <div class="platform-block">
         <p class="beta-label" data-i18n="ios.label">Disponible · iOS</p>
         <div class="beta-steps">
-          <a class="beta-step" href="https://apps.apple.com/us/app/can-i-breathe/id6764886469" target="_blank" rel="noopener" onclick="posthog.capture('install_ios_clicked')">
+          <a class="beta-step" href="https://apps.apple.com/app/id6764886469" target="_blank" rel="noopener" onclick="posthog.capture('install_ios_clicked')">
+            <span class="beta-step-icon" aria-hidden="true">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M12.152 6.896c-.948 0-2.415-1.078-3.96-1.04-2.04.027-3.91 1.183-4.961 3.014-2.117 3.675-.546 9.103 1.519 12.09 1.013 1.454 2.208 3.09 3.792 3.039 1.52-.065 2.09-.987 3.935-.987 1.831 0 2.35.987 3.96.948 1.637-.026 2.676-1.48 3.676-2.948 1.156-1.688 1.636-3.325 1.662-3.415-.039-.013-3.182-1.221-3.22-4.857-.026-3.04 2.48-4.494 2.597-4.559-1.429-2.09-3.623-2.324-4.39-2.376-2-.156-3.675 1.09-4.61 1.09zM15.53 3.83c.843-1.012 1.4-2.427 1.245-3.83-1.207.052-2.662.805-3.532 1.818-.78.896-1.454 2.338-1.273 3.714 1.338.104 2.715-.688 3.559-1.701"/>
+              </svg>
+            </span>
             <span class="beta-step-text">
               <strong data-i18n="ios.step.title">Descarrega a l'App Store</strong>
               <small data-i18n="ios.step.desc">Per a iPhone i iPad</small>

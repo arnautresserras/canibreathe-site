@@ -157,6 +157,20 @@ main {
   text-align: center;
 }
 
+.beta-step-icon {
+  flex-shrink: 0;
+  width: 18px;
+  opacity: 0.65;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.beta-step-icon svg {
+  width: 16px;
+  height: auto;
+}
+
 .beta-step-text { display: flex; flex-direction: column; gap: 2px; }
 .beta-step-text strong { font-size: 0.875rem; font-weight: 600; display: block; }
 .beta-step-text small { font-size: 0.72rem; opacity: 0.65; }
@@ -289,6 +303,20 @@ footer a:hover { color: var(--green); }
   .hero { padding: 48px 0 40px; }
   header { padding: 0 16px; }
   nav a { font-size: 0.82rem; }
-  .lang-switcher { margin-left: 8px; }
-  .lang-btn { padding: 3px 6px; }
+  .header-inner {
+    height: auto;
+    padding: 10px 0;
+    align-items: baseline;
+  }
+  nav {
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    gap: 6px 4px;
+  }
+  .lang-switcher {
+    width: 100%;
+    margin-left: 0;
+    justify-content: flex-end;
+  }
+  .lang-btn { padding: 3px 7px; }
 }
