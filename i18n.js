@@ -555,17 +555,46 @@ function applyLang(lang) {
     if (t[key] !== undefined) el.setAttribute('content', t[key]);
   });
 
-  // Update active state on lang buttons
+  // Update toggle display and active state on lang buttons
+  const current = document.querySelector('.lang-current');
+  if (current) current.textContent = lang.toUpperCase();
+
   document.querySelectorAll('.lang-btn').forEach(btn => {
-    btn.classList.toggle('active', btn.dataset.lang === lang);
-    btn.setAttribute('aria-pressed', btn.dataset.lang === lang);
+    const isActive = btn.dataset.lang === lang;
+    btn.classList.toggle('active', isActive);
+    btn.setAttribute('aria-selected', isActive);
   });
 }
 
 document.addEventListener('DOMContentLoaded', () => {
-  // Wire up lang switcher buttons
+  const switcher = document.querySelector('.lang-switcher');
+  const toggle = document.querySelector('.lang-toggle');
+
+  function closeMenu() {
+    if (!switcher) return;
+    switcher.classList.remove('open');
+    toggle.setAttribute('aria-expanded', 'false');
+  }
+
+  if (toggle && switcher) {
+    toggle.addEventListener('click', e => {
+      e.stopPropagation();
+      const open = switcher.classList.toggle('open');
+      toggle.setAttribute('aria-expanded', open);
+    });
+
+    document.addEventListener('click', closeMenu);
+
+    document.addEventListener('keydown', e => {
+      if (e.key === 'Escape') closeMenu();
+    });
+  }
+
   document.querySelectorAll('.lang-btn').forEach(btn => {
-    btn.addEventListener('click', () => applyLang(btn.dataset.lang));
+    btn.addEventListener('click', () => {
+      applyLang(btn.dataset.lang);
+      closeMenu();
+    });
   });
 
   applyLang(detectLang());

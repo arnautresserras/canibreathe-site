@@ -271,12 +271,14 @@ footer a:hover { color: var(--green); }
 
 /* ── Lang switcher ── */
 .lang-switcher {
-  display: flex;
-  gap: 4px;
+  position: relative;
   margin-left: 16px;
 }
 
-.lang-btn {
+.lang-toggle {
+  display: flex;
+  align-items: center;
+  gap: 5px;
   background: none;
   border: 1px solid var(--border);
   border-radius: 6px;
@@ -286,16 +288,59 @@ footer a:hover { color: var(--green); }
   font-weight: 600;
   letter-spacing: 0.3px;
   padding: 3px 8px;
-  transition: background 0.12s, color 0.12s, border-color 0.12s;
+  transition: border-color 0.12s, color 0.12s;
+  white-space: nowrap;
 }
 
-.lang-btn:hover { border-color: var(--green); color: var(--green); }
-
-.lang-btn.active {
-  background: var(--green);
+.lang-toggle:hover,
+.lang-toggle[aria-expanded="true"] {
   border-color: var(--green);
-  color: var(--white);
+  color: var(--green);
 }
+
+.lang-menu {
+  display: none;
+  position: absolute;
+  right: 0;
+  top: calc(100% + 4px);
+  background: var(--white);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  box-shadow: 0 4px 14px rgba(0,0,0,0.08);
+  list-style: none;
+  min-width: 140px;
+  padding: 4px;
+  z-index: 100;
+}
+
+.lang-switcher.open .lang-menu { display: block; }
+
+.lang-btn {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  width: 100%;
+  background: none;
+  border: none;
+  border-radius: 6px;
+  color: var(--text-secondary);
+  cursor: pointer;
+  font-size: 0.82rem;
+  font-weight: 500;
+  padding: 6px 10px;
+  text-align: left;
+  transition: background 0.12s, color 0.12s;
+}
+
+.lang-btn b {
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.3px;
+  min-width: 20px;
+}
+
+.lang-btn:hover { background: var(--green-light); color: var(--green-dark); }
+.lang-btn.active { color: var(--green); }
 
 /* ── Responsive ── */
 @media (max-width: 500px) {
@@ -303,20 +348,4 @@ footer a:hover { color: var(--green); }
   .hero { padding: 48px 0 40px; }
   header { padding: 0 16px; }
   nav a { font-size: 0.82rem; }
-  .header-inner {
-    height: auto;
-    padding: 10px 0;
-    align-items: baseline;
-  }
-  nav {
-    flex-wrap: wrap;
-    justify-content: flex-end;
-    gap: 6px 4px;
-  }
-  .lang-switcher {
-    width: 100%;
-    margin-left: 0;
-    justify-content: flex-end;
-  }
-  .lang-btn { padding: 3px 7px; }
 }
