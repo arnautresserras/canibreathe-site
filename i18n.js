@@ -32,6 +32,10 @@ const TRANSLATIONS = {
     'feat3.desc':  'Rep una notificació quan els teus al·lèrgens arribin al nivell que tries. Sense soroll, just el que necessites.',
     'feat4.title': 'Set idiomes',
     'feat4.desc':  'Disponible en anglès, català, castellà, francès, portuguès, italià i alemany. L\'app segueix l\'idioma del dispositiu automàticament.',
+    'feat5.title': 'Calendari de temporada de pol·len',
+    'feat5.desc':  'Consulta les finestres de temporada típiques i els mesos de pic per a cada al·lergen a la Guia integrada — per saber què esperar abans que comenci la temporada.',
+    'feat6.title': 'Comparteix la previsió',
+    'feat6.desc':  'Envia els nivells de pol·len d\'avui a amics o familiars com a imatge o text — molt pràctic per coordinar plans a l\'aire lliure.',
 
     // ── privacy.html ─────────────────────────────────────────────
     'page.title.privacy': 'Política de privacitat — canIbreathe',
@@ -106,6 +110,10 @@ const TRANSLATIONS = {
     'feat3.desc':  'Get a notification when your tracked allergens reach the level you choose. No noise, just what you need.',
     'feat4.title': 'Seven languages',
     'feat4.desc':  'Available in English, Català, Español, Français, Português, Italiano, and Deutsch. The app follows your device language automatically.',
+    'feat5.title': 'Pollen season calendar',
+    'feat5.desc':  'Browse typical season windows and peak months for each allergen in the built-in Guide — so you know what to expect before the season starts.',
+    'feat6.title': 'Share your forecast',
+    'feat6.desc':  'Send today\'s pollen levels to friends or family as an image or text — handy for coordinating outdoor plans.',
 
     // ── privacy.html ─────────────────────────────────────────────
     'page.title.privacy': 'Privacy Policy — canIbreathe',
@@ -180,6 +188,10 @@ const TRANSLATIONS = {
     'feat3.desc':  'Recibe una notificación cuando tus alérgenos alcancen el nivel que eliges. Sin ruido, solo lo que necesitas.',
     'feat4.title': 'Siete idiomas',
     'feat4.desc':  'Disponible en inglés, catalán, español, francés, portugués, italiano y alemán. La app sigue el idioma del dispositivo automáticamente.',
+    'feat5.title': 'Calendario de temporada de polen',
+    'feat5.desc':  'Consulta las ventanas de temporada típicas y los meses pico para cada alérgeno en la Guía integrada — para saber qué esperar antes de que empiece la temporada.',
+    'feat6.title': 'Comparte tu previsión',
+    'feat6.desc':  'Envía los niveles de polen de hoy a amigos o familiares como imagen o texto — muy útil para coordinar planes al aire libre.',
 
     // ── privacy.html ─────────────────────────────────────────────
     'page.title.privacy': 'Política de privacidad — canIbreathe',
@@ -254,6 +266,10 @@ const TRANSLATIONS = {
     'feat3.desc':  'Recevez une notification quand vos allergènes atteignent le niveau que vous choisissez. Sans bruit, juste ce qu\'il faut.',
     'feat4.title': 'Sept langues',
     'feat4.desc':  'Disponible en anglais, catalan, espagnol, français, portugais, italien et allemand. L\'app suit automatiquement la langue de l\'appareil.',
+    'feat5.title': 'Calendrier des saisons polliniques',
+    'feat5.desc':  'Consultez les fenêtres de saison typiques et les mois de pic pour chaque allergène dans le Guide intégré — pour anticiper avant le début de la saison.',
+    'feat6.title': 'Partager la prévision',
+    'feat6.desc':  'Envoyez les niveaux de pollen du jour à vos proches en image ou en texte — pratique pour coordonner des activités en plein air.',
 
     // ── privacy.html ────────────────────────────────────────────────
     'page.title.privacy': 'Politique de confidentialité — canIbreathe',
@@ -328,6 +344,10 @@ const TRANSLATIONS = {
     'feat3.desc':  'Recebe uma notificação quando os teus alergénios atingirem o nível que escolhes. Sem ruído, apenas o necessário.',
     'feat4.title': 'Sete idiomas',
     'feat4.desc':  'Disponível em inglês, catalão, espanhol, francês, português, italiano e alemão. A app segue automaticamente o idioma do dispositivo.',
+    'feat5.title': 'Calendário de época do pólen',
+    'feat5.desc':  'Consulta as janelas de época típicas e os meses de pico para cada alergénio no Guia integrado — para saberes o que esperar antes do início da época.',
+    'feat6.title': 'Partilha a previsão',
+    'feat6.desc':  'Envia os níveis de pólen de hoje a amigos ou familiares como imagem ou texto — útil para coordenar planos ao ar livre.',
 
     // ── privacy.html ────────────────────────────────────────────────
     'page.title.privacy': 'Política de Privacidade — canIbreathe',
@@ -402,6 +422,10 @@ const TRANSLATIONS = {
     'feat3.desc':  'Ricevi una notifica quando i tuoi allergeni raggiungono il livello che scegli. Senza rumore, solo l\'essenziale.',
     'feat4.title': 'Sette lingue',
     'feat4.desc':  'Disponibile in inglese, catalano, spagnolo, francese, portoghese, italiano e tedesco. L\'app segue automaticamente la lingua del dispositivo.',
+    'feat5.title': 'Calendario delle stagioni polliniche',
+    'feat5.desc':  'Sfoglia le finestre di stagione tipiche e i mesi di picco per ogni allergene nella Guida integrata — per sapere cosa aspettarsi prima dell\'inizio della stagione.',
+    'feat6.title': 'Condividi la previsione',
+    'feat6.desc':  'Invia i livelli di polline di oggi ad amici o familiari come immagine o testo — comodo per coordinare attività all\'aria aperta.',
 
     // ── privacy.html ────────────────────────────────────────────────
     'page.title.privacy': 'Informativa sulla Privacy — canIbreathe',
@@ -476,6 +500,10 @@ const TRANSLATIONS = {
     'feat3.desc':  'Erhalte eine Benachrichtigung, wenn deine Allergene den gewählten Schwellenwert erreichen. Kein Lärm, nur das Nötigste.',
     'feat4.title': 'Sieben Sprachen',
     'feat4.desc':  'Verfügbar auf Englisch, Katalanisch, Spanisch, Französisch, Portugiesisch, Italienisch und Deutsch. Die App folgt automatisch der Gerätesprache.',
+    'feat5.title': 'Pollensaison-Kalender',
+    'feat5.desc':  'Sieh dir typische Saisonfenster und Spitzenmonate für jeden Allergen im integrierten Leitfaden an — damit du weißt, was auf dich zukommt, bevor die Saison beginnt.',
+    'feat6.title': 'Vorhersage teilen',
+    'feat6.desc':  'Sende die heutigen Pollenwerte als Bild oder Text an Freunde oder Familie — praktisch, um Outdoor-Aktivitäten zu koordinieren.',
 
     // ── privacy.html ────────────────────────────────────────────────
     'page.title.privacy': 'Datenschutzerklärung — canIbreathe',
