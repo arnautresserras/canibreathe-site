@@ -107,21 +107,17 @@
         </div>
       </div>
       <div class="platform-block">
-        <p class="beta-label" data-i18n="beta.label">Beta tancada · Android</p>
-        <p class="beta-notice" data-i18n="beta.notice">L'app encara no és al Play Store públic perquè Google l'està revisant. Mentrestant, pots instal·lar-la a través de la beta tancada. Assegura't d'usar el mateix compte de Google al grup i a Google Play.</p>
+        <p class="beta-label" data-i18n="android.label">Disponible · Android</p>
         <div class="beta-steps">
-          <a class="beta-step" href="https://groups.google.com/g/canibreathe-beta" target="_blank" rel="noopener" onclick="posthog.capture('install_android_group_clicked')">
-            <span class="beta-step-num">1</span>
-            <span class="beta-step-text">
-              <strong data-i18n="beta.step1.title">Uneix-te al grup de beta</strong>
-              <small data-i18n="beta.step1.desc">Per ser inclòs a la llista d'accés</small>
+          <a class="beta-step" href="https://play.google.com/store/apps/details?id=com.arnautr.canibreathe" target="_blank" rel="noopener" onclick="posthog.capture('install_android_clicked')">
+            <span class="beta-step-icon" aria-hidden="true">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M3 20.5v-17c0-.83.94-1.3 1.6-.8l14 8.5c.6.36.6 1.24 0 1.6l-14 8.5c-.66.5-1.6.03-1.6-.8z"/>
+              </svg>
             </span>
-          </a>
-          <a class="beta-step" href="https://play.google.com/apps/testing/com.arnautr.canibreathe" target="_blank" rel="noopener" onclick="posthog.capture('install_android_play_clicked')">
-            <span class="beta-step-num">2</span>
             <span class="beta-step-text">
-              <strong data-i18n="beta.step2.title">Activa la beta a Google Play</strong>
-              <small data-i18n="beta.step2.desc">Per instal·lar la versió de prova</small>
+              <strong data-i18n="android.step.title">Descarrega a Google Play</strong>
+              <small data-i18n="android.step.desc">Per a Android</small>
             </span>
           </a>
         </div>
