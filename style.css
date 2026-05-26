@@ -77,9 +77,12 @@ main {
 }
 
 .hero-icon {
-  font-size: 72px;
-  line-height: 1;
   margin-bottom: 24px;
+}
+
+.hero-icon img {
+  width: 120px;
+  height: 120px;
 }
 
 .hero h1 {

@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024">
+  <defs>
+    <clipPath id="sq">
+      <rect width="1024" height="1024" rx="229" ry="229"></rect>
+    </clipPath>
+  </defs>
+  <g clip-path="url(#sq)">
+    <rect width="1024" height="1024" fill="#FBFAF5"></rect>
+    <circle cx="884.70" cy="586.13" r="20" fill="#8BC34A" opacity="0.85"></circle>
+  <circle cx="827.96" cy="723.12" r="20" fill="#8BC34A" opacity="0.85"></circle>
+  <circle cx="723.12" cy="827.96" r="20" fill="#8BC34A" opacity="0.85"></circle>
+  <circle cx="586.13" cy="884.70" r="20" fill="#8BC34A" opacity="0.85"></circle>
+  <circle cx="437.87" cy="884.70" r="20" fill="#8BC34A" opacity="0.85"></circle>
+  <circle cx="300.88" cy="827.96" r="20" fill="#8BC34A" opacity="0.85"></circle>
+  <circle cx="196.04" cy="723.12" r="20" fill="#8BC34A" opacity="0.85"></circle>
+  <circle cx="139.30" cy="586.13" r="20" fill="#8BC34A" opacity="0.85"></circle>
+  <circle cx="139.30" cy="437.87" r="20" fill="#8BC34A" opacity="0.85"></circle>
+  <circle cx="196.04" cy="300.88" r="20" fill="#8BC34A" opacity="0.85"></circle>
+  <circle cx="300.88" cy="196.04" r="20" fill="#8BC34A" opacity="0.85"></circle>
+  <circle cx="437.87" cy="139.30" r="20" fill="#8BC34A" opacity="0.85"></circle>
+  <circle cx="586.13" cy="139.30" r="20" fill="#8BC34A" opacity="0.85"></circle>
+  <circle cx="723.12" cy="196.04" r="20" fill="#8BC34A" opacity="0.85"></circle>
+  <circle cx="827.96" cy="300.88" r="20" fill="#8BC34A" opacity="0.85"></circle>
+  <circle cx="884.70" cy="437.87" r="20" fill="#8BC34A" opacity="0.85"></circle>
+  <circle cx="742.00" cy="512.00" r="38" fill="#388E3C"></circle>
+  <circle cx="674.63" cy="674.63" r="38" fill="#388E3C"></circle>
+  <circle cx="512.00" cy="742.00" r="38" fill="#388E3C"></circle>
+  <circle cx="349.37" cy="674.63" r="38" fill="#388E3C"></circle>
+  <circle cx="282.00" cy="512.00" r="38" fill="#388E3C"></circle>
+  <circle cx="349.37" cy="349.37" r="38" fill="#388E3C"></circle>
+  <circle cx="512.00" cy="282.00" r="38" fill="#388E3C"></circle>
+  <circle cx="674.63" cy="349.37" r="38" fill="#388E3C"></circle>
+  <circle cx="512" cy="512" r="110" fill="#1B5E20"></circle>
+  <circle cx="478.00" cy="478.00" r="28" fill="#8BC34A" opacity="0.55"></circle>
+  
+  </g>
+</svg>
