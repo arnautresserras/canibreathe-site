@@ -70,8 +70,15 @@ const TRANSLATIONS = {
     's5.body': 'canIbreathe no està adreçada a menors de 13 anys. No recollim conscientment cap informació de menors.',
     's6.h': '6. Canvis en aquesta política',
     's6.body': 'Si fem canvis importants en aquesta política, actualitzarem la data de "Darrera actualització" a la part superior d\'aquesta pàgina. L\'ús continuat de l\'app després d\'un canvi implica l\'acceptació de la política actualitzada.',
-    's7.h': '7. Contacte',
-    's7.body': 'Les preguntes o sol·licituds sobre les teves dades es poden enviar a <a href="mailto:arnautresserras@gmail.com">arnautresserras@gmail.com</a>.',
+    's7.h': '7. Retenció i eliminació de dades',
+    's7.body': `<ul>
+      <li><strong>Dades al dispositiu:</strong> Es conserven al teu dispositiu fins que uses <em>Configuració → Restablir dades</em> o desinstal·les l'app. No en tenim còpia als servidors.</li>
+      <li><strong>Analítica (PostHog):</strong> Els esdeveniments d'ús anònims es conserven als servidors de PostHog (UE) d'acord amb la seva política de retenció (normalment 1 any). Per sol·licitar-ne l'eliminació, contacta <a href="mailto:arnautresserras@gmail.com">arnautresserras@gmail.com</a>.</li>
+      <li><strong>Informes d'error (Sentry):</strong> Els informes de fallades anonimitzats es conserven als servidors de Sentry fins a 90 dies. Per sol·licitar-ne l'eliminació, contacta <a href="mailto:arnautresserras@gmail.com">arnautresserras@gmail.com</a>.</li>
+      <li><strong>Com eliminar les teves dades:</strong> Vés a <em>Configuració → Restablir dades</em> per esborrar immediatament totes les dades locals de l'app. Per sol·licituds d'eliminació de dades de tercers, contacta <a href="mailto:arnautresserras@gmail.com">arnautresserras@gmail.com</a>.</li>
+    </ul>`,
+    's8.h': '8. Contacte',
+    's8.body': 'Les preguntes o sol·licituds sobre les teves dades es poden enviar a <a href="mailto:arnautresserras@gmail.com">arnautresserras@gmail.com</a>.',
   },
 
   en: {
@@ -145,8 +152,15 @@ const TRANSLATIONS = {
     's5.body': 'canIbreathe is not directed at children under 13. We do not knowingly collect any information from children.',
     's6.h': '6. Changes to this policy',
     's6.body': 'If we make material changes to this policy, we will update the "Last updated" date at the top of this page. Continued use of the app after a change constitutes acceptance of the updated policy.',
-    's7.h': '7. Contact',
-    's7.body': 'Questions or requests regarding your data can be sent to <a href="mailto:arnautresserras@gmail.com">arnautresserras@gmail.com</a>.',
+    's7.h': '7. Data Retention & Deletion',
+    's7.body': `<ul>
+      <li><strong>On-device data:</strong> Retained on your device until you use <em>Settings → Reset Data</em>, or uninstall the app. We have no server-side copy.</li>
+      <li><strong>Analytics (PostHog):</strong> Anonymous usage events are retained on PostHog's EU servers per their retention policy (typically 1 year). To request deletion, contact <a href="mailto:arnautresserras@gmail.com">arnautresserras@gmail.com</a>.</li>
+      <li><strong>Error reports (Sentry):</strong> Anonymized crash reports are retained on Sentry's servers for up to 90 days. To request deletion, contact <a href="mailto:arnautresserras@gmail.com">arnautresserras@gmail.com</a>.</li>
+      <li><strong>How to delete your data:</strong> Go to <em>Settings → Reset Data</em> to clear all local app data immediately. For third-party data deletion requests, contact <a href="mailto:arnautresserras@gmail.com">arnautresserras@gmail.com</a>.</li>
+    </ul>`,
+    's8.h': '8. Contact',
+    's8.body': 'Questions or requests regarding your data can be sent to <a href="mailto:arnautresserras@gmail.com">arnautresserras@gmail.com</a>.',
   },
 
   es: {
@@ -220,8 +234,15 @@ const TRANSLATIONS = {
     's5.body': 'canIbreathe no está dirigida a menores de 13 años. No recopilamos conscientemente ningún dato de menores.',
     's6.h': '6. Cambios en esta política',
     's6.body': 'Si realizamos cambios importantes en esta política, actualizaremos la fecha de "Última actualización" en la parte superior de esta página. El uso continuado de la app tras un cambio implica la aceptación de la política actualizada.',
-    's7.h': '7. Contacto',
-    's7.body': 'Las preguntas o solicitudes sobre tus datos pueden enviarse a <a href="mailto:arnautresserras@gmail.com">arnautresserras@gmail.com</a>.',
+    's7.h': '7. Retención y eliminación de datos',
+    's7.body': `<ul>
+      <li><strong>Datos en el dispositivo:</strong> Se conservan en tu dispositivo hasta que uses <em>Configuración → Restablecer datos</em> o desinstales la app. No tenemos ninguna copia en nuestros servidores.</li>
+      <li><strong>Analítica (PostHog):</strong> Los eventos de uso anónimos se conservan en los servidores UE de PostHog según su política de retención (normalmente 1 año). Para solicitar su eliminación, contacta <a href="mailto:arnautresserras@gmail.com">arnautresserras@gmail.com</a>.</li>
+      <li><strong>Informes de errores (Sentry):</strong> Los informes de fallos anonimizados se conservan en los servidores de Sentry hasta 90 días. Para solicitar su eliminación, contacta <a href="mailto:arnautresserras@gmail.com">arnautresserras@gmail.com</a>.</li>
+      <li><strong>Cómo eliminar tus datos:</strong> Ve a <em>Configuración → Restablecer datos</em> para borrar inmediatamente todos los datos locales de la app. Para solicitudes de eliminación de datos de terceros, contacta <a href="mailto:arnautresserras@gmail.com">arnautresserras@gmail.com</a>.</li>
+    </ul>`,
+    's8.h': '8. Contacto',
+    's8.body': 'Las preguntas o solicitudes sobre tus datos pueden enviarse a <a href="mailto:arnautresserras@gmail.com">arnautresserras@gmail.com</a>.',
   },
 
   fr: {
@@ -295,8 +316,15 @@ const TRANSLATIONS = {
     's5.body': 'canIbreathe n\'est pas destinée aux enfants de moins de 13 ans. Nous ne collectons sciemment aucune information auprès d\'enfants.',
     's6.h':    '6. Modifications de cette politique',
     's6.body': 'Si nous apportons des modifications importantes à cette politique, nous mettrons à jour la date de « Dernière mise à jour » en haut de cette page. L\'utilisation continue de l\'app après une modification constitue une acceptation de la politique mise à jour.',
-    's7.h':    '7. Contact',
-    's7.body': 'Les questions ou demandes concernant vos données peuvent être envoyées à <a href="mailto:arnautresserras@gmail.com">arnautresserras@gmail.com</a>.',
+    's7.h':    '7. Conservation et suppression des données',
+    's7.body': `<ul>
+      <li><strong>Données sur l'appareil :</strong> Conservées sur votre appareil jusqu'à ce que vous utilisiez <em>Paramètres → Réinitialiser les données</em>, ou que vous désinstalliez l'app. Nous n'en avons aucune copie sur nos serveurs.</li>
+      <li><strong>Analytique (PostHog) :</strong> Les événements d'utilisation anonymes sont conservés sur les serveurs UE de PostHog selon leur politique de rétention (généralement 1 an). Pour demander leur suppression, contactez <a href="mailto:arnautresserras@gmail.com">arnautresserras@gmail.com</a>.</li>
+      <li><strong>Rapports d'erreurs (Sentry) :</strong> Les rapports de plantages anonymisés sont conservés sur les serveurs de Sentry pendant 90 jours maximum. Pour demander leur suppression, contactez <a href="mailto:arnautresserras@gmail.com">arnautresserras@gmail.com</a>.</li>
+      <li><strong>Comment supprimer vos données :</strong> Allez dans <em>Paramètres → Réinitialiser les données</em> pour effacer immédiatement toutes les données locales de l'app. Pour les demandes de suppression de données tierces, contactez <a href="mailto:arnautresserras@gmail.com">arnautresserras@gmail.com</a>.</li>
+    </ul>`,
+    's8.h':    '8. Contact',
+    's8.body': 'Les questions ou demandes concernant vos données peuvent être envoyées à <a href="mailto:arnautresserras@gmail.com">arnautresserras@gmail.com</a>.',
   },
 
   pt: {
@@ -370,8 +398,15 @@ const TRANSLATIONS = {
     's5.body': 'canIbreathe não se destina a crianças com menos de 13 anos. Não recolhemos conscientemente qualquer informação de crianças.',
     's6.h':    '6. Alterações a esta política',
     's6.body': 'Se fizermos alterações materiais a esta política, atualizaremos a data de "Última atualização" no topo desta página. A utilização continuada da app após uma alteração constitui aceitação da política atualizada.',
-    's7.h':    '7. Contacto',
-    's7.body': 'Questões ou pedidos sobre os teus dados podem ser enviados para <a href="mailto:arnautresserras@gmail.com">arnautresserras@gmail.com</a>.',
+    's7.h':    '7. Retenção e eliminação de dados',
+    's7.body': `<ul>
+      <li><strong>Dados no dispositivo:</strong> Conservados no teu dispositivo até usares <em>Definições → Repor dados</em> ou desinstalares a app. Não temos nenhuma cópia nos nossos servidores.</li>
+      <li><strong>Análise (PostHog):</strong> Os eventos de utilização anónimos são conservados nos servidores UE do PostHog de acordo com a sua política de retenção (normalmente 1 ano). Para solicitar a eliminação, contacta <a href="mailto:arnautresserras@gmail.com">arnautresserras@gmail.com</a>.</li>
+      <li><strong>Relatórios de erros (Sentry):</strong> Os relatórios de falhas anonimizados são conservados nos servidores do Sentry durante até 90 dias. Para solicitar a eliminação, contacta <a href="mailto:arnautresserras@gmail.com">arnautresserras@gmail.com</a>.</li>
+      <li><strong>Como eliminar os teus dados:</strong> Vai a <em>Definições → Repor dados</em> para apagar imediatamente todos os dados locais da app. Para pedidos de eliminação de dados de terceiros, contacta <a href="mailto:arnautresserras@gmail.com">arnautresserras@gmail.com</a>.</li>
+    </ul>`,
+    's8.h':    '8. Contacto',
+    's8.body': 'Questões ou pedidos sobre os teus dados podem ser enviados para <a href="mailto:arnautresserras@gmail.com">arnautresserras@gmail.com</a>.',
   },
 
   it: {
@@ -445,8 +480,15 @@ const TRANSLATIONS = {
     's5.body': 'canIbreathe non è destinata a bambini di età inferiore ai 13 anni. Non raccogliamo consapevolmente informazioni da bambini.',
     's6.h':    '6. Modifiche a questa informativa',
     's6.body': 'Se apportiamo modifiche significative a questa informativa, aggiorneremo la data di "Ultimo aggiornamento" in cima a questa pagina. L\'uso continuato dell\'app dopo una modifica costituisce accettazione dell\'informativa aggiornata.',
-    's7.h':    '7. Contatto',
-    's7.body': 'Domande o richieste riguardanti i tuoi dati possono essere inviate a <a href="mailto:arnautresserras@gmail.com">arnautresserras@gmail.com</a>.',
+    's7.h':    '7. Conservazione ed eliminazione dei dati',
+    's7.body': `<ul>
+      <li><strong>Dati sul dispositivo:</strong> Conservati sul tuo dispositivo finché non usi <em>Impostazioni → Ripristina dati</em> o disinstalli l'app. Non ne abbiamo alcuna copia sui nostri server.</li>
+      <li><strong>Analisi (PostHog):</strong> Gli eventi di utilizzo anonimi sono conservati sui server europei di PostHog secondo la loro politica di conservazione (in genere 1 anno). Per richiederne l'eliminazione, contatta <a href="mailto:arnautresserras@gmail.com">arnautresserras@gmail.com</a>.</li>
+      <li><strong>Rapporti di errore (Sentry):</strong> I rapporti di crash anonimizzati sono conservati sui server di Sentry per un massimo di 90 giorni. Per richiederne l'eliminazione, contatta <a href="mailto:arnautresserras@gmail.com">arnautresserras@gmail.com</a>.</li>
+      <li><strong>Come eliminare i tuoi dati:</strong> Vai su <em>Impostazioni → Ripristina dati</em> per cancellare immediatamente tutti i dati locali dell'app. Per richieste di eliminazione di dati di terze parti, contatta <a href="mailto:arnautresserras@gmail.com">arnautresserras@gmail.com</a>.</li>
+    </ul>`,
+    's8.h':    '8. Contatto',
+    's8.body': 'Domande o richieste riguardanti i tuoi dati possono essere inviate a <a href="mailto:arnautresserras@gmail.com">arnautresserras@gmail.com</a>.',
   },
 
   de: {
@@ -520,8 +562,15 @@ const TRANSLATIONS = {
     's5.body': 'canIbreathe richtet sich nicht an Kinder unter 13 Jahren. Wir erfassen wissentlich keine Informationen von Kindern.',
     's6.h':    '6. Änderungen dieser Erklärung',
     's6.body': 'Bei wesentlichen Änderungen dieser Erklärung werden wir das Datum "Zuletzt aktualisiert" oben auf dieser Seite aktualisieren. Die weitere Nutzung der App nach einer Änderung gilt als Zustimmung zur aktualisierten Erklärung.',
-    's7.h':    '7. Kontakt',
-    's7.body': 'Fragen oder Anfragen zu deinen Daten können an <a href="mailto:arnautresserras@gmail.com">arnautresserras@gmail.com</a> gesendet werden.',
+    's7.h':    '7. Datenspeicherung und -löschung',
+    's7.body': `<ul>
+      <li><strong>Gerätedaten:</strong> Werden auf deinem Gerät gespeichert, bis du <em>Einstellungen → Daten zurücksetzen</em> verwendest oder die App deinstallierst. Wir haben keine serverseitige Kopie.</li>
+      <li><strong>Analyse (PostHog):</strong> Anonyme Nutzungsereignisse werden gemäß der Aufbewahrungsrichtlinie von PostHog auf deren EU-Servern gespeichert (in der Regel 1 Jahr). Um die Löschung zu beantragen, wende dich an <a href="mailto:arnautresserras@gmail.com">arnautresserras@gmail.com</a>.</li>
+      <li><strong>Fehlerberichte (Sentry):</strong> Anonymisierte Absturzberichte werden bis zu 90 Tage auf den Servern von Sentry gespeichert. Um die Löschung zu beantragen, wende dich an <a href="mailto:arnautresserras@gmail.com">arnautresserras@gmail.com</a>.</li>
+      <li><strong>So löschst du deine Daten:</strong> Gehe zu <em>Einstellungen → Daten zurücksetzen</em>, um alle lokalen App-Daten sofort zu löschen. Für Löschanfragen zu Drittanbieterdaten wende dich an <a href="mailto:arnautresserras@gmail.com">arnautresserras@gmail.com</a>.</li>
+    </ul>`,
+    's8.h':    '8. Kontakt',
+    's8.body': 'Fragen oder Anfragen zu deinen Daten können an <a href="mailto:arnautresserras@gmail.com">arnautresserras@gmail.com</a> gesendet werden.',
   },
 };
 
