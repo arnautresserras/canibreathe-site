@@ -10,11 +10,14 @@
   <meta property="og:site_name" content="canIbreathe" />
   <meta property="og:title" content="canIbreathe — Pollen &amp; Allergen Forecast" />
   <meta property="og:description" content="Daily pollen and allergen forecasts tailored to the plants that affect you. Plan your day with confidence. Available on iOS and Android." />
-  <meta property="og:image" content="https://canibreathe.app/apple-touch-icon-180.png" />
-  <meta name="twitter:card" content="summary" />
+  <meta property="og:image" content="https://canibreathe.app/og-image.png" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:image:alt" content="canIbreathe — daily pollen and allergen forecasts, tailored to you" />
+  <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="canIbreathe — Pollen &amp; Allergen Forecast" />
   <meta name="twitter:description" content="Daily pollen and allergen forecasts tailored to the plants that affect you. Plan your day with confidence. Available on iOS and Android." />
-  <meta name="twitter:image" content="https://canibreathe.app/apple-touch-icon-180.png" />
+  <meta name="twitter:image" content="https://canibreathe.app/og-image.png" />
   <link rel="stylesheet" href="style.css" />
   <link rel="icon" href="favicon.png" />
   <link rel="apple-touch-icon" href="apple-touch-icon-180.png" />
@@ -54,101 +57,136 @@
   </header>
 
   <main>
+    <!-- ── Hero ── -->
     <section class="hero">
-      <div class="hero-icon"><img src="master-rounded.svg" alt="canIbreathe icon"></div>
-      <h1>canIbreathe</h1>
-      <p class="subtitle" data-i18n="hero.subtitle">
-        Previsions diàries de pol·len i al·lèrgens adaptades a les plantes que t'afecten — per planificar el teu dia amb confiança.
-      </p>
-    </section>
-
-    <section class="features">
-      <h2 data-i18n="features.title">Què fa</h2>
-      <div class="feature-grid">
-        <div class="feature-card">
-          <div class="icon">🎯</div>
-          <h3 data-i18n="feat1.title">Els teus al·lèrgens</h3>
-          <p data-i18n="feat1.desc">Tria els pol·lens i espores que t'afecten. L'app mostra només el que t'importa, no tot alhora.</p>
+      <div class="wrap hero-grid">
+        <div class="hero-copy">
+          <div class="hero-brand">
+            <img src="master-rounded.svg" alt="" aria-hidden="true">
+            <span>canIbreathe</span>
+          </div>
+          <h1 data-i18n="hero.h1">Know your pollen before you step outside.</h1>
+          <p class="lead" data-i18n="hero.lead">Daily pollen and allergen forecasts, tailored to the plants that actually affect you — so you can plan your day with confidence.</p>
+          <div class="store-row">
+            <a class="store-btn" href="https://apps.apple.com/app/id6764886469" target="_blank" rel="noopener" onclick="posthog.capture('install_ios_clicked')">
+              <svg class="store-glyph" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12.152 6.896c-.948 0-2.415-1.078-3.96-1.04-2.04.027-3.91 1.183-4.961 3.014-2.117 3.675-.546 9.103 1.519 12.09 1.013 1.454 2.208 3.09 3.792 3.039 1.52-.065 2.09-.987 3.935-.987 1.831 0 2.35.987 3.96.948 1.637-.026 2.676-1.48 3.676-2.948 1.156-1.688 1.636-3.325 1.662-3.415-.039-.013-3.182-1.221-3.22-4.857-.026-3.04 2.48-4.494 2.597-4.559-1.429-2.09-3.623-2.324-4.39-2.376-2-.156-3.675 1.09-4.61 1.09zM15.53 3.83c.843-1.012 1.4-2.427 1.245-3.83-1.207.052-2.662.805-3.532 1.818-.78.896-1.454 2.338-1.273 3.714 1.338.104 2.715-.688 3.559-1.701"/></svg>
+              <span class="store-btn-text"><small data-i18n="store.apple.pre">Download on the</small><strong data-i18n="store.apple.name">App Store</strong></span>
+            </a>
+            <a class="store-btn" href="https://play.google.com/store/apps/details?id=com.arnautr.canibreathe" target="_blank" rel="noopener" onclick="posthog.capture('install_android_clicked')">
+              <svg class="store-glyph" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M3 20.5v-17c0-.83.94-1.3 1.6-.8l14 8.5c.6.36.6 1.24 0 1.6l-14 8.5c-.66.5-1.6.03-1.6-.8z"/></svg>
+              <span class="store-btn-text"><small data-i18n="store.google.pre">Get it on</small><strong data-i18n="store.google.name">Google Play</strong></span>
+            </a>
+          </div>
         </div>
-        <div class="feature-card">
-          <div class="icon">📍</div>
-          <h3 data-i18n="feat2.title">Previsions locals</h3>
-          <p data-i18n="feat2.desc">Dades detallades d'estació per a Catalunya i les Illes Balears, amb cobertura global gràcies a Open-Meteo.</p>
-        </div>
-        <div class="feature-card">
-          <div class="icon">🔔</div>
-          <h3 data-i18n="feat3.title">Alertes diàries</h3>
-          <p data-i18n="feat3.desc">Rep una notificació al matí quan els teus al·lèrgens arribin al nivell que tries. Sense soroll, just el que necessites.</p>
-        </div>
-        <div class="feature-card">
-          <div class="icon">🌍</div>
-          <h3 data-i18n="feat4.title">Tres idiomes</h3>
-          <p data-i18n="feat4.desc">Disponible en anglès, català i castellà. L'app segueix l'idioma del dispositiu automàticament.</p>
-        </div>
-        <div class="feature-card">
-          <div class="icon">📅</div>
-          <h3 data-i18n="feat5.title">Calendari de temporada</h3>
-          <p data-i18n="feat5.desc">Consulta les finestres de temporada típiques i els mesos de pic per a cada al·lergen a la Guia integrada.</p>
-        </div>
-        <div class="feature-card">
-          <div class="icon">📤</div>
-          <h3 data-i18n="feat6.title">Comparteix la previsió</h3>
-          <p data-i18n="feat6.desc">Envia els nivells de pol·len d'avui a amics o familiars com a imatge o text.</p>
-        </div>
-        <div class="feature-card">
-          <div class="icon">🌤️</div>
-          <h3 data-i18n="feat7.title">Condicions d'avui</h3>
-          <p data-i18n="feat7.desc">Una targeta plegable mostra el temps i l'Índex de Qualitat de l'Aire de la UE un al costat de l'altre, sense sortir de la previsió.</p>
-        </div>
-        <div class="feature-card">
-          <div class="icon">🗓️</div>
-          <h3 data-i18n="feat8.title">Planifica amb confiança</h3>
-          <p data-i18n="feat8.desc">La pestanya Planifica reuneix dues eines en un sol lloc: la millor hora per sortir avui (gràfic hora per hora) i el calendari de temporada per a cada localització.</p>
-        </div>
-        <div class="feature-card">
-          <div class="icon">💡</div>
-          <h3 data-i18n="feat9.title">Entén per què els nivells són alts</h3>
-          <p data-i18n="feat9.desc">L'app mostra el motiu del nivell d'avui — pluja en camí, condicions seques i ventoses, o un pic de temporada.</p>
-        </div>
-        <div class="feature-card">
-          <div class="icon">📶</div>
-          <h3 data-i18n="feat10.title">Funciona sense connexió</h3>
-          <p data-i18n="feat10.desc">L'app mostra l'última previsió emmagatzemada amb una marca de temps quan perds la connexió a internet.</p>
+        <div class="hero-media">
+          <div class="device"><img src="screenshots/today_en.png" data-shot="today" alt="canIbreathe forecast screen showing today's pollen levels for your allergens" loading="eager"></div>
         </div>
       </div>
     </section>
 
-    <section class="install">
-      <h2 data-i18n="install.title">Com instal·lar</h2>
-      <div class="platform-block">
-        <p class="beta-label" data-i18n="ios.label">Disponible · iOS</p>
-        <div class="beta-steps">
-          <a class="beta-step" href="https://apps.apple.com/app/id6764886469" target="_blank" rel="noopener" onclick="posthog.capture('install_ios_clicked')">
-            <span class="beta-step-icon" aria-hidden="true">
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
-                <path d="M12.152 6.896c-.948 0-2.415-1.078-3.96-1.04-2.04.027-3.91 1.183-4.961 3.014-2.117 3.675-.546 9.103 1.519 12.09 1.013 1.454 2.208 3.09 3.792 3.039 1.52-.065 2.09-.987 3.935-.987 1.831 0 2.35.987 3.96.948 1.637-.026 2.676-1.48 3.676-2.948 1.156-1.688 1.636-3.325 1.662-3.415-.039-.013-3.182-1.221-3.22-4.857-.026-3.04 2.48-4.494 2.597-4.559-1.429-2.09-3.623-2.324-4.39-2.376-2-.156-3.675 1.09-4.61 1.09zM15.53 3.83c.843-1.012 1.4-2.427 1.245-3.83-1.207.052-2.662.805-3.532 1.818-.78.896-1.454 2.338-1.273 3.714 1.338.104 2.715-.688 3.559-1.701"/>
-              </svg>
-            </span>
-            <span class="beta-step-text">
-              <strong data-i18n="ios.step.title">Descarrega a l'App Store</strong>
-              <small data-i18n="ios.step.desc">Per a iPhone i iPad</small>
-            </span>
+    <!-- ── Privacy trust band ── -->
+    <section class="trust">
+      <div class="wrap-narrow">
+        <p class="eyebrow" data-i18n="trust.eyebrow">Private by design</p>
+        <p class="trust-lead" data-i18n="trust.lead">canIbreathe works without an account and keeps your allergy profile on your device — never on our servers.</p>
+        <ul class="trust-points">
+          <li><span class="tick" aria-hidden="true">✓</span><span data-i18n="trust.p1">No account needed</span></li>
+          <li><span class="tick" aria-hidden="true">✓</span><span data-i18n="trust.p2">Never accesses your GPS</span></li>
+          <li><span class="tick" aria-hidden="true">✓</span><span data-i18n="trust.p3">Your data stays on your device</span></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ── Feature story rows ── -->
+    <section class="feature-rows">
+      <div class="wrap">
+        <article class="frow reveal">
+          <div class="frow-media"><div class="device"><img src="screenshots/allergen_selector_en.png" data-shot="allergen_selector" alt="Allergen picker: choose the pollens you react to" loading="lazy"></div></div>
+          <div class="frow-copy">
+            <h2 data-i18n="f1.title">Only the allergens that affect you</h2>
+            <p data-i18n="f1.desc">Pick from 27 pollens and spores the ones you actually react to. canIbreathe shows just those — not a wall of species you don't care about.</p>
+          </div>
+        </article>
+        <article class="frow reverse reveal">
+          <div class="frow-media"><div class="device"><img src="screenshots/plan_en.png" data-shot="plan" alt="Plan tab: best time to go out and pollen season calendar" loading="lazy"></div></div>
+          <div class="frow-copy">
+            <h2 data-i18n="f2.title">Know the best time to head out</h2>
+            <p data-i18n="f2.desc">The Plan tab finds the clearest air in your day with an hour-by-hour chart, and shows each allergen's typical season — so nothing catches you off guard.</p>
+          </div>
+        </article>
+        <article class="frow reveal">
+          <div class="frow-media"><div class="device"><img src="screenshots/location_selector_en.png" data-shot="location_selector" alt="Location picker: choose the places you spend time" loading="lazy"></div></div>
+          <div class="frow-copy">
+            <h2 data-i18n="f3.title">Local forecasts, wherever you are</h2>
+            <p data-i18n="f3.desc">Real station data for Catalonia and the Balearic Islands — including the distance to your nearest station — with worldwide coverage through Open-Meteo. Track every place you spend time.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- ── Set up in under a minute ── -->
+    <section class="setup">
+      <div class="wrap">
+        <h2 data-i18n="setup.title">Set up in under a minute</h2>
+        <ol class="setup-steps">
+          <li class="reveal">
+            <div class="device device-sm"><img src="screenshots/language_en.png" data-shot="language" alt="Language selection screen" loading="lazy"></div>
+            <span class="step-n">1</span>
+            <strong data-i18n="setup.s1.title">Pick your language</strong>
+            <p data-i18n="setup.s1.desc">Seven to choose from — or just follow your device.</p>
+          </li>
+          <li class="reveal">
+            <div class="device device-sm"><img src="screenshots/allergen_selector_en.png" data-shot="allergen_selector" alt="Allergen selection screen" loading="lazy"></div>
+            <span class="step-n">2</span>
+            <strong data-i18n="setup.s2.title">Choose your allergens</strong>
+            <p data-i18n="setup.s2.desc">Tick the pollens and spores you react to.</p>
+          </li>
+          <li class="reveal">
+            <div class="device device-sm"><img src="screenshots/location_selector_en.png" data-shot="location_selector" alt="Location selection screen" loading="lazy"></div>
+            <span class="step-n">3</span>
+            <strong data-i18n="setup.s3.title">Set your location</strong>
+            <p data-i18n="setup.s3.desc">Search any city, or use a nearby PIA station.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ── Secondary features strip ── -->
+    <section class="more">
+      <div class="wrap">
+        <h2 data-i18n="more.title">And a few more things</h2>
+        <ul class="more-grid">
+          <li><span class="more-icon" aria-hidden="true">🔔</span><div><strong data-i18n="more.alerts.title">Daily alerts</strong><p data-i18n="more.alerts.desc">A morning notification when your allergens cross the level you choose.</p></div></li>
+          <li><span class="more-icon" aria-hidden="true">💡</span><div><strong data-i18n="more.why.title">Why levels are high</strong><p data-i18n="more.why.desc">See the reason behind today's level — rain on the way, dry and windy, or a seasonal peak.</p></div></li>
+          <li><span class="more-icon" aria-hidden="true">🌤️</span><div><strong data-i18n="more.conditions.title">Weather &amp; EU air quality</strong><p data-i18n="more.conditions.desc">Temperature, wind, precipitation and a 6-band AQI bar, right next to the forecast.</p></div></li>
+          <li><span class="more-icon" aria-hidden="true">📤</span><div><strong data-i18n="more.share.title">Share the forecast</strong><p data-i18n="more.share.desc">Send today's levels to friends or family as an image or text.</p></div></li>
+          <li><span class="more-icon" aria-hidden="true">📶</span><div><strong data-i18n="more.offline.title">Works offline</strong><p data-i18n="more.offline.desc">Your last forecast stays available, with a timestamp, when you lose connection.</p></div></li>
+          <li><span class="more-icon" aria-hidden="true">🌍</span><div><strong data-i18n="more.langs.title">Seven languages</strong><p data-i18n="more.langs.desc">English, Català, Español, Français, Português, Italiano and Deutsch.</p></div></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ── Data sources ── -->
+    <section class="sources">
+      <div class="wrap-narrow">
+        <p class="eyebrow" data-i18n="sources.eyebrow">Trusted data</p>
+        <p data-i18n="sources.text">Forecasts built on open data from <strong>PIA · aerobiologia.cat</strong> for Catalonia and the Balearic Islands, and <strong>Open-Meteo</strong> worldwide.</p>
+      </div>
+    </section>
+
+    <!-- ── Download band ── -->
+    <section class="download">
+      <div class="wrap-narrow">
+        <h2 data-i18n="download.title">Get canIbreathe</h2>
+        <p data-i18n="download.desc">Free on iPhone, iPad and Android.</p>
+        <div class="store-row center">
+          <a class="store-btn" href="https://apps.apple.com/app/id6764886469" target="_blank" rel="noopener" onclick="posthog.capture('install_ios_clicked')">
+            <svg class="store-glyph" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12.152 6.896c-.948 0-2.415-1.078-3.96-1.04-2.04.027-3.91 1.183-4.961 3.014-2.117 3.675-.546 9.103 1.519 12.09 1.013 1.454 2.208 3.09 3.792 3.039 1.52-.065 2.09-.987 3.935-.987 1.831 0 2.35.987 3.96.948 1.637-.026 2.676-1.48 3.676-2.948 1.156-1.688 1.636-3.325 1.662-3.415-.039-.013-3.182-1.221-3.22-4.857-.026-3.04 2.48-4.494 2.597-4.559-1.429-2.09-3.623-2.324-4.39-2.376-2-.156-3.675 1.09-4.61 1.09zM15.53 3.83c.843-1.012 1.4-2.427 1.245-3.83-1.207.052-2.662.805-3.532 1.818-.78.896-1.454 2.338-1.273 3.714 1.338.104 2.715-.688 3.559-1.701"/></svg>
+            <span class="store-btn-text"><small data-i18n="store.apple.pre">Download on the</small><strong data-i18n="store.apple.name">App Store</strong></span>
           </a>
-        </div>
-      </div>
-      <div class="platform-block">
-        <p class="beta-label" data-i18n="android.label">Disponible · Android</p>
-        <div class="beta-steps">
-          <a class="beta-step" href="https://play.google.com/store/apps/details?id=com.arnautr.canibreathe" target="_blank" rel="noopener" onclick="posthog.capture('install_android_clicked')">
-            <span class="beta-step-icon" aria-hidden="true">
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
-                <path d="M3 20.5v-17c0-.83.94-1.3 1.6-.8l14 8.5c.6.36.6 1.24 0 1.6l-14 8.5c-.66.5-1.6.03-1.6-.8z"/>
-              </svg>
-            </span>
-            <span class="beta-step-text">
-              <strong data-i18n="android.step.title">Descarrega a Google Play</strong>
-              <small data-i18n="android.step.desc">Per a Android</small>
-            </span>
+          <a class="store-btn" href="https://play.google.com/store/apps/details?id=com.arnautr.canibreathe" target="_blank" rel="noopener" onclick="posthog.capture('install_android_clicked')">
+            <svg class="store-glyph" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M3 20.5v-17c0-.83.94-1.3 1.6-.8l14 8.5c.6.36.6 1.24 0 1.6l-14 8.5c-.66.5-1.6.03-1.6-.8z"/></svg>
+            <span class="store-btn-text"><small data-i18n="store.google.pre">Get it on</small><strong data-i18n="store.google.name">Google Play</strong></span>
           </a>
         </div>
       </div>
@@ -162,5 +200,21 @@
   </footer>
 
   <script src="i18n.js?v=2"></script>
+  <script>
+    // Progressive scroll-reveal for feature rows
+    (function () {
+      var els = document.querySelectorAll('.reveal');
+      if (!('IntersectionObserver' in window) || !els.length) {
+        els.forEach(function (el) { el.classList.add('in'); });
+        return;
+      }
+      var io = new IntersectionObserver(function (entries) {
+        entries.forEach(function (e) {
+          if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); }
+        });
+      }, { threshold: 0.15 });
+      els.forEach(function (el) { io.observe(el); });
+    })();
+  </script>
 </body>
 </html>
