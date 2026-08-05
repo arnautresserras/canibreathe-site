@@ -3,22 +3,22 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>canIbreathe — Previsió de pol·len i al·lèrgens</title>
+  <title>canIbreathe, Previsió de pol·len i al·lèrgens</title>
   <meta name="description" content="Previsions diàries de pol·len i al·lèrgens adaptades als que t'afecten. Disponible a Android." data-i18n-content="meta.description.index" />
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://canibreathe.app/" />
   <meta property="og:site_name" content="canIbreathe" />
-  <meta property="og:title" content="canIbreathe — Pollen &amp; Allergen Forecast" />
+  <meta property="og:title" content="canIbreathe, Pollen &amp; Allergen Forecast" />
   <meta property="og:description" content="Daily pollen and allergen forecasts tailored to the plants that affect you. Plan your day with confidence. Available on iOS and Android." />
   <meta property="og:image" content="https://canibreathe.app/og-image.png" />
   <meta property="og:image:width" content="1200" />
   <meta property="og:image:height" content="630" />
-  <meta property="og:image:alt" content="canIbreathe — daily pollen and allergen forecasts, tailored to you" />
+  <meta property="og:image:alt" content="canIbreathe, daily pollen and allergen forecasts, tailored to you" />
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="canIbreathe — Pollen &amp; Allergen Forecast" />
+  <meta name="twitter:title" content="canIbreathe, Pollen &amp; Allergen Forecast" />
   <meta name="twitter:description" content="Daily pollen and allergen forecasts tailored to the plants that affect you. Plan your day with confidence. Available on iOS and Android." />
   <meta name="twitter:image" content="https://canibreathe.app/og-image.png" />
-  <link rel="stylesheet" href="style.css?v=3" />
+  <link rel="stylesheet" href="style.css?v=4" />
   <link rel="icon" href="favicon.png" />
   <link rel="apple-touch-icon" href="apple-touch-icon-180.png" />
   <script>
@@ -36,6 +36,7 @@
     <div class="header-inner">
       <a class="logo" href="index.html">can<span>I</span>breathe</a>
       <nav>
+        <a href="changelog.html" data-i18n="nav.changelog">Historial de versions</a>
         <a href="privacy.html" data-i18n="nav.privacy">Política de privacitat</a>
         <div class="lang-switcher" aria-label="Canvia l'idioma" data-i18n-aria-label="lang-switcher.label">
           <button class="lang-toggle" aria-haspopup="listbox" aria-expanded="false">
@@ -66,7 +67,7 @@
             <span>canIbreathe</span>
           </div>
           <h1 data-i18n="hero.h1">Know your pollen before you step outside.</h1>
-          <p class="lead" data-i18n="hero.lead">Daily pollen and allergen forecasts, tailored to the plants that actually affect you — so you can plan your day with confidence.</p>
+          <p class="lead" data-i18n="hero.lead">Daily pollen and allergen forecasts, tailored to the plants that actually affect you, so you can plan your day with confidence.</p>
           <div class="store-row">
             <a class="store-btn" href="https://apps.apple.com/app/id6764886469" target="_blank" rel="noopener" onclick="posthog.capture('install_ios_clicked')">
               <svg class="store-glyph" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12.152 6.896c-.948 0-2.415-1.078-3.96-1.04-2.04.027-3.91 1.183-4.961 3.014-2.117 3.675-.546 9.103 1.519 12.09 1.013 1.454 2.208 3.09 3.792 3.039 1.52-.065 2.09-.987 3.935-.987 1.831 0 2.35.987 3.96.948 1.637-.026 2.676-1.48 3.676-2.948 1.156-1.688 1.636-3.325 1.662-3.415-.039-.013-3.182-1.221-3.22-4.857-.026-3.04 2.48-4.494 2.597-4.559-1.429-2.09-3.623-2.324-4.39-2.376-2-.156-3.675 1.09-4.61 1.09zM15.53 3.83c.843-1.012 1.4-2.427 1.245-3.83-1.207.052-2.662.805-3.532 1.818-.78.896-1.454 2.338-1.273 3.714 1.338.104 2.715-.688 3.559-1.701"/></svg>
@@ -88,7 +89,7 @@
     <section class="trust">
       <div class="wrap-narrow">
         <p class="eyebrow" data-i18n="trust.eyebrow">Private by design</p>
-        <p class="trust-lead" data-i18n="trust.lead">canIbreathe works without an account and keeps your allergy profile on your device — never on our servers.</p>
+        <p class="trust-lead" data-i18n="trust.lead">canIbreathe works without an account and keeps your allergy profile on your device, never on our servers.</p>
         <ul class="trust-points">
           <li><span class="tick" aria-hidden="true">✓</span><span data-i18n="trust.p1">No account needed</span></li>
           <li><span class="tick" aria-hidden="true">✓</span><span data-i18n="trust.p2">Never accesses your GPS</span></li>
@@ -104,21 +105,35 @@
           <div class="frow-media"><div class="device"><img src="screenshots/allergen_selector_en.png" data-shot="allergen_selector" alt="Allergen picker: choose the pollens you react to" loading="lazy"></div></div>
           <div class="frow-copy">
             <h2 data-i18n="f1.title">Only the allergens that affect you</h2>
-            <p data-i18n="f1.desc">Pick from 27 pollens and spores the ones you actually react to. canIbreathe shows just those — not a wall of species you don't care about.</p>
+            <p data-i18n="f1.desc">Pick from 27 pollens and spores the ones you actually react to. canIbreathe shows just those, not a wall of species you don't care about.</p>
           </div>
         </article>
         <article class="frow reverse reveal">
           <div class="frow-media"><div class="device"><img src="screenshots/plan_en.png" data-shot="plan" alt="Plan tab: best time to go out and pollen season calendar" loading="lazy"></div></div>
           <div class="frow-copy">
             <h2 data-i18n="f2.title">Know the best time to head out</h2>
-            <p data-i18n="f2.desc">The Plan tab finds the clearest air in your day with an hour-by-hour chart, and shows each allergen's typical season — so nothing catches you off guard.</p>
+            <p data-i18n="f2.desc">The Plan tab finds the clearest air in your day with an hour-by-hour chart, and shows each allergen's typical season, so nothing catches you off guard.</p>
           </div>
         </article>
         <article class="frow reveal">
           <div class="frow-media"><div class="device"><img src="screenshots/location_selector_en.png" data-shot="location_selector" alt="Location picker: choose the places you spend time" loading="lazy"></div></div>
           <div class="frow-copy">
             <h2 data-i18n="f3.title">Local forecasts, wherever you are</h2>
-            <p data-i18n="f3.desc">Real station data for Catalonia and the Balearic Islands — including the distance to your nearest station — with worldwide coverage through Open-Meteo. Track every place you spend time.</p>
+            <p data-i18n="f3.desc">Real station data for Catalonia and the Balearic Islands, including the distance to your nearest station, plus worldwide coverage through Open-Meteo and Google Pollen. Track every place you spend time.</p>
+          </div>
+        </article>
+        <article class="frow reverse reveal">
+          <div class="frow-media"><div class="device"><img src="screenshots/widget_en.png" data-shot="widget" alt="canIbreathe home-screen widget showing today's verdict and top allergen" loading="lazy"></div></div>
+          <div class="frow-copy">
+            <h2 data-i18n="f4.title">Home-screen widget</h2>
+            <p data-i18n="f4.desc">Add canIbreathe to your home screen for today's verdict and top allergen at a glance, no need to open the app.</p>
+          </div>
+        </article>
+        <article class="frow reveal">
+          <div class="frow-media"><div class="device"><img src="screenshots/diary_en.png" data-shot="diary" alt="canIbreathe allergy diary showing symptoms plotted against pollen levels" loading="lazy"></div></div>
+          <div class="frow-copy">
+            <h2 data-i18n="f5.title">Track symptoms, spot your triggers</h2>
+            <p data-i18n="f5.desc">Log how you feel each day and see it plotted against pollen levels, the diary can reveal allergens you didn't know were affecting you, and exports to a PDF you can share with your doctor.</p>
           </div>
         </article>
       </div>
@@ -133,7 +148,7 @@
             <div class="device device-sm"><img src="screenshots/language_en.png" data-shot="language" alt="Language selection screen" loading="lazy"></div>
             <span class="step-n">1</span>
             <strong data-i18n="setup.s1.title">Pick your language</strong>
-            <p data-i18n="setup.s1.desc">Seven to choose from — or just follow your device.</p>
+            <p data-i18n="setup.s1.desc">Seven to choose from, or just follow your device.</p>
           </li>
           <li class="reveal">
             <div class="device device-sm"><img src="screenshots/allergen_selector_en.png" data-shot="allergen_selector" alt="Allergen selection screen" loading="lazy"></div>
@@ -156,8 +171,11 @@
       <div class="wrap">
         <h2 data-i18n="more.title">And a few more things</h2>
         <ul class="more-grid">
+          <li><span class="more-icon" aria-hidden="true">🫁</span><div><strong data-i18n="more.verdict.title">"Can I breathe today?"</strong><p data-i18n="more.verdict.desc">A single verdict line, plus a rising/easing trend arrow, now sums up your day at a glance.</p></div></li>
+          <li><span class="more-icon" aria-hidden="true">🔎</span><div><strong data-i18n="more.preview.title">Preview before you add</strong><p data-i18n="more.preview.desc">Search a city and preview its forecast before adding it, handy for checking somewhere you're about to travel to.</p></div></li>
           <li><span class="more-icon" aria-hidden="true">🔔</span><div><strong data-i18n="more.alerts.title">Daily alerts</strong><p data-i18n="more.alerts.desc">A morning notification when your allergens cross the level you choose.</p></div></li>
-          <li><span class="more-icon" aria-hidden="true">💡</span><div><strong data-i18n="more.why.title">Why levels are high</strong><p data-i18n="more.why.desc">See the reason behind today's level — rain on the way, dry and windy, or a seasonal peak.</p></div></li>
+          <li><span class="more-icon" aria-hidden="true">🔄</span><div><strong data-i18n="more.freshness.title">Fresher alerts</strong><p data-i18n="more.freshness.desc">Daily notifications and the home-screen widget now stay in sync and refresh automatically in the background.</p></div></li>
+          <li><span class="more-icon" aria-hidden="true">💡</span><div><strong data-i18n="more.why.title">Why levels are high</strong><p data-i18n="more.why.desc">See the reason behind today's level, rain on the way, dry and windy, or a seasonal peak.</p></div></li>
           <li><span class="more-icon" aria-hidden="true">🌤️</span><div><strong data-i18n="more.conditions.title">Weather &amp; EU air quality</strong><p data-i18n="more.conditions.desc">Temperature, wind, precipitation and a 6-band AQI bar, right next to the forecast.</p></div></li>
           <li><span class="more-icon" aria-hidden="true">📤</span><div><strong data-i18n="more.share.title">Share the forecast</strong><p data-i18n="more.share.desc">Send today's levels to friends or family as an image or text.</p></div></li>
           <li><span class="more-icon" aria-hidden="true">📶</span><div><strong data-i18n="more.offline.title">Works offline</strong><p data-i18n="more.offline.desc">Your last forecast stays available, with a timestamp, when you lose connection.</p></div></li>
@@ -195,11 +213,12 @@
 
   <footer>
     <a href="privacy.html" data-i18n="footer.privacy">Política de privacitat</a>
+    <a href="changelog.html" data-i18n="nav.changelog">Historial de versions</a>
     <a href="mailto:arnautresserras@gmail.com" data-i18n="footer.contact">Contacte</a>
     <p style="margin-top: 12px;" data-i18n="footer.copy">&copy; 2026 Arnau Tresserras</p>
   </footer>
 
-  <script src="i18n.js?v=3"></script>
+  <script src="i18n.js?v=4"></script>
   <script>
     // Progressive scroll-reveal for feature rows
     (function () {
