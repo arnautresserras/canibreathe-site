@@ -15,7 +15,7 @@
   <meta name="twitter:title" content="Privacy Policy — canIbreathe" />
   <meta name="twitter:description" content="Privacy policy for the canIbreathe pollen and allergen forecast app." />
   <meta name="twitter:image" content="https://canibreathe.app/apple-touch-icon-180.png" />
-  <link rel="stylesheet" href="style.css?v=3" />
+  <link rel="stylesheet" href="style.css?v=4" />
   <link rel="icon" href="favicon.png" />
   <link rel="apple-touch-icon" href="favicon.png" />
   <script>
@@ -73,7 +73,9 @@
       <ul>
         <li><strong>Localització</strong> — la ciutat o estació de seguiment de pol·len que tries manualment dins l'app. L'app no accedeix al GPS ni a la ubicació precisa del dispositiu.</li>
         <li><strong>Preferències d'al·lèrgens</strong> — la llista de tipus de pol·len i al·lèrgens que selecciones.</li>
+        <li><strong>Diari d'al·lèrgies</strong> — els símptomes, la gravetat i les notes que escrius, i si has pres medicació (només categories, mai noms ni dosis), amb els nivells de pol·len d'aquell dia. Es desa en un magatzem propi al dispositiu i no s'envia enlloc. Pots exportar-ne un informe PDF quan vulguis i triar on l'envies.</li>
         <li><strong>Configuració de notificacions</strong> — si les alertes diàries estan activades, l'hora d'alerta i el llindar d'alerta.</li>
+        <li><strong>Dades del widget</strong> — una instantània de la previsió d'avui (text i colors ja resolts) desada a l'emmagatzematge compartit del dispositiu perquè el widget la pugui mostrar sense obrir l'app.</li>
         <li><strong>Preferència d'idioma</strong> — l'idioma de visualització que tries a Configuració.</li>
       </ul>
       <p>Pots restablir totes aquestes dades en qualsevol moment des de <em>Configuració → Restablir incorporació</em>.</p>
@@ -83,13 +85,13 @@
     <p data-i18n="s3.intro">Per oferir previsions de pol·len, l'app es comunica amb els serveis externs següents. Cada petició es fa directament des del teu dispositiu.</p>
 
     <p data-i18n="s3.openmeteo"><strong>Open-Meteo</strong> (<a href="https://open-meteo.com" target="_blank" rel="noopener">open-meteo.com</a>)<br>
-    S'utilitza per obtenir previsions de pol·len per a localitzacions fora de la xarxa PIA. Les coordenades seleccionades (latitud i longitud) s'envien com a part de la petició a l'API. Open-Meteo no requereix compte i no fa seguiment dels usuaris individuals. Vegeu els seus <a href="https://open-meteo.com/en/terms" target="_blank" rel="noopener">termes</a>.</p>
+    S'utilitza per obtenir previsions de pol·len a Europa, i qualitat de l'aire i meteorologia a tot el món. També gestiona la cerca de ciutats: el text que escrius al camp de cerca s'envia a l'API de geocodificació d'Open-Meteo. Les coordenades seleccionades (latitud i longitud) s'envien com a part de la petició a l'API. Open-Meteo no requereix compte i no fa seguiment dels usuaris individuals. Vegeu els seus <a href="https://open-meteo.com/en/terms" target="_blank" rel="noopener">termes</a>.</p>
 
     <p data-i18n="s3.pia"><strong>PIA — Programa d'Informació Aerobiològica</strong> (<a href="https://aerobiologia.cat" target="_blank" rel="noopener">aerobiologia.cat</a>)<br>
-    S'utilitza per obtenir dades detallades d'estació de pol·len per a Catalunya i les Illes Balears. Les peticions es fan a través d'un proxy de Cloudflare Worker per evitar restriccions CORS; el proxy remet la petició i no registra informació personal. Dades proporcionades sota <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" rel="noopener">CC BY-NC-SA 4.0</a>.</p>
+    S'utilitza per obtenir dades detallades d'estació de pol·len per a Catalunya i les Illes Balears. Dades proporcionades sota <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" rel="noopener">CC BY-NC-SA 4.0</a>.</p>
 
-    <p data-i18n="s3.nominatim"><strong>Nominatim / OpenStreetMap</strong> (<a href="https://nominatim.org" target="_blank" rel="noopener">nominatim.org</a>)<br>
-    S'utilitza per a la cerca de ciutats quan configures la teva localització. El text que escrius al camp de cerca de localització s'envia a Nominatim. Vegeu la <a href="https://osmfoundation.org/wiki/Privacy_Policy" target="_blank" rel="noopener">política de privacitat de la Fundació OpenStreetMap</a>.</p>
+    <p data-i18n="s3.google"><strong>API de Pol·len de Google</strong> (<a href="https://developers.google.com/maps/documentation/pollen" target="_blank" rel="noopener">developers.google.com</a>)<br>
+    S'utilitza per obtenir previsions de pol·len fora d'Europa, on Open-Meteo no en té, i per completar al·lèrgens concrets que la font principal no cobreix. Només s'envien les coordenades seleccionades (latitud i longitud) com a part de la petició. No s'envia cap identificador ni dada personal. Vegeu la <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">política de privacitat de Google</a>.</p>
 
     <p data-i18n="s3.sentry"><strong>Sentry</strong> (<a href="https://sentry.io" target="_blank" rel="noopener">sentry.io</a>)<br>
     S'utilitza per a l'informe de fallades en les versions de producció. Si l'app cau, s'envia automàticament un informe d'error anonimitzat. Els informes poden incloure el model del dispositiu, la versió del sistema operatiu i una traça de la pila. No s'inclouen noms, adreces de correu electrònic ni dades de compte. Vegeu la <a href="https://sentry.io/privacy/" target="_blank" rel="noopener">política de privacitat de Sentry</a>.</p>
@@ -98,7 +100,7 @@
     S'utilitza per a analítica d'ús anònima (p. ex. quines funcions s'utilitzen, quins idiomes es seleccionen). Els esdeveniments es capturen automàticament i no inclouen cap informació d'identificació personal. Les dades s'allotgen als servidors europeus de PostHog. Vegeu la <a href="https://posthog.com/privacy" target="_blank" rel="noopener">política de privacitat de PostHog</a>.</p>
 
     <h2 data-i18n="s4.h">4. Notificacions</h2>
-    <p data-i18n="s4.body">Si actives les alertes diàries, l'app programa una notificació local al teu dispositiu a l'hora que tries. Les notificacions es generen localment — no s'utilitza cap servidor de notificacions ni servei de missatgeria. Pots desactivar les notificacions en qualsevol moment des de la Configuració de l'app o des de la configuració del sistema del dispositiu.</p>
+    <p data-i18n="s4.body">Si actives les alertes diàries, l'app programa notificacions locals al teu dispositiu a l'hora que tries, una per a cada dia dels pròxims que superi el teu llindar. Perquè no quedin desfasades, l'app també les torna a calcular en segon pla aproximadament cada 12 hores, junt amb la instantània del widget. Tot es genera localment — no s'utilitza cap servidor de notificacions ni servei de missatgeria push. Pots desactivar les notificacions en qualsevol moment des de la Configuració de l'app o des de la configuració del sistema del dispositiu.</p>
 
     <h2 data-i18n="s5.h">5. Privacitat dels menors</h2>
     <p data-i18n="s5.body">canIbreathe no està adreçada a menors de 13 anys. No recollim conscientment cap informació de menors.</p>
@@ -121,6 +123,6 @@
     <p style="margin-top: 12px;" data-i18n="footer.copy">&copy; 2026 Arnau Tresserras</p>
   </footer>
 
-  <script src="i18n.js?v=3"></script>
+  <script src="i18n.js?v=4"></script>
 </body>
 </html>
