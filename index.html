@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>canIbreathe, Previsió de pol·len i al·lèrgens</title>
-  <meta name="description" content="Previsions diàries de pol·len i al·lèrgens adaptades als que t'afecten. Disponible a Android." data-i18n-content="meta.description.index" />
+  <meta name="description" content="Previsions diàries de pol·len i al·lèrgens adaptades als que t'afecten. Disponible per a iOS i Android." data-i18n-content="meta.description.index" />
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://canibreathe.app/" />
   <meta property="og:site_name" content="canIbreathe" />
@@ -18,7 +18,8 @@
   <meta name="twitter:title" content="canIbreathe, Pollen &amp; Allergen Forecast" />
   <meta name="twitter:description" content="Daily pollen and allergen forecasts tailored to the plants that affect you. Plan your day with confidence. Available on iOS and Android." />
   <meta name="twitter:image" content="https://canibreathe.app/og-image.png" />
-  <link rel="stylesheet" href="style.css?v=4" />
+  <script>document.documentElement.classList.add('js')</script>
+  <link rel="stylesheet" href="style.css?v=5" />
   <link rel="icon" href="favicon.png" />
   <link rel="apple-touch-icon" href="apple-touch-icon-180.png" />
   <script>
@@ -41,7 +42,7 @@
         <div class="lang-switcher" aria-label="Canvia l'idioma" data-i18n-aria-label="lang-switcher.label">
           <button class="lang-toggle" aria-haspopup="listbox" aria-expanded="false">
             <span class="lang-current">CA</span>
-            🌐 ▾
+            <svg class="lang-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg>
           </button>
           <ul class="lang-menu" role="listbox">
             <li><button class="lang-btn" data-lang="ca" role="option" aria-selected="true"><b>CA</b><span>Català</span></button></li>
@@ -88,7 +89,7 @@
     <!-- ── Privacy trust band ── -->
     <section class="trust">
       <div class="wrap-narrow">
-        <p class="eyebrow" data-i18n="trust.eyebrow">Private by design</p>
+        <h2 class="band-title" data-i18n="trust.eyebrow">Private by design</h2>
         <p class="trust-lead" data-i18n="trust.lead">canIbreathe works without an account and keeps your allergy profile on your device, never on our servers.</p>
         <ul class="trust-points">
           <li><span class="tick" aria-hidden="true">✓</span><span data-i18n="trust.p1">No account needed</span></li>
@@ -105,7 +106,7 @@
           <div class="frow-media"><div class="device"><img src="screenshots/allergen_selector_en.png" data-shot="allergen_selector" alt="Allergen picker: choose the pollens you react to" loading="lazy"></div></div>
           <div class="frow-copy">
             <h2 data-i18n="f1.title">Only the allergens that affect you</h2>
-            <p data-i18n="f1.desc">Pick from 27 pollens and spores the ones you actually react to. canIbreathe shows just those, not a wall of species you don't care about.</p>
+            <p data-i18n="f1.desc">Pick from 29 pollens and spores the ones you actually react to. canIbreathe shows just those, not a wall of species you don't care about.</p>
           </div>
         </article>
         <article class="frow reverse reveal">
@@ -171,15 +172,15 @@
       <div class="wrap">
         <h2 data-i18n="more.title">And a few more things</h2>
         <ul class="more-grid">
-          <li><span class="more-icon" aria-hidden="true">🫁</span><div><strong data-i18n="more.verdict.title">"Can I breathe today?"</strong><p data-i18n="more.verdict.desc">A single verdict line, plus a rising/easing trend arrow, now sums up your day at a glance.</p></div></li>
-          <li><span class="more-icon" aria-hidden="true">🔎</span><div><strong data-i18n="more.preview.title">Preview before you add</strong><p data-i18n="more.preview.desc">Search a city and preview its forecast before adding it, handy for checking somewhere you're about to travel to.</p></div></li>
-          <li><span class="more-icon" aria-hidden="true">🔔</span><div><strong data-i18n="more.alerts.title">Daily alerts</strong><p data-i18n="more.alerts.desc">A morning notification when your allergens cross the level you choose.</p></div></li>
-          <li><span class="more-icon" aria-hidden="true">🔄</span><div><strong data-i18n="more.freshness.title">Fresher alerts</strong><p data-i18n="more.freshness.desc">Daily notifications and the home-screen widget now stay in sync and refresh automatically in the background.</p></div></li>
-          <li><span class="more-icon" aria-hidden="true">💡</span><div><strong data-i18n="more.why.title">Why levels are high</strong><p data-i18n="more.why.desc">See the reason behind today's level, rain on the way, dry and windy, or a seasonal peak.</p></div></li>
-          <li><span class="more-icon" aria-hidden="true">🌤️</span><div><strong data-i18n="more.conditions.title">Weather &amp; EU air quality</strong><p data-i18n="more.conditions.desc">Temperature, wind, precipitation and a 6-band AQI bar, right next to the forecast.</p></div></li>
-          <li><span class="more-icon" aria-hidden="true">📤</span><div><strong data-i18n="more.share.title">Share the forecast</strong><p data-i18n="more.share.desc">Send today's levels to friends or family as an image or text.</p></div></li>
-          <li><span class="more-icon" aria-hidden="true">📶</span><div><strong data-i18n="more.offline.title">Works offline</strong><p data-i18n="more.offline.desc">Your last forecast stays available, with a timestamp, when you lose connection.</p></div></li>
-          <li><span class="more-icon" aria-hidden="true">🌍</span><div><strong data-i18n="more.langs.title">Seven languages</strong><p data-i18n="more.langs.desc">English, Català, Español, Français, Português, Italiano and Deutsch.</p></div></li>
+          <li><svg class="more-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12.8 19.6A2 2 0 1 0 14 16H2"/><path d="M17.5 8a2.5 2.5 0 1 1 2 4H2"/><path d="M9.8 4.4A2 2 0 1 1 11 8H2"/></svg><div><strong data-i18n="more.verdict.title">"Can I breathe today?"</strong><p data-i18n="more.verdict.desc">A single verdict line, plus a rising/easing trend arrow, now sums up your day at a glance.</p></div></li>
+          <li><svg class="more-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg><div><strong data-i18n="more.preview.title">Preview before you add</strong><p data-i18n="more.preview.desc">Search a city and preview its forecast before adding it, handy for checking somewhere you're about to travel to.</p></div></li>
+          <li><svg class="more-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 8a6 6 0 0 1 12 0c0 7 3 9 3 9H3s3-2 3-9"/><path d="M10.3 21a1.94 1.94 0 0 0 3.4 0"/></svg><div><strong data-i18n="more.alerts.title">Daily alerts</strong><p data-i18n="more.alerts.desc">A morning notification when your allergens cross the level you choose.</p></div></li>
+          <li><svg class="more-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 12a9 9 0 0 1 9-9 9.75 9.75 0 0 1 6.74 2.74L21 8"/><path d="M21 3v5h-5"/><path d="M21 12a9 9 0 0 1-9 9 9.75 9.75 0 0 1-6.74-2.74L3 16"/><path d="M8 16H3v5"/></svg><div><strong data-i18n="more.freshness.title">Fresher alerts</strong><p data-i18n="more.freshness.desc">Daily notifications and the home-screen widget now stay in sync and refresh automatically in the background.</p></div></li>
+          <li><svg class="more-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 14c.2-1 .7-1.7 1.5-2.5 1-.9 1.5-2.2 1.5-3.5A6 6 0 0 0 6 8c0 1 .2 2.2 1.5 3.5.7.7 1.3 1.5 1.5 2.5"/><path d="M9 18h6"/><path d="M10 22h4"/></svg><div><strong data-i18n="more.why.title">Why levels are high</strong><p data-i18n="more.why.desc">See the reason behind today's level, rain on the way, dry and windy, or a seasonal peak.</p></div></li>
+          <li><svg class="more-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 2v2"/><path d="m4.93 4.93 1.41 1.41"/><path d="M20 12h2"/><path d="m19.07 4.93-1.41 1.41"/><path d="M15.947 12.65a4 4 0 0 0-5.925-4.128"/><path d="M13 22H7a5 5 0 1 1 4.9-6H13a3 3 0 0 1 0 6Z"/></svg><div><strong data-i18n="more.conditions.title">Weather &amp; EU air quality</strong><p data-i18n="more.conditions.desc">Temperature, wind, precipitation and a 6-band AQI bar, right next to the forecast.</p></div></li>
+          <li><svg class="more-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="m8.59 13.51 6.83 3.98"/><path d="m15.41 6.51-6.82 3.98"/></svg><div><strong data-i18n="more.share.title">Share the forecast</strong><p data-i18n="more.share.desc">Send today's levels to friends or family as an image or text.</p></div></li>
+          <li><svg class="more-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 20h.01"/><path d="M8.5 16.429a5 5 0 0 1 7 0"/><path d="M5 12.859a10 10 0 0 1 5.17-2.69"/><path d="M19 12.859a10 10 0 0 0-2.007-1.523"/><path d="M2 8.82a15 15 0 0 1 4.177-2.643"/><path d="M22 8.82a15 15 0 0 0-11.288-3.764"/><path d="m2 2 20 20"/></svg><div><strong data-i18n="more.offline.title">Works offline</strong><p data-i18n="more.offline.desc">Your last forecast stays available, with a timestamp, when you lose connection.</p></div></li>
+          <li><svg class="more-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"/><path d="M2 12h20"/></svg><div><strong data-i18n="more.langs.title">Seven languages</strong><p data-i18n="more.langs.desc">English, Català, Español, Français, Português, Italiano and Deutsch.</p></div></li>
         </ul>
       </div>
     </section>
@@ -187,8 +188,8 @@
     <!-- ── Data sources ── -->
     <section class="sources">
       <div class="wrap-narrow">
-        <p class="eyebrow" data-i18n="sources.eyebrow">Trusted data</p>
-        <p data-i18n="sources.text">Forecasts built on open data from <strong>PIA · aerobiologia.cat</strong> for Catalonia and the Balearic Islands, and <strong>Open-Meteo</strong> worldwide.</p>
+        <h2 class="band-title" data-i18n="sources.eyebrow">Trusted data</h2>
+        <p data-i18n="sources.text">Forecasts built on open data from <strong>PIA · aerobiologia.cat</strong> for Catalonia and the Balearic Islands, and <strong>Open-Meteo</strong> and <strong>Google Pollen</strong> worldwide.</p>
       </div>
     </section>
 

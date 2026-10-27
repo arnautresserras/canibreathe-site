@@ -15,7 +15,7 @@
   <meta name="twitter:title" content="Version History, canIbreathe" />
   <meta name="twitter:description" content="Version history for the canIbreathe app: what shipped in every release." />
   <meta name="twitter:image" content="https://canibreathe.app/apple-touch-icon-180.png" />
-  <link rel="stylesheet" href="style.css?v=4" />
+  <link rel="stylesheet" href="style.css?v=5" />
   <link rel="icon" href="favicon.png" />
   <link rel="apple-touch-icon" href="favicon.png" />
   <script>
@@ -38,7 +38,7 @@
         <div class="lang-switcher" aria-label="Canvia l'idioma" data-i18n-aria-label="lang-switcher.label">
           <button class="lang-toggle" aria-haspopup="listbox" aria-expanded="false">
             <span class="lang-current">CA</span>
-            🌐 ▾
+            <svg class="lang-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg>
           </button>
           <ul class="lang-menu" role="listbox">
             <li><button class="lang-btn" data-lang="ca" role="option" aria-selected="true"><b>CA</b><span>Català</span></button></li>
@@ -70,7 +70,7 @@
     <p style="margin-top: 12px;" data-i18n="footer.copy">&copy; 2026 Arnau Tresserras</p>
   </footer>
 
-  <script src="changelog-data.js?v=1"></script>
+  <script src="changelog-data.js?v=2"></script>
   <script src="i18n.js?v=4"></script>
   <script>
     function renderChangelog(lang) {
@@ -82,7 +82,6 @@
           <ul class="changelog-items">
             ${release.items.map(item => `
               <li>
-                <span class="more-icon" aria-hidden="true">${item.emoji}</span>
                 <div><strong>${item.title}</strong><p>${item.body}</p></div>
               </li>
             `).join('')}
