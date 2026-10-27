@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Historial de versions, canIbreathe</title>
+  <meta name="description" content="Historial de versions de l'app canIbreathe: què ha inclòs cada actualització." data-i18n-content="meta.description.changelog" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://canibreathe.app/changelog.html" />
+  <meta property="og:site_name" content="canIbreathe" />
+  <meta property="og:title" content="Version History, canIbreathe" />
+  <meta property="og:description" content="Version history for the canIbreathe app: what shipped in every release." />
+  <meta property="og:image" content="https://canibreathe.app/apple-touch-icon-180.png" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Version History, canIbreathe" />
+  <meta name="twitter:description" content="Version history for the canIbreathe app: what shipped in every release." />
+  <meta name="twitter:image" content="https://canibreathe.app/apple-touch-icon-180.png" />
+  <link rel="stylesheet" href="style.css?v=5" />
+  <link rel="icon" href="favicon.png" />
+  <link rel="apple-touch-icon" href="favicon.png" />
+  <script>
+    !function(t,e){var o,n,p,r;e.__SV||(window.posthog && window.posthog.__loaded)||(window.posthog=e,e._i=[],e.init=function(i,s,a){function g(t,e){var o=e.split(".");2==o.length&&(t=t[o[0]],e=o[1]),t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}}(p=t.createElement("script")).type="text/javascript",p.crossOrigin="anonymous",p.async=!0,p.src=s.api_host.replace(".i.posthog.com","-assets.i.posthog.com")+"/static/array.js",(r=t.getElementsByTagName("script")[0]).parentNode.insertBefore(p,r);var u=e;for(void 0!==a?u=e[a]=[]:a="posthog",u.people=u.people||[],u.toString=function(t){var e="posthog";return"posthog"!==a&&(e+="."+a),t||(e+=" (stub)"),e},u.people.toString=function(){return u.toString(1)+".people (stub)"},o="Ei Ni init zi Gi Nr Ui Xi Hi capture calculateEventProperties tn register register_once register_for_session unregister unregister_for_session an getFeatureFlag getFeatureFlagPayload getFeatureFlagResult isFeatureEnabled reloadFeatureFlags updateFlags updateEarlyAccessFeatureEnrollment getEarlyAccessFeatures on onFeatureFlags onSurveysLoaded onSessionId getSurveys getActiveMatchingSurveys renderSurvey displaySurvey cancelPendingSurvey canRenderSurvey canRenderSurveyAsync ln identify setPersonProperties group resetGroups setPersonPropertiesForFlags resetPersonPropertiesForFlags setGroupPropertiesForFlags resetGroupPropertiesForFlags reset setIdentity clearIdentity get_distinct_id getGroups get_session_id get_session_replay_url alias set_config startSessionRecording stopSessionRecording sessionRecordingStarted captureException addExceptionStep captureLog startExceptionAutocapture stopExceptionAutocapture loadToolbar get_property getSessionProperty nn Qi createPersonProfile setInternalOrTestUser sn qi cn opt_in_capturing opt_out_capturing has_opted_in_capturing has_opted_out_capturing get_explicit_consent_status is_capturing clear_opt_in_out_capturing Ji debug Fr rn getPageViewId captureTraceFeedback captureTraceMetric Bi".split(" "),n=0;n<o.length;n++)g(u,o[n]);e._i.push([i,s,a])},e.__SV=1)}(document,window.posthog||[]);
+    posthog.init('phc_LRrSer0JCHmHAlgUVe1UBUHwa6GLvBOArZXyOaQ2EX9', {
+        api_host: 'https://eu.i.posthog.com',
+        defaults: '2026-01-30',
+        person_profiles: 'identified_only', // or 'always' to create profiles for anonymous users as well
+    })
+</script>
+</head>
+<body data-title-key="page.title.changelog">
+
+  <header>
+    <div class="header-inner">
+      <a class="logo" href="index.html">can<span>I</span>breathe</a>
+      <nav>
+        <a href="index.html" data-i18n="nav.home">Inici</a>
+        <a href="privacy.html" data-i18n="nav.privacy">Política de privacitat</a>
+        <div class="lang-switcher" aria-label="Canvia l'idioma" data-i18n-aria-label="lang-switcher.label">
+          <button class="lang-toggle" aria-haspopup="listbox" aria-expanded="false">
+            <span class="lang-current">CA</span>
+            <svg class="lang-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg>
+          </button>
+          <ul class="lang-menu" role="listbox">
+            <li><button class="lang-btn" data-lang="ca" role="option" aria-selected="true"><b>CA</b><span>Català</span></button></li>
+            <li><button class="lang-btn" data-lang="en" role="option" aria-selected="false"><b>EN</b><span>English</span></button></li>
+            <li><button class="lang-btn" data-lang="es" role="option" aria-selected="false"><b>ES</b><span>Español</span></button></li>
+            <li><button class="lang-btn" data-lang="fr" role="option" aria-selected="false"><b>FR</b><span>Français</span></button></li>
+            <li><button class="lang-btn" data-lang="pt" role="option" aria-selected="false"><b>PT</b><span>Português</span></button></li>
+            <li><button class="lang-btn" data-lang="it" role="option" aria-selected="false"><b>IT</b><span>Italiano</span></button></li>
+            <li><button class="lang-btn" data-lang="de" role="option" aria-selected="false"><b>DE</b><span>Deutsch</span></button></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <div class="policy-header">
+    <h1 data-i18n="changelog.heading">Historial de versions</h1>
+    <p class="meta" data-i18n="changelog.intro">Tot el que hem anat afegint a canIbreathe, versió per versió.</p>
+  </div>
+
+  <div class="policy-body">
+    <div id="changelog-list"></div>
+  </div>
+
+  <footer>
+    <a href="index.html" data-i18n="nav.home">Inici</a>
+    <a href="privacy.html" data-i18n="footer.privacy">Política de privacitat</a>
+    <a href="mailto:arnautresserras@gmail.com" data-i18n="footer.contact">Contacte</a>
+    <p style="margin-top: 12px;" data-i18n="footer.copy">&copy; 2026 Arnau Tresserras</p>
+  </footer>
+
+  <script src="changelog-data.js?v=2"></script>
+  <script src="i18n.js?v=5"></script>
+  <script>
+    function renderChangelog(lang) {
+      const releases = CHANGELOG[lang] || CHANGELOG.en;
+      const container = document.getElementById('changelog-list');
+      container.innerHTML = releases.map(release => `
+        <section class="changelog-version">
+          <h2>${release.version}</h2>
+          <ul class="changelog-items">
+            ${release.items.map(item => `
+              <li>
+                <div><strong>${item.title}</strong><p>${item.body}</p></div>
+              </li>
+            `).join('')}
+          </ul>
+        </section>
+      `).join('');
+    }
+
+    document.addEventListener('DOMContentLoaded', () => {
+      renderChangelog(detectLang());
+      document.querySelectorAll('.lang-btn').forEach(btn => {
+        btn.addEventListener('click', () => renderChangelog(btn.dataset.lang));
+      });
+    });
+  </script>
+</body>
+</html>

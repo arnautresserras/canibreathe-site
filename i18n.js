@@ -3,53 +3,55 @@ const TRANSLATIONS = {
     // ── Shared ──────────────────────────────────────────────────
     'nav.home':    'Inici',
     'nav.privacy': 'Política de privacitat',
+    'nav.changelog': 'Historial de versions',
     'lang-switcher.label': 'Canvia l\'idioma',
     'meta.description.index': 'Previsions diàries de pol·len i al·lèrgens, a tot el món, adaptades als que t\'afecten, i un diari d\'al·lèrgies que et diu què et fa reaccionar. Disponible per a iOS i Android.',
     'meta.description.privacy': 'Política de privacitat de l\'app canIbreathe de previsió de pol·len i al·lèrgens.',
+    'meta.description.changelog': 'Historial de versions de l\'app canIbreathe: què ha inclòs cada actualització.',
     'footer.privacy': 'Política de privacitat',
     'footer.contact': 'Contacte',
     'footer.copy': '&copy; 2026 Arnau Tresserras',
 
     // ── index.html ───────────────────────────────────────────────
-    'page.title.index': 'canIbreathe — Previsió de pol·len i al·lèrgens',
+    'page.title.index': 'canIbreathe, Previsió de pol·len i al·lèrgens',
     'hero.h1': 'Coneix el pol·len abans de sortir de casa.',
-    'hero.lead': 'Previsions diàries de pol·len i al·lèrgens adaptades a les plantes que t\'afecten — per planificar el teu dia amb confiança.',
+    'hero.lead': 'Previsions diàries de pol·len i al·lèrgens adaptades a les plantes que t\'afecten, per planificar el teu dia amb confiança.',
     'store.apple.pre': 'Descarrega a l\'',
     'store.apple.name': 'App Store',
     'store.google.pre': 'Descarrega a',
     'store.google.name': 'Google Play',
     'f1.title': 'Només els al·lèrgens que t\'afecten',
-    'f1.desc':  'Tria entre 29 pol·lens i espores els que realment et fan reaccionar. canIbreathe mostra només aquests — no una llista interminable d\'espècies que no t\'importen.',
+    'f1.desc':  'Tria entre 29 pol·lens i espores els que realment et fan reaccionar. canIbreathe mostra només aquests, no una llista interminable d\'espècies que no t\'importen.',
     'fplan.title': 'Sabràs la millor hora per sortir',
-    'fplan.desc':  'La pestanya Planifica troba l\'aire més net del teu dia amb un gràfic hora per hora, i al costat mostra la temporada típica de cada al·lergen — perquè res no t\'agafi per sorpresa.',
+    'fplan.desc':  'La pestanya Planifica troba l\'aire més net del teu dia amb un gràfic hora per hora, i al costat mostra la temporada típica de cada al·lergen, perquè res no t\'agafi per sorpresa.',
     'f2.title': 'Porta un diari d\'al·lèrgies',
-    'f2.desc':  'Apunta com et sents cada dia — quins símptomes, com de forts i si has pres alguna cosa. Cada dia es desa amb els nivells de pol·len d\'aquella jornada, tot dins del teu telèfon.',
+    'f2.desc':  'Apunta com et sents cada dia: quins símptomes, com de forts i si has pres alguna cosa. Cada dia es desa amb els nivells de pol·len d\'aquella jornada, tot dins del teu telèfon.',
     'f3.title': 'Descobreix què et fa reaccionar',
     'f3.desc':  'El diari creua els teus símptomes amb els nivells de pol·len, ordena quins al·lèrgens els segueixen més de prop i pot assenyalar-te un desencadenant que encara no segueixes. I l\'exportes en PDF per al teu metge.',
     'f4.title': 'Previsions locals, a qualsevol lloc del món',
-    'f4.desc':  'Lectures reals d\'estació per a Catalunya i les Illes Balears — amb la distància a l\'estació — Open-Meteo a tot Europa i l\'API de Pol·len de Google a la resta del món. Fes seguiment de cada lloc on passes temps.',
+    'f4.desc':  'Lectures reals d\'estació per a Catalunya i les Illes Balears (amb la distància a l\'estació), Open-Meteo a tot Europa i l\'API de Pol·len de Google a la resta del món. Fes seguiment de cada lloc on passes temps.',
     'fwidget.title': 'La resposta a la pantalla d\'inici',
-    'fwidget.desc':  'Afegeix el widget en qualsevol de les dues mides i tindràs el veredicte d\'avui, els teus al·lèrgens més alts i si els nivells van pujant a la mateixa pantalla d\'inici — s\'actualitza en segon pla, sense obrir l\'app. A iPhone i Android.',
+    'fwidget.desc':  'Afegeix el widget en qualsevol de les dues mides i tindràs el veredicte d\'avui, els teus al·lèrgens més alts i si els nivells van pujant a la mateixa pantalla d\'inici, s\'actualitza en segon pla, sense obrir l\'app. A iPhone i Android.',
     'trust.eyebrow': 'Privadesa de sèrie',
-    'trust.lead': 'canIbreathe funciona sense compte i manté el teu perfil d\'al·lèrgies al teu dispositiu — mai als nostres servidors.',
+    'trust.lead': 'canIbreathe funciona sense compte i manté el teu perfil d\'al·lèrgies al teu dispositiu, mai als nostres servidors.',
     'trust.p1': 'Sense compte',
     'trust.p2': 'No accedeix mai al teu GPS',
     'trust.p3': 'Les teves dades no surten del dispositiu',
     'trust.p4': 'El teu diari no surt del telèfon',
     'setup.title': 'Configura-la en menys d\'un minut',
     'setup.s1.title': 'Tria l\'idioma',
-    'setup.s1.desc': 'Set per triar — o segueix el del dispositiu.',
+    'setup.s1.desc': 'Set per triar, o segueix el del dispositiu.',
     'setup.s2.title': 'Escull els teus al·lèrgens',
     'setup.s2.desc': 'Marca els pol·lens i espores que et fan reaccionar.',
     'setup.s3.title': 'Defineix la ubicació',
     'setup.s3.desc': 'Cerca qualsevol ciutat o fes servir una estació PIA propera.',
     'more.title': 'I algunes coses més',
     'more.alerts.title': 'Alertes que miren endavant',
-    'more.alerts.desc': 'Una notificació al matí per a cadascun dels pròxims cinc dies en què els teus al·lèrgens superin el nivell que tries — recalculades en segon pla encara que no obris l\'app.',
+    'more.alerts.desc': 'Una notificació al matí per a cadascun dels pròxims cinc dies en què els teus al·lèrgens superin el nivell que tries, recalculades en segon pla encara que no obris l\'app.',
     'more.preview.title': 'Mira-la abans d\'afegir-la',
-    'more.preview.desc': 'Cerca una ciutat i consulta-li la previsió abans d\'afegir-la — pràctic per a un lloc on estàs a punt de viatjar.',
+    'more.preview.desc': 'Cerca una ciutat i consulta-li la previsió abans d\'afegir-la, pràctic per a un lloc on estàs a punt de viatjar.',
     'more.why.title': 'Per què els nivells són alts',
-    'more.why.desc': 'Veus el motiu del nivell d\'avui — pluja en camí, condicions seques i ventoses, o un pic de temporada.',
+    'more.why.desc': 'Veus el motiu del nivell d\'avui: pluja en camí, condicions seques i ventoses, o un pic de temporada.',
     'more.conditions.title': 'Temps i qualitat de l\'aire de la UE',
     'more.conditions.desc': 'Temperatura, vent, precipitació i una barra AQI de 6 bandes, just al costat de la previsió.',
     'more.share.title': 'Comparteix la previsió',
@@ -64,7 +66,10 @@ const TRANSLATIONS = {
     'download.desc': 'Gratuïta per a iPhone, iPad i Android.',
 
     // ── privacy.html ─────────────────────────────────────────────
-    'page.title.privacy': 'Política de privacitat — canIbreathe',
+    'page.title.privacy': 'Política de privacitat, canIbreathe',
+    'page.title.changelog': 'Historial de versions, canIbreathe',
+    'changelog.heading': 'Historial de versions',
+    'changelog.intro': 'Tot el que hem anat afegint a canIbreathe, versió per versió.',
     'policy.title': 'Política de privacitat',
     'policy.date':  'Data d\'efecte: 1 d\'abril de 2025 &nbsp;·&nbsp; Darrera actualització: 14 d\'agost de 2026',
     'policy.highlight': '<strong>Resum breu:</strong> canIbreathe no recull, emmagatzema ni comparteix cap informació personal als nostres servidors. El teu perfil de localització i al·lèrgies es desa únicament al teu dispositiu.',
@@ -74,20 +79,20 @@ const TRANSLATIONS = {
     's2.body': `
       <p>canIbreathe desa la informació següent <strong>únicament al teu dispositiu</strong>, usant l'emmagatzematge privat del dispositiu. Aquestes dades mai no surten del dispositiu ni es transmeten als nostres servidors:</p>
       <ul>
-        <li><strong>Localització</strong> — la ciutat o estació de seguiment de pol·len que tries manualment dins l'app. L'app no accedeix al GPS ni a la ubicació precisa del dispositiu.</li>
-        <li><strong>Preferències d'al·lèrgens</strong> — la llista de tipus de pol·len i al·lèrgens que selecciones.</li>
-        <li><strong>Diari d'al·lèrgies</strong> — els símptomes, la gravetat i les notes que hi escrius, i si has pres medicació (només categories, mai noms ni dosis), amb els nivells de pol·len d'aquell dia. Es desa en un magatzem propi dins del dispositiu i no s'envia enlloc. Pots exportar-ne un informe PDF quan vulguis i triar tu on l'envies.</li>
-        <li><strong>Configuració de notificacions</strong> — si les alertes diàries estan activades, l'hora d'alerta i el llindar d'alerta.</li>
-        <li><strong>Dades del widget</strong> — una instantània de la previsió d'avui (text i colors ja resolts) desada a l'emmagatzematge compartit del dispositiu perquè el widget la pugui mostrar sense obrir l'app.</li>
-        <li><strong>Preferència d'idioma</strong> — l'idioma de visualització que tries a Configuració.</li>
-        <li><strong>Preferència de tema</strong> — el tema de visualització (clar, fosc o del sistema) que tries a Configuració.</li>
+        <li><strong>Localització</strong>: la ciutat o estació de seguiment de pol·len que tries manualment dins l'app. L'app no accedeix al GPS ni a la ubicació precisa del dispositiu.</li>
+        <li><strong>Preferències d'al·lèrgens</strong>: la llista de tipus de pol·len i al·lèrgens que selecciones.</li>
+        <li><strong>Diari d'al·lèrgies</strong>: els símptomes, la gravetat i les notes que hi escrius, i si has pres medicació (només categories, mai noms ni dosis), amb els nivells de pol·len d'aquell dia. Es desa en un magatzem propi dins del dispositiu i no s'envia enlloc. Pots exportar-ne un informe PDF quan vulguis i triar tu on l'envies.</li>
+        <li><strong>Configuració de notificacions</strong>: si les alertes diàries estan activades, l'hora d'alerta i el llindar d'alerta.</li>
+        <li><strong>Dades del widget</strong>: una instantània de la previsió d'avui (text i colors ja resolts) desada a l'emmagatzematge compartit del dispositiu perquè el widget la pugui mostrar sense obrir l'app.</li>
+        <li><strong>Preferència d'idioma</strong>: l'idioma de visualització que tries a Configuració.</li>
+        <li><strong>Preferència de tema</strong>: el tema de visualització (clar, fosc o del sistema) que tries a Configuració.</li>
       </ul>
       <p>Pots restablir totes aquestes dades en qualsevol moment des de <em>Configuració → Restablir incorporació</em>.</p>`,
     's3.h': '3. Serveis de tercers',
     's3.intro': 'Per oferir previsions de pol·len, l\'app es comunica amb els serveis externs següents. Cada petició es fa directament des del teu dispositiu.',
     's3.openmeteo': `<strong>Open-Meteo</strong> (<a href="https://open-meteo.com" target="_blank" rel="noopener">open-meteo.com</a>)<br>
       S'utilitza per obtenir previsions de pol·len a Europa, i qualitat de l'aire i meteorologia a tot el món. També gestiona la cerca de ciutats: el text que escrius al camp de cerca s'envia a l'API de geocodificació d'Open-Meteo. Les coordenades seleccionades (latitud i longitud) s'envien com a part de la petició a l'API. Open-Meteo no requereix compte i no fa seguiment dels usuaris individuals. Vegeu els seus <a href="https://open-meteo.com/en/terms" target="_blank" rel="noopener">termes</a>.`,
-    's3.pia': `<strong>PIA — Programa d'Informació Aerobiològica</strong> (<a href="https://aerobiologia.cat" target="_blank" rel="noopener">aerobiologia.cat</a>)<br>
+    's3.pia': `<strong>PIA, Programa d'Informació Aerobiològica</strong> (<a href="https://aerobiologia.cat" target="_blank" rel="noopener">aerobiologia.cat</a>)<br>
       S'utilitza per obtenir dades detallades d'estació de pol·len per a Catalunya i les Illes Balears. Dades proporcionades sota <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" rel="noopener">CC BY-NC-SA 4.0</a>.`,
     's3.google': `<strong>API de Pol·len de Google</strong> (<a href="https://developers.google.com/maps/documentation/pollen" target="_blank" rel="noopener">developers.google.com</a>)<br>
       S'utilitza per obtenir previsions de pol·len fora d'Europa, on Open-Meteo no en té, i per completar al·lèrgens concrets que la font principal d'una localització no cobreix. Només s'envien les coordenades seleccionades (latitud i longitud) com a part de la petició; cap identificador ni dada personal. Vegeu la <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">política de privacitat de Google</a>.`,
@@ -96,7 +101,7 @@ const TRANSLATIONS = {
     's3.posthog': `<strong>PostHog</strong> (<a href="https://posthog.com" target="_blank" rel="noopener">posthog.com</a>)<br>
       S'utilitza per a analítica d'ús anònima (p. ex. quines funcions s'utilitzen, quins idiomes es seleccionen). Els esdeveniments es capturen automàticament i no inclouen cap informació d'identificació personal. Les dades s'allotgen als servidors europeus de PostHog. Vegeu la <a href="https://posthog.com/privacy" target="_blank" rel="noopener">política de privacitat de PostHog</a>.`,
     's4.h': '4. Notificacions',
-    's4.body': 'Si actives les alertes diàries, l\'app programa notificacions locals al teu dispositiu a l\'hora que tries: una per a cada dia dels pròxims en què la previsió superi el teu llindar. Perquè no quedin desfasades, l\'app també les torna a calcular en segon pla aproximadament cada 12 hores, juntament amb la instantània del widget. Tot es genera localment — no s\'utilitza cap servidor de notificacions ni servei de missatgeria push. Pots desactivar les notificacions en qualsevol moment des de la Configuració de l\'app o des de la configuració del sistema del dispositiu.',
+    's4.body': 'Si actives les alertes diàries, l\'app programa notificacions locals al teu dispositiu a l\'hora que tries: una per a cada dia dels pròxims en què la previsió superi el teu llindar. Perquè no quedin desfasades, l\'app també les torna a calcular en segon pla aproximadament cada 12 hores, juntament amb la instantània del widget. Tot es genera localment, no s\'utilitza cap servidor de notificacions ni servei de missatgeria push. Pots desactivar les notificacions en qualsevol moment des de la Configuració de l\'app o des de la configuració del sistema del dispositiu.',
     's5.h': '5. Privacitat dels menors',
     's5.body': 'canIbreathe no està adreçada a menors de 13 anys. No recollim conscientment cap informació de menors.',
     's6.h': '6. Canvis en aquesta política',
@@ -117,53 +122,55 @@ const TRANSLATIONS = {
     // ── Shared ──────────────────────────────────────────────────
     'nav.home':    'Home',
     'nav.privacy': 'Privacy policy',
+    'nav.changelog': 'Version history',
     'lang-switcher.label': 'Change language',
     'meta.description.index': 'Daily pollen and allergen forecasts worldwide, tailored to the plants that affect you, plus an allergy diary that shows what sets you off. Available on iOS and Android.',
     'meta.description.privacy': 'Privacy policy for the canIbreathe pollen and allergen forecast app.',
+    'meta.description.changelog': 'Version history for the canIbreathe app: what shipped in every release.',
     'footer.privacy': 'Privacy policy',
     'footer.contact': 'Contact',
     'footer.copy': '&copy; 2026 Arnau Tresserras',
 
     // ── index.html ───────────────────────────────────────────────
-    'page.title.index': 'canIbreathe — Pollen & Allergen Forecast',
+    'page.title.index': 'canIbreathe, Pollen & Allergen Forecast',
     'hero.h1': 'Know your pollen before you step outside.',
-    'hero.lead': 'Daily pollen and allergen forecasts, tailored to the plants that actually affect you — so you can plan your day with confidence.',
+    'hero.lead': 'Daily pollen and allergen forecasts, tailored to the plants that actually affect you, so you can plan your day with confidence.',
     'store.apple.pre': 'Download on the',
     'store.apple.name': 'App Store',
     'store.google.pre': 'Get it on',
     'store.google.name': 'Google Play',
     'f1.title': 'Only the allergens that affect you',
-    'f1.desc':  'Pick from 29 pollens and spores the ones you actually react to. canIbreathe shows just those — not a wall of species you don\'t care about.',
+    'f1.desc':  'Pick from 29 pollens and spores the ones you actually react to. canIbreathe shows just those, not a wall of species you don\'t care about.',
     'fplan.title': 'Know the best time to head out',
-    'fplan.desc':  'The Plan tab finds the clearest air in your day with an hour-by-hour chart, and shows each allergen\'s typical season alongside it — so nothing catches you off guard.',
+    'fplan.desc':  'The Plan tab finds the clearest air in your day with an hour-by-hour chart, and shows each allergen\'s typical season alongside it, so nothing catches you off guard.',
     'f2.title': 'Keep an allergy diary',
-    'f2.desc':  'Log how you feel each day — which symptoms, how bad they were, whether you took anything. Every day is saved with that day\'s pollen levels, entirely on your phone.',
+    'f2.desc':  'Log how you feel each day: which symptoms, how bad they were, whether you took anything. Every day is saved with that day\'s pollen levels, entirely on your phone.',
     'f3.title': 'Find out what sets you off',
     'f3.desc':  'The diary charts your symptoms against pollen levels, ranks which allergens track them most closely, and can point out a trigger you aren\'t following yet. Export it as a PDF for your doctor.',
     'f4.title': 'Local forecasts, anywhere in the world',
-    'f4.desc':  'Real station readings for Catalonia and the Balearic Islands — including how far the station is — Open-Meteo across Europe, and the Google Pollen API everywhere else. Track every place you spend time.',
+    'f4.desc':  'Real station readings for Catalonia and the Balearic Islands (including how far the station is), Open-Meteo across Europe, and the Google Pollen API everywhere else. Track every place you spend time.',
     'fwidget.title': 'The answer on your home screen',
-    'fwidget.desc':  'Add the widget in either size and today\'s verdict, your highest allergens and whether levels are rising sit right on your home screen — refreshed in the background, no need to open the app. On iPhone and Android.',
+    'fwidget.desc':  'Add the widget in either size and today\'s verdict, your highest allergens and whether levels are rising sit right on your home screen, refreshed in the background, no need to open the app. On iPhone and Android.',
     'trust.eyebrow': 'Private by design',
-    'trust.lead': 'canIbreathe works without an account and keeps your allergy profile on your device — never on our servers.',
+    'trust.lead': 'canIbreathe works without an account and keeps your allergy profile on your device, never on our servers.',
     'trust.p1': 'No account needed',
     'trust.p2': 'Never accesses your GPS',
     'trust.p3': 'Your data stays on your device',
     'trust.p4': 'Your diary never leaves your phone',
     'setup.title': 'Set up in under a minute',
     'setup.s1.title': 'Pick your language',
-    'setup.s1.desc': 'Seven to choose from — or just follow your device.',
+    'setup.s1.desc': 'Seven to choose from, or just follow your device.',
     'setup.s2.title': 'Choose your allergens',
     'setup.s2.desc': 'Tick the pollens and spores you react to.',
     'setup.s3.title': 'Set your location',
     'setup.s3.desc': 'Search any city, or use a nearby PIA station.',
     'more.title': 'And a few more things',
     'more.alerts.title': 'Alerts that look ahead',
-    'more.alerts.desc': 'A morning notification for each of the next five days your allergens cross the level you choose — refreshed in the background even if you never open the app.',
+    'more.alerts.desc': 'A morning notification for each of the next five days your allergens cross the level you choose, refreshed in the background even if you never open the app.',
     'more.preview.title': 'Preview before you add',
-    'more.preview.desc': 'Search a city and see its forecast before adding it — handy for somewhere you\'re about to travel.',
+    'more.preview.desc': 'Search a city and see its forecast before adding it, handy for somewhere you\'re about to travel.',
     'more.why.title': 'Why levels are high',
-    'more.why.desc': 'See the reason behind today\'s level — rain on the way, dry and windy, or a seasonal peak.',
+    'more.why.desc': 'See the reason behind today\'s level: rain on the way, dry and windy, or a seasonal peak.',
     'more.conditions.title': 'Weather &amp; EU air quality',
     'more.conditions.desc': 'Temperature, wind, precipitation and a 6-band AQI bar, right next to the forecast.',
     'more.share.title': 'Share the forecast',
@@ -178,7 +185,10 @@ const TRANSLATIONS = {
     'download.desc': 'Free on iPhone, iPad and Android.',
 
     // ── privacy.html ─────────────────────────────────────────────
-    'page.title.privacy': 'Privacy Policy — canIbreathe',
+    'page.title.privacy': 'Privacy Policy, canIbreathe',
+    'page.title.changelog': 'Version History, canIbreathe',
+    'changelog.heading': 'Version history',
+    'changelog.intro': 'Everything we\'ve shipped in canIbreathe, release by release.',
     'policy.title': 'Privacy Policy',
     'policy.date':  'Effective date: 1 April 2025 &nbsp;·&nbsp; Last updated: 14 August 2026',
     'policy.highlight': '<strong>Short version:</strong> canIbreathe does not collect, store, or share any personal information on our servers. Your location and allergy profile are stored only on your device.',
@@ -188,29 +198,29 @@ const TRANSLATIONS = {
     's2.body': `
       <p>canIbreathe stores the following information <strong>locally on your device only</strong>, using your device's private storage. This data never leaves your device and is never transmitted to our servers:</p>
       <ul>
-        <li><strong>Location</strong> — the city or pollen monitoring station you choose manually within the app. The app does not access your device's GPS or precise location.</li>
-        <li><strong>Allergen preferences</strong> — the list of pollen types and allergens you select.</li>
-        <li><strong>Allergy diary</strong> — the symptoms, severity and notes you record, and whether you took medication (categories only, never names or doses), alongside that day's pollen levels. It is kept in its own store on your device and is never sent anywhere. You can export a PDF report yourself and choose where it goes.</li>
-        <li><strong>Notification settings</strong> — whether daily alerts are enabled, the alert time, and the alert threshold.</li>
-        <li><strong>Widget data</strong> — a snapshot of today's forecast (already-resolved text and colours) written to your device's shared storage so the home-screen widget can display it without opening the app.</li>
-        <li><strong>Language preference</strong> — the display language you choose in Settings.</li>
-        <li><strong>Theme preference</strong> — the display theme (light, dark, or system) you choose in Settings.</li>
+        <li><strong>Location</strong>: the city or pollen monitoring station you choose manually within the app. The app does not access your device's GPS or precise location.</li>
+        <li><strong>Allergen preferences</strong>: the list of pollen types and allergens you select.</li>
+        <li><strong>Allergy diary</strong>: the symptoms, severity and notes you record, and whether you took medication (categories only, never names or doses), alongside that day's pollen levels. It is kept in its own store on your device and is never sent anywhere. You can export a PDF report yourself and choose where it goes.</li>
+        <li><strong>Notification settings</strong>: whether daily alerts are enabled, the alert time, and the alert threshold.</li>
+        <li><strong>Widget data</strong>: a snapshot of today's forecast (already-resolved text and colours) written to your device's shared storage so the home-screen widget can display it without opening the app.</li>
+        <li><strong>Language preference</strong>: the display language you choose in Settings.</li>
+        <li><strong>Theme preference</strong>: the display theme (light, dark, or system) you choose in Settings.</li>
       </ul>
       <p>You can reset all of this data at any time via <em>Settings → Reset onboarding</em>.</p>`,
     's3.h': '3. Third-party services',
     's3.intro': 'To provide pollen forecasts the app communicates with the following external services. Each request is made directly from your device.',
     's3.openmeteo': `<strong>Open-Meteo</strong> (<a href="https://open-meteo.com" target="_blank" rel="noopener">open-meteo.com</a>)<br>
       Used to fetch pollen forecasts in Europe, and air quality and weather worldwide. It also handles city search: the text you type in the search box is sent to Open-Meteo's geocoding API. Your selected coordinates (latitude and longitude) are sent as part of the API request. Open-Meteo does not require an account and does not track individual users. See their <a href="https://open-meteo.com/en/terms" target="_blank" rel="noopener">terms</a>.`,
-    's3.pia': `<strong>PIA — Aerobiological Information Programme</strong> (<a href="https://aerobiologia.cat" target="_blank" rel="noopener">aerobiologia.cat</a>)<br>
+    's3.pia': `<strong>PIA, Aerobiological Information Programme</strong> (<a href="https://aerobiologia.cat" target="_blank" rel="noopener">aerobiologia.cat</a>)<br>
       Used to fetch detailed station-based pollen data for Catalonia and the Balearic Islands. Data is provided under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" rel="noopener">CC BY-NC-SA 4.0</a>.`,
     's3.google': `<strong>Google Pollen API</strong> (<a href="https://developers.google.com/maps/documentation/pollen" target="_blank" rel="noopener">developers.google.com</a>)<br>
-      Used to fetch pollen forecasts outside Europe, where Open-Meteo has none, and to fill in individual allergens a location's main source doesn't cover. Only your selected coordinates (latitude and longitude) are sent as part of the request — no identifiers and no personal data. See <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google's privacy policy</a>.`,
+      Used to fetch pollen forecasts outside Europe, where Open-Meteo has none, and to fill in individual allergens a location's main source doesn't cover. Only your selected coordinates (latitude and longitude) are sent as part of the request, no identifiers and no personal data. See <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google's privacy policy</a>.`,
     's3.sentry': `<strong>Sentry</strong> (<a href="https://sentry.io" target="_blank" rel="noopener">sentry.io</a>)<br>
       Used for crash reporting in production builds. If the app crashes, an anonymised error report is sent automatically. Reports may include the device model, OS version, and a stack trace. No names, email addresses, or account details are included. See <a href="https://sentry.io/privacy/" target="_blank" rel="noopener">Sentry's privacy policy</a>.`,
     's3.posthog': `<strong>PostHog</strong> (<a href="https://posthog.com" target="_blank" rel="noopener">posthog.com</a>)<br>
       Used for anonymous usage analytics (e.g. which features are used, which languages are selected). Events are captured automatically and do not include any personally identifiable information. Data is hosted on PostHog's EU servers. See <a href="https://posthog.com/privacy" target="_blank" rel="noopener">PostHog's privacy policy</a>.`,
     's4.h': '4. Notifications',
-    's4.body': 'If you enable daily alerts, the app schedules local notifications on your device at the time you choose — one for each of the coming days whose forecast crosses your threshold. So they don\'t go stale, the app also recalculates them in the background roughly every 12 hours, together with the widget snapshot. Everything is generated locally — no notification server or push service is used. You can disable notifications at any time in the app\'s Settings or in your device\'s system settings.',
+    's4.body': 'If you enable daily alerts, the app schedules local notifications on your device at the time you choose (one for each of the coming days whose forecast crosses your threshold. So they don\'t go stale, the app also recalculates them in the background roughly every 12 hours, together with the widget snapshot. Everything is generated locally), no notification server or push service is used. You can disable notifications at any time in the app\'s Settings or in your device\'s system settings.',
     's5.h': '5. Children\'s privacy',
     's5.body': 'canIbreathe is not directed at children under 13. We do not knowingly collect any information from children.',
     's6.h': '6. Changes to this policy',
@@ -231,53 +241,55 @@ const TRANSLATIONS = {
     // ── Shared ──────────────────────────────────────────────────
     'nav.home':    'Inicio',
     'nav.privacy': 'Política de privacidad',
+    'nav.changelog': 'Historial de versiones',
     'lang-switcher.label': 'Cambia el idioma',
     'meta.description.index': 'Previsiones diarias de polen y alérgenos, en todo el mundo, adaptadas a las plantas que te afectan, y un diario de alergias que revela qué te hace reaccionar. Disponible en iOS y Android.',
     'meta.description.privacy': 'Política de privacidad de la app canIbreathe de previsión de polen y alérgenos.',
+    'meta.description.changelog': 'Historial de versiones de la app canIbreathe: qué incluyó cada actualización.',
     'footer.privacy': 'Política de privacidad',
     'footer.contact': 'Contacto',
     'footer.copy': '&copy; 2026 Arnau Tresserras',
 
     // ── index.html ───────────────────────────────────────────────
-    'page.title.index': 'canIbreathe — Previsión de polen y alérgenos',
+    'page.title.index': 'canIbreathe, Previsión de polen y alérgenos',
     'hero.h1': 'Conoce el polen antes de salir de casa.',
-    'hero.lead': 'Previsiones diarias de polen y alérgenos adaptadas a las plantas que te afectan — para planificar tu día con confianza.',
+    'hero.lead': 'Previsiones diarias de polen y alérgenos adaptadas a las plantas que te afectan, para planificar tu día con confianza.',
     'store.apple.pre': 'Descargar en el',
     'store.apple.name': 'App Store',
     'store.google.pre': 'Descargar en',
     'store.google.name': 'Google Play',
     'f1.title': 'Solo los alérgenos que te afectan',
-    'f1.desc':  'Elige entre 29 pólenes y esporas los que de verdad te hacen reaccionar. canIbreathe muestra solo esos — no una lista interminable de especies que no te importan.',
+    'f1.desc':  'Elige entre 29 pólenes y esporas los que de verdad te hacen reaccionar. canIbreathe muestra solo esos, no una lista interminable de especies que no te importan.',
     'fplan.title': 'Sabrás la mejor hora para salir',
-    'fplan.desc':  'La pestaña Plan encuentra el aire más limpio de tu día con un gráfico hora a hora, y al lado muestra la temporada típica de cada alérgeno — para que nada te pille por sorpresa.',
+    'fplan.desc':  'La pestaña Plan encuentra el aire más limpio de tu día con un gráfico hora a hora, y al lado muestra la temporada típica de cada alérgeno, para que nada te pille por sorpresa.',
     'f2.title': 'Lleva un diario de alergias',
-    'f2.desc':  'Apunta cómo te sientes cada día — qué síntomas, con qué intensidad y si has tomado algo. Cada día se guarda con los niveles de polen de esa jornada, todo dentro de tu teléfono.',
+    'f2.desc':  'Apunta cómo te sientes cada día: qué síntomas, con qué intensidad y si has tomado algo. Cada día se guarda con los niveles de polen de esa jornada, todo dentro de tu teléfono.',
     'f3.title': 'Descubre qué te hace reaccionar',
     'f3.desc':  'El diario cruza tus síntomas con los niveles de polen, ordena qué alérgenos los siguen más de cerca y puede señalarte un desencadenante que aún no sigues. Y lo exportas en PDF para tu médico.',
     'f4.title': 'Previsiones locales, en cualquier parte del mundo',
-    'f4.desc':  'Lecturas reales de estación para Cataluña y las Islas Baleares — con la distancia a la estación — Open-Meteo en toda Europa y la API de Polen de Google en el resto del mundo. Sigue cada lugar donde pasas tiempo.',
+    'f4.desc':  'Lecturas reales de estación para Cataluña y las Islas Baleares (con la distancia a la estación), Open-Meteo en toda Europa y la API de Polen de Google en el resto del mundo. Sigue cada lugar donde pasas tiempo.',
     'fwidget.title': 'La respuesta en la pantalla de inicio',
-    'fwidget.desc':  'Añade el widget en cualquiera de sus dos tamaños y tendrás el veredicto de hoy, tus alérgenos más altos y si los niveles van subiendo en la propia pantalla de inicio — se actualiza en segundo plano, sin abrir la app. En iPhone y Android.',
+    'fwidget.desc':  'Añade el widget en cualquiera de sus dos tamaños y tendrás el veredicto de hoy, tus alérgenos más altos y si los niveles van subiendo en la propia pantalla de inicio, se actualiza en segundo plano, sin abrir la app. En iPhone y Android.',
     'trust.eyebrow': 'Privacidad de serie',
-    'trust.lead': 'canIbreathe funciona sin cuenta y mantiene tu perfil de alergias en tu dispositivo — nunca en nuestros servidores.',
+    'trust.lead': 'canIbreathe funciona sin cuenta y mantiene tu perfil de alergias en tu dispositivo, nunca en nuestros servidores.',
     'trust.p1': 'Sin cuenta',
     'trust.p2': 'Nunca accede a tu GPS',
     'trust.p3': 'Tus datos no salen del dispositivo',
     'trust.p4': 'Tu diario no sale del teléfono',
     'setup.title': 'Configúrala en menos de un minuto',
     'setup.s1.title': 'Elige el idioma',
-    'setup.s1.desc': 'Siete para elegir — o sigue el del dispositivo.',
+    'setup.s1.desc': 'Siete para elegir, o sigue el del dispositivo.',
     'setup.s2.title': 'Elige tus alérgenos',
     'setup.s2.desc': 'Marca los pólenes y esporas que te hacen reaccionar.',
     'setup.s3.title': 'Define tu ubicación',
     'setup.s3.desc': 'Busca cualquier ciudad o usa una estación PIA cercana.',
     'more.title': 'Y algunas cosas más',
     'more.alerts.title': 'Alertas que miran hacia delante',
-    'more.alerts.desc': 'Una notificación por la mañana para cada uno de los próximos cinco días en que tus alérgenos superen el nivel que eliges — recalculadas en segundo plano aunque no abras la app.',
+    'more.alerts.desc': 'Una notificación por la mañana para cada uno de los próximos cinco días en que tus alérgenos superen el nivel que eliges, recalculadas en segundo plano aunque no abras la app.',
     'more.preview.title': 'Míralo antes de añadirlo',
-    'more.preview.desc': 'Busca una ciudad y consulta su previsión antes de añadirla — práctico para un sitio al que estás a punto de viajar.',
+    'more.preview.desc': 'Busca una ciudad y consulta su previsión antes de añadirla, práctico para un sitio al que estás a punto de viajar.',
     'more.why.title': 'Por qué los niveles son altos',
-    'more.why.desc': 'Ves el motivo del nivel de hoy — lluvia en camino, condiciones secas y ventosas, o un pico de temporada.',
+    'more.why.desc': 'Ves el motivo del nivel de hoy: lluvia en camino, condiciones secas y ventosas, o un pico de temporada.',
     'more.conditions.title': 'Tiempo y calidad del aire de la UE',
     'more.conditions.desc': 'Temperatura, viento, precipitación y una barra AQI de 6 bandas, junto a la previsión.',
     'more.share.title': 'Comparte la previsión',
@@ -292,7 +304,10 @@ const TRANSLATIONS = {
     'download.desc': 'Gratis para iPhone, iPad y Android.',
 
     // ── privacy.html ─────────────────────────────────────────────
-    'page.title.privacy': 'Política de privacidad — canIbreathe',
+    'page.title.privacy': 'Política de privacidad, canIbreathe',
+    'page.title.changelog': 'Historial de versiones, canIbreathe',
+    'changelog.heading': 'Historial de versiones',
+    'changelog.intro': 'Todo lo que hemos añadido a canIbreathe, versión a versión.',
     'policy.title': 'Política de privacidad',
     'policy.date':  'Fecha de entrada en vigor: 1 de abril de 2025 &nbsp;·&nbsp; Última actualización: 14 de agosto de 2026',
     'policy.highlight': '<strong>Resumen breve:</strong> canIbreathe no recopila, almacena ni comparte ningún dato personal en nuestros servidores. Tu perfil de localización y alergias se guarda únicamente en tu dispositivo.',
@@ -302,20 +317,20 @@ const TRANSLATIONS = {
     's2.body': `
       <p>canIbreathe guarda la siguiente información <strong>únicamente en tu dispositivo</strong>, usando el almacenamiento privado del dispositivo. Estos datos nunca abandonan el dispositivo ni se transmiten a nuestros servidores:</p>
       <ul>
-        <li><strong>Localización</strong> — la ciudad o estación de seguimiento de polen que eliges manualmente dentro de la app. La app no accede al GPS ni a la ubicación precisa del dispositivo.</li>
-        <li><strong>Preferencias de alérgenos</strong> — la lista de tipos de polen y alérgenos que seleccionas.</li>
-        <li><strong>Diario de alergias</strong> — los síntomas, la gravedad y las notas que escribes, y si has tomado medicación (solo categorías, nunca nombres ni dosis), junto con los niveles de polen de ese día. Se guarda en un almacén propio dentro del dispositivo y no se envía a ningún sitio. Puedes exportar un informe PDF cuando quieras y elegir tú a dónde va.</li>
-        <li><strong>Configuración de notificaciones</strong> — si las alertas diarias están activadas, la hora de alerta y el umbral de alerta.</li>
-        <li><strong>Datos del widget</strong> — una instantánea de la previsión de hoy (texto y colores ya resueltos) guardada en el almacenamiento compartido del dispositivo para que el widget pueda mostrarla sin abrir la app.</li>
-        <li><strong>Preferencia de idioma</strong> — el idioma de visualización que eliges en Configuración.</li>
-        <li><strong>Preferencia de tema</strong> — el tema de visualización (claro, oscuro o del sistema) que eliges en Configuración.</li>
+        <li><strong>Localización</strong>: la ciudad o estación de seguimiento de polen que eliges manualmente dentro de la app. La app no accede al GPS ni a la ubicación precisa del dispositivo.</li>
+        <li><strong>Preferencias de alérgenos</strong>: la lista de tipos de polen y alérgenos que seleccionas.</li>
+        <li><strong>Diario de alergias</strong>: los síntomas, la gravedad y las notas que escribes, y si has tomado medicación (solo categorías, nunca nombres ni dosis), junto con los niveles de polen de ese día. Se guarda en un almacén propio dentro del dispositivo y no se envía a ningún sitio. Puedes exportar un informe PDF cuando quieras y elegir tú a dónde va.</li>
+        <li><strong>Configuración de notificaciones</strong>: si las alertas diarias están activadas, la hora de alerta y el umbral de alerta.</li>
+        <li><strong>Datos del widget</strong>: una instantánea de la previsión de hoy (texto y colores ya resueltos) guardada en el almacenamiento compartido del dispositivo para que el widget pueda mostrarla sin abrir la app.</li>
+        <li><strong>Preferencia de idioma</strong>: el idioma de visualización que eliges en Configuración.</li>
+        <li><strong>Preferencia de tema</strong>: el tema de visualización (claro, oscuro o del sistema) que eliges en Configuración.</li>
       </ul>
       <p>Puedes restablecer todos estos datos en cualquier momento desde <em>Configuración → Restablecer incorporación</em>.</p>`,
     's3.h': '3. Servicios de terceros',
     's3.intro': 'Para ofrecer previsiones de polen, la app se comunica con los siguientes servicios externos. Cada solicitud se realiza directamente desde tu dispositivo.',
     's3.openmeteo': `<strong>Open-Meteo</strong> (<a href="https://open-meteo.com" target="_blank" rel="noopener">open-meteo.com</a>)<br>
       Se utiliza para obtener previsiones de polen en Europa, y calidad del aire y meteorología en todo el mundo. También gestiona la búsqueda de ciudades: el texto que escribes en el campo de búsqueda se envía a la API de geocodificación de Open-Meteo. Las coordenadas seleccionadas (latitud y longitud) se envían como parte de la solicitud a la API. Open-Meteo no requiere cuenta y no realiza seguimiento de usuarios individuales. Consulta sus <a href="https://open-meteo.com/en/terms" target="_blank" rel="noopener">términos</a>.`,
-    's3.pia': `<strong>PIA — Programa de Información Aerobiológica</strong> (<a href="https://aerobiologia.cat" target="_blank" rel="noopener">aerobiologia.cat</a>)<br>
+    's3.pia': `<strong>PIA, Programa de Información Aerobiológica</strong> (<a href="https://aerobiologia.cat" target="_blank" rel="noopener">aerobiologia.cat</a>)<br>
       Se utiliza para obtener datos detallados de estación de polen para Cataluña y las Islas Baleares. Datos proporcionados bajo <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" rel="noopener">CC BY-NC-SA 4.0</a>.`,
     's3.google': `<strong>API de Polen de Google</strong> (<a href="https://developers.google.com/maps/documentation/pollen" target="_blank" rel="noopener">developers.google.com</a>)<br>
       Se utiliza para obtener previsiones de polen fuera de Europa, donde Open-Meteo no tiene, y para completar alérgenos concretos que la fuente principal de una ubicación no cubre. Solo se envían las coordenadas seleccionadas (latitud y longitud) como parte de la solicitud; ningún identificador ni dato personal. Consulta la <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">política de privacidad de Google</a>.`,
@@ -324,7 +339,7 @@ const TRANSLATIONS = {
     's3.posthog': `<strong>PostHog</strong> (<a href="https://posthog.com" target="_blank" rel="noopener">posthog.com</a>)<br>
       Se utiliza para analítica de uso anónima (p. ej. qué funciones se usan, qué idiomas se seleccionan). Los eventos se capturan automáticamente y no incluyen ningún dato de identificación personal. Los datos se alojan en los servidores europeos de PostHog. Consulta la <a href="https://posthog.com/privacy" target="_blank" rel="noopener">política de privacidad de PostHog</a>.`,
     's4.h': '4. Notificaciones',
-    's4.body': 'Si activas las alertas diarias, la app programa notificaciones locales en tu dispositivo a la hora que eliges: una para cada uno de los próximos días cuya previsión supere tu umbral. Para que no queden desfasadas, la app también las recalcula en segundo plano aproximadamente cada 12 horas, junto con la instantánea del widget. Todo se genera localmente — no se utiliza ningún servidor de notificaciones ni servicio de mensajería push. Puedes desactivar las notificaciones en cualquier momento desde la Configuración de la app o desde la configuración del sistema del dispositivo.',
+    's4.body': 'Si activas las alertas diarias, la app programa notificaciones locales en tu dispositivo a la hora que eliges: una para cada uno de los próximos días cuya previsión supere tu umbral. Para que no queden desfasadas, la app también las recalcula en segundo plano aproximadamente cada 12 horas, junto con la instantánea del widget. Todo se genera localmente, no se utiliza ningún servidor de notificaciones ni servicio de mensajería push. Puedes desactivar las notificaciones en cualquier momento desde la Configuración de la app o desde la configuración del sistema del dispositivo.',
     's5.h': '5. Privacidad de los menores',
     's5.body': 'canIbreathe no está dirigida a menores de 13 años. No recopilamos conscientemente ningún dato de menores.',
     's6.h': '6. Cambios en esta política',
@@ -345,53 +360,55 @@ const TRANSLATIONS = {
     // ── Shared ─────────────────────────────────────────────────────
     'nav.home':    'Accueil',
     'nav.privacy': 'Politique de confidentialité',
+    'nav.changelog': 'Historique des versions',
     'lang-switcher.label': 'Changer de langue',
     'meta.description.index': 'Prévisions quotidiennes de pollen et allergènes, partout dans le monde, adaptées à ce qui vous affecte, avec un journal d\'allergies qui révèle vos déclencheurs. Disponible sur iOS et Android.',
     'meta.description.privacy': 'Politique de confidentialité de l\'app canIbreathe de prévision de pollen et allergènes.',
+    'meta.description.changelog': 'Historique des versions de l\'application canIbreathe : le contenu de chaque mise à jour.',
     'footer.privacy': 'Politique de confidentialité',
     'footer.contact': 'Contact',
     'footer.copy': '&copy; 2026 Arnau Tresserras',
 
     // ── index.html ──────────────────────────────────────────────────
-    'page.title.index': 'canIbreathe — Prévisions Pollen & Allergènes',
+    'page.title.index': 'canIbreathe, Prévisions Pollen & Allergènes',
     'hero.h1': 'Connaissez le pollen avant de sortir.',
-    'hero.lead': 'Prévisions quotidiennes de pollen et allergènes adaptées aux plantes qui vous affectent — pour planifier votre journée en toute confiance.',
+    'hero.lead': 'Prévisions quotidiennes de pollen et allergènes adaptées aux plantes qui vous affectent, pour planifier votre journée en toute confiance.',
     'store.apple.pre': 'Télécharger sur l\'',
     'store.apple.name': 'App Store',
     'store.google.pre': 'Télécharger sur',
     'store.google.name': 'Google Play',
     'f1.title': 'Seulement les allergènes qui vous affectent',
-    'f1.desc':  'Choisissez parmi 29 pollens et spores ceux qui vous font vraiment réagir. canIbreathe n\'affiche que ceux-là — pas une liste interminable d\'espèces qui ne vous concernent pas.',
+    'f1.desc':  'Choisissez parmi 29 pollens et spores ceux qui vous font vraiment réagir. canIbreathe n\'affiche que ceux-là, pas une liste interminable d\'espèces qui ne vous concernent pas.',
     'fplan.title': 'Sachez quand sortir',
-    'fplan.desc':  'L\'onglet Plan trouve l\'air le plus pur de votre journée grâce à un graphique heure par heure, et affiche à côté la saison typique de chaque allergène — pour que rien ne vous surprenne.',
+    'fplan.desc':  'L\'onglet Plan trouve l\'air le plus pur de votre journée grâce à un graphique heure par heure, et affiche à côté la saison typique de chaque allergène, pour que rien ne vous surprenne.',
     'f2.title': 'Tenez un journal d\'allergies',
-    'f2.desc':  'Notez comment vous vous sentez chaque jour — quels symptômes, à quel point, et si vous avez pris quelque chose. Chaque journée est enregistrée avec les niveaux de pollen du jour, entièrement sur votre téléphone.',
+    'f2.desc':  'Notez comment vous vous sentez chaque jour : quels symptômes, à quel point, et si vous avez pris quelque chose. Chaque journée est enregistrée avec les niveaux de pollen du jour, entièrement sur votre téléphone.',
     'f3.title': 'Découvrez ce qui vous déclenche',
     'f3.desc':  'Le journal croise vos symptômes avec les niveaux de pollen, classe les allergènes qui les suivent de plus près et peut vous signaler un déclencheur que vous ne suivez pas encore. Exportez le tout en PDF pour votre médecin.',
     'f4.title': 'Des prévisions locales, partout dans le monde',
-    'f4.desc':  'Relevés de stations réelles pour la Catalogne et les Îles Baléares — avec la distance jusqu\'à la station — Open-Meteo dans toute l\'Europe, et l\'API Pollen de Google pour le reste du monde. Suivez chaque lieu où vous passez du temps.',
+    'f4.desc':  'Relevés de stations réelles pour la Catalogne et les Îles Baléares (avec la distance jusqu\'à la station), Open-Meteo dans toute l\'Europe, et l\'API Pollen de Google pour le reste du monde. Suivez chaque lieu où vous passez du temps.',
     'fwidget.title': 'La réponse sur votre écran d\'accueil',
-    'fwidget.desc':  'Ajoutez le widget dans l\'une de ses deux tailles : le verdict du jour, vos allergènes les plus élevés et la tendance s\'affichent directement sur votre écran d\'accueil — actualisé en arrière-plan, sans ouvrir l\'app. Sur iPhone et Android.',
+    'fwidget.desc':  'Ajoutez le widget dans l\'une de ses deux tailles : le verdict du jour, vos allergènes les plus élevés et la tendance s\'affichent directement sur votre écran d\'accueil, actualisé en arrière-plan, sans ouvrir l\'app. Sur iPhone et Android.',
     'trust.eyebrow': 'Confidentialité par conception',
-    'trust.lead': 'canIbreathe fonctionne sans compte et garde votre profil d\'allergies sur votre appareil — jamais sur nos serveurs.',
+    'trust.lead': 'canIbreathe fonctionne sans compte et garde votre profil d\'allergies sur votre appareil, jamais sur nos serveurs.',
     'trust.p1': 'Aucun compte requis',
     'trust.p2': 'N\'accède jamais à votre GPS',
     'trust.p3': 'Vos données restent sur votre appareil',
     'trust.p4': 'Votre journal ne quitte pas votre téléphone',
     'setup.title': 'Configurez l\'app en moins d\'une minute',
     'setup.s1.title': 'Choisissez votre langue',
-    'setup.s1.desc': 'Sept au choix — ou suivez celle de l\'appareil.',
+    'setup.s1.desc': 'Sept au choix, ou suivez celle de l\'appareil.',
     'setup.s2.title': 'Choisissez vos allergènes',
     'setup.s2.desc': 'Cochez les pollens et spores qui vous font réagir.',
     'setup.s3.title': 'Définissez votre lieu',
     'setup.s3.desc': 'Cherchez n\'importe quelle ville ou utilisez une station PIA proche.',
     'more.title': 'Et quelques autres choses',
     'more.alerts.title': 'Des alertes qui anticipent',
-    'more.alerts.desc': 'Une notification le matin pour chacun des cinq prochains jours où vos allergènes dépassent le niveau choisi — recalculées en arrière-plan même si vous n\'ouvrez jamais l\'app.',
+    'more.alerts.desc': 'Une notification le matin pour chacun des cinq prochains jours où vos allergènes dépassent le niveau choisi, recalculées en arrière-plan même si vous n\'ouvrez jamais l\'app.',
     'more.preview.title': 'Un aperçu avant d\'ajouter',
-    'more.preview.desc': 'Cherchez une ville et consultez sa prévision avant de l\'ajouter — pratique pour un lieu où vous partez bientôt.',
+    'more.preview.desc': 'Cherchez une ville et consultez sa prévision avant de l\'ajouter, pratique pour un lieu où vous partez bientôt.',
     'more.why.title': 'Pourquoi les niveaux sont élevés',
-    'more.why.desc': 'Voyez la raison du niveau du jour — pluie à venir, conditions sèches et venteuses, ou pic saisonnier.',
+    'more.why.desc': 'Voyez la raison du niveau du jour : pluie à venir, conditions sèches et venteuses, ou pic saisonnier.',
     'more.conditions.title': 'Météo et qualité de l\'air de l\'UE',
     'more.conditions.desc': 'Température, vent, précipitations et une barre AQI à 6 niveaux, juste à côté de la prévision.',
     'more.share.title': 'Partager la prévision',
@@ -406,7 +423,10 @@ const TRANSLATIONS = {
     'download.desc': 'Gratuit sur iPhone, iPad et Android.',
 
     // ── privacy.html ────────────────────────────────────────────────
-    'page.title.privacy': 'Politique de confidentialité — canIbreathe',
+    'page.title.privacy': 'Politique de confidentialité, canIbreathe',
+    'page.title.changelog': 'Historique des versions, canIbreathe',
+    'changelog.heading': 'Historique des versions',
+    'changelog.intro': 'Tout ce que nous avons ajouté à canIbreathe, version après version.',
     'policy.title': 'Politique de confidentialité',
     'policy.date':  'Date d\'entrée en vigueur : 1 avril 2025 &nbsp;·&nbsp; Dernière mise à jour : 14 août 2026',
     'policy.highlight': '<strong>En bref :</strong> canIbreathe ne collecte, ne stocke ni ne partage aucune information personnelle sur nos serveurs. Votre profil de localisation et d\'allergies est stocké uniquement sur votre appareil.',
@@ -416,29 +436,29 @@ const TRANSLATIONS = {
     's2.body': `
     <p>canIbreathe stocke les informations suivantes <strong>uniquement sur votre appareil</strong>, en utilisant le stockage privé de l'appareil. Ces données ne quittent jamais votre appareil et ne sont jamais transmises à nos serveurs :</p>
     <ul>
-      <li><strong>Localisation</strong> — la ville ou la station de surveillance du pollen que vous choisissez manuellement dans l'app. L'app n'accède pas au GPS ni à votre localisation précise.</li>
-      <li><strong>Préférences d'allergènes</strong> — la liste des types de pollen et allergènes que vous sélectionnez.</li>
-      <li><strong>Journal d'allergies</strong> — les symptômes, leur gravité et les notes que vous saisissez, et si vous avez pris un médicament (catégories uniquement, jamais de noms ni de doses), avec les niveaux de pollen de ce jour-là. Il est conservé dans son propre espace sur l'appareil et n'est envoyé nulle part. Vous pouvez en exporter un rapport PDF vous-même et choisir sa destination.</li>
-      <li><strong>Paramètres de notification</strong> — si les alertes quotidiennes sont activées, l'heure et le seuil d'alerte.</li>
-      <li><strong>Données du widget</strong> — un instantané de la prévision du jour (textes et couleurs déjà résolus) écrit dans le stockage partagé de l'appareil pour que le widget puisse l'afficher sans ouvrir l'app.</li>
-      <li><strong>Préférence de thème</strong> — le thème d'affichage (clair, sombre ou système) que vous choisissez dans Paramètres.</li>
-      <li><strong>Préférence de langue</strong> — la langue d'affichage que vous choisissez dans Paramètres.</li>
+      <li><strong>Localisation</strong> : la ville ou la station de surveillance du pollen que vous choisissez manuellement dans l'app. L'app n'accède pas au GPS ni à votre localisation précise.</li>
+      <li><strong>Préférences d'allergènes</strong> : la liste des types de pollen et allergènes que vous sélectionnez.</li>
+      <li><strong>Journal d'allergies</strong> : les symptômes, leur gravité et les notes que vous saisissez, et si vous avez pris un médicament (catégories uniquement, jamais de noms ni de doses), avec les niveaux de pollen de ce jour-là. Il est conservé dans son propre espace sur l'appareil et n'est envoyé nulle part. Vous pouvez en exporter un rapport PDF vous-même et choisir sa destination.</li>
+      <li><strong>Paramètres de notification</strong> : si les alertes quotidiennes sont activées, l'heure et le seuil d'alerte.</li>
+      <li><strong>Données du widget</strong> : un instantané de la prévision du jour (textes et couleurs déjà résolus) écrit dans le stockage partagé de l'appareil pour que le widget puisse l'afficher sans ouvrir l'app.</li>
+      <li><strong>Préférence de thème</strong> : le thème d'affichage (clair, sombre ou système) que vous choisissez dans Paramètres.</li>
+      <li><strong>Préférence de langue</strong> : la langue d'affichage que vous choisissez dans Paramètres.</li>
     </ul>
     <p>Vous pouvez réinitialiser toutes ces données à tout moment via <em>Paramètres → Réinitialiser l'intégration</em>.</p>`,
     's3.h':    '3. Services tiers',
     's3.intro': 'Pour fournir des prévisions de pollen, l\'app communique avec les services externes suivants. Chaque requête est effectuée directement depuis votre appareil.',
     's3.openmeteo': `<strong>Open-Meteo</strong> (<a href="https://open-meteo.com" target="_blank" rel="noopener">open-meteo.com</a>)<br>
     Utilisé pour obtenir les prévisions de pollen en Europe, ainsi que la qualité de l'air et la météo dans le monde entier. Il gère aussi la recherche de villes : le texte saisi dans le champ de recherche est envoyé à l'API de géocodage d'Open-Meteo. Vos coordonnées sélectionnées (latitude et longitude) sont envoyées dans la requête API. Open-Meteo ne nécessite pas de compte et ne suit pas les utilisateurs individuels. Voir leurs <a href="https://open-meteo.com/en/terms" target="_blank" rel="noopener">conditions</a>.`,
-    's3.pia': `<strong>PIA — Programme d'Information Aérobiologique</strong> (<a href="https://aerobiologia.cat" target="_blank" rel="noopener">aerobiologia.cat</a>)<br>
+    's3.pia': `<strong>PIA, Programme d'Information Aérobiologique</strong> (<a href="https://aerobiologia.cat" target="_blank" rel="noopener">aerobiologia.cat</a>)<br>
     Utilisé pour obtenir des données détaillées de stations de pollen pour la Catalogne et les Îles Baléares. Données sous licence <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" rel="noopener">CC BY-NC-SA 4.0</a>.`,
     's3.google': `<strong>API Pollen de Google</strong> (<a href="https://developers.google.com/maps/documentation/pollen" target="_blank" rel="noopener">developers.google.com</a>)<br>
-    Utilisé pour obtenir les prévisions de pollen hors d'Europe, où Open-Meteo n'en a pas, et pour compléter les allergènes que la source principale d'un lieu ne couvre pas. Seules vos coordonnées sélectionnées (latitude et longitude) sont envoyées dans la requête — aucun identifiant, aucune donnée personnelle. Voir la <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">politique de confidentialité de Google</a>.`,
+    Utilisé pour obtenir les prévisions de pollen hors d'Europe, où Open-Meteo n'en a pas, et pour compléter les allergènes que la source principale d'un lieu ne couvre pas. Seules vos coordonnées sélectionnées (latitude et longitude) sont envoyées dans la requête, aucun identifiant, aucune donnée personnelle. Voir la <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">politique de confidentialité de Google</a>.`,
     's3.sentry': `<strong>Sentry</strong> (<a href="https://sentry.io" target="_blank" rel="noopener">sentry.io</a>)<br>
     Utilisé pour le rapport de plantages dans les versions de production. En cas de plantage, un rapport d'erreur anonymisé est envoyé automatiquement. Les rapports peuvent inclure le modèle de l'appareil, la version du système d'exploitation et une trace de la pile. Aucun nom, adresse e-mail ni détail de compte n'est inclus. Voir la <a href="https://sentry.io/privacy/" target="_blank" rel="noopener">politique de confidentialité de Sentry</a>.`,
     's3.posthog': `<strong>PostHog</strong> (<a href="https://posthog.com" target="_blank" rel="noopener">posthog.com</a>)<br>
     Utilisé pour des analyses d'utilisation anonymes (ex. quelles fonctionnalités sont utilisées, quelles langues sont sélectionnées). Les événements sont capturés automatiquement et n'incluent aucune information d'identification personnelle. Les données sont hébergées sur les serveurs européens de PostHog. Voir la <a href="https://posthog.com/privacy" target="_blank" rel="noopener">politique de confidentialité de PostHog</a>.`,
     's4.h':    '4. Notifications',
-    's4.body': 'Si vous activez les alertes quotidiennes, l\'app programme des notifications locales sur votre appareil à l\'heure choisie : une pour chacun des jours à venir dont la prévision dépasse votre seuil. Pour qu\'elles ne deviennent pas obsolètes, l\'app les recalcule aussi en arrière-plan environ toutes les 12 heures, en même temps que l\'instantané du widget. Tout est généré localement — aucun serveur de notifications ni service push n\'est utilisé. Vous pouvez désactiver les notifications à tout moment dans les Paramètres de l\'app ou dans les paramètres système de votre appareil.',
+    's4.body': 'Si vous activez les alertes quotidiennes, l\'app programme des notifications locales sur votre appareil à l\'heure choisie : une pour chacun des jours à venir dont la prévision dépasse votre seuil. Pour qu\'elles ne deviennent pas obsolètes, l\'app les recalcule aussi en arrière-plan environ toutes les 12 heures, en même temps que l\'instantané du widget. Tout est généré localement, aucun serveur de notifications ni service push n\'est utilisé. Vous pouvez désactiver les notifications à tout moment dans les Paramètres de l\'app ou dans les paramètres système de votre appareil.',
     's5.h':    '5. Vie privée des enfants',
     's5.body': 'canIbreathe n\'est pas destinée aux enfants de moins de 13 ans. Nous ne collectons sciemment aucune information auprès d\'enfants.',
     's6.h':    '6. Modifications de cette politique',
@@ -459,53 +479,55 @@ const TRANSLATIONS = {
     // ── Shared ─────────────────────────────────────────────────────
     'nav.home':    'Início',
     'nav.privacy': 'Política de privacidade',
+    'nav.changelog': 'Histórico de versões',
     'lang-switcher.label': 'Mudar idioma',
     'meta.description.index': 'Previsões diárias de pólen e alergénios, em todo o mundo, adaptadas ao que te afeta, com um diário de alergias que revela o que te faz reagir. Disponível para iOS e Android.',
     'meta.description.privacy': 'Política de privacidade da app canIbreathe de previsão de pólen e alergénios.',
+    'meta.description.changelog': 'Histórico de versões da app canIbreathe: o que trouxe cada atualização.',
     'footer.privacy': 'Política de privacidade',
     'footer.contact': 'Contacto',
     'footer.copy': '&copy; 2026 Arnau Tresserras',
 
     // ── index.html ──────────────────────────────────────────────────
-    'page.title.index': 'canIbreathe — Previsão de Pólen e Alergénios',
+    'page.title.index': 'canIbreathe, Previsão de Pólen e Alergénios',
     'hero.h1': 'Conhece o pólen antes de sair de casa.',
-    'hero.lead': 'Previsões diárias de pólen e alergénios adaptadas às plantas que te afetam — para planeares o teu dia com confiança.',
+    'hero.lead': 'Previsões diárias de pólen e alergénios adaptadas às plantas que te afetam, para planeares o teu dia com confiança.',
     'store.apple.pre': 'Descarregar na',
     'store.apple.name': 'App Store',
     'store.google.pre': 'Descarregar no',
     'store.google.name': 'Google Play',
     'f1.title': 'Apenas os alergénios que te afetam',
-    'f1.desc':  'Escolhe entre 29 pólenes e esporos os que realmente te fazem reagir. A canIbreathe mostra só esses — não uma lista interminável de espécies que não te interessam.',
+    'f1.desc':  'Escolhe entre 29 pólenes e esporos os que realmente te fazem reagir. A canIbreathe mostra só esses, não uma lista interminável de espécies que não te interessam.',
     'fplan.title': 'Fica a saber a melhor hora para sair',
-    'fplan.desc':  'O separador Planear encontra o ar mais limpo do teu dia com um gráfico hora a hora e mostra ao lado a época típica de cada alergénio — para que nada te apanhe de surpresa.',
+    'fplan.desc':  'O separador Planear encontra o ar mais limpo do teu dia com um gráfico hora a hora e mostra ao lado a época típica de cada alergénio, para que nada te apanhe de surpresa.',
     'f2.title': 'Mantém um diário de alergias',
-    'f2.desc':  'Registra como te sentes cada dia — que sintomas, com que intensidade e se tomaste algo. Cada dia fica guardado com os níveis de pólen desse dia, tudo dentro do teu telefone.',
+    'f2.desc':  'Registra como te sentes cada dia: que sintomas, com que intensidade e se tomaste algo. Cada dia fica guardado com os níveis de pólen desse dia, tudo dentro do teu telefone.',
     'f3.title': 'Descobre o que te faz reagir',
     'f3.desc':  'O diário cruza os teus sintomas com os níveis de pólen, ordena que alergénios os acompanham mais de perto e pode apontar um gatilho que ainda não segues. E exportas tudo em PDF para o teu médico.',
     'f4.title': 'Previsões locais, em qualquer parte do mundo',
-    'f4.desc':  'Leituras reais de estações para a Catalunha e as Ilhas Baleares — com a distância à estação — Open-Meteo em toda a Europa e a API de Pólen da Google no resto do mundo. Segue cada lugar onde passas tempo.',
+    'f4.desc':  'Leituras reais de estações para a Catalunha e as Ilhas Baleares (com a distância à estação), Open-Meteo em toda a Europa e a API de Pólen da Google no resto do mundo. Segue cada lugar onde passas tempo.',
     'fwidget.title': 'A resposta no teu ecrã principal',
-    'fwidget.desc':  'Adiciona o widget num dos dois tamanhos e tens o veredicto de hoje, os teus alergénios mais altos e se os níveis estão a subir no próprio ecrã principal — atualizado em segundo plano, sem abrir a app. Em iPhone e Android.',
+    'fwidget.desc':  'Adiciona o widget num dos dois tamanhos e tens o veredicto de hoje, os teus alergénios mais altos e se os níveis estão a subir no próprio ecrã principal, atualizado em segundo plano, sem abrir a app. Em iPhone e Android.',
     'trust.eyebrow': 'Privacidade desde a base',
-    'trust.lead': 'A canIbreathe funciona sem conta e mantém o teu perfil de alergias no teu dispositivo — nunca nos nossos servidores.',
+    'trust.lead': 'A canIbreathe funciona sem conta e mantém o teu perfil de alergias no teu dispositivo, nunca nos nossos servidores.',
     'trust.p1': 'Sem conta',
     'trust.p2': 'Nunca acede ao teu GPS',
     'trust.p3': 'Os teus dados ficam no dispositivo',
     'trust.p4': 'O teu diário não sai do telefone',
     'setup.title': 'Configura em menos de um minuto',
     'setup.s1.title': 'Escolhe o idioma',
-    'setup.s1.desc': 'Sete à escolha — ou segue o do dispositivo.',
+    'setup.s1.desc': 'Sete à escolha, ou segue o do dispositivo.',
     'setup.s2.title': 'Escolhe os teus alergénios',
     'setup.s2.desc': 'Assinala os pólenes e esporos que te fazem reagir.',
     'setup.s3.title': 'Define a localização',
     'setup.s3.desc': 'Pesquisa qualquer cidade ou usa uma estação PIA próxima.',
     'more.title': 'E mais algumas coisas',
     'more.alerts.title': 'Alertas que olham em frente',
-    'more.alerts.desc': 'Uma notificação de manhã para cada um dos próximos cinco dias em que os teus alergénios ultrapassam o nível que escolhes — recalculadas em segundo plano mesmo que nunca abras a app.',
+    'more.alerts.desc': 'Uma notificação de manhã para cada um dos próximos cinco dias em que os teus alergénios ultrapassam o nível que escolhes, recalculadas em segundo plano mesmo que nunca abras a app.',
     'more.preview.title': 'Vê antes de adicionar',
-    'more.preview.desc': 'Pesquisa uma cidade e vê a previsão antes de a adicionares — útil para um lugar para onde estás a viajar.',
+    'more.preview.desc': 'Pesquisa uma cidade e vê a previsão antes de a adicionares, útil para um lugar para onde estás a viajar.',
     'more.why.title': 'Porque os níveis estão altos',
-    'more.why.desc': 'Vês o motivo do nível de hoje — chuva a caminho, condições secas e ventosas, ou um pico de época.',
+    'more.why.desc': 'Vês o motivo do nível de hoje: chuva a caminho, condições secas e ventosas, ou um pico de época.',
     'more.conditions.title': 'Tempo e qualidade do ar da UE',
     'more.conditions.desc': 'Temperatura, vento, precipitação e uma barra AQI de 6 bandas, mesmo ao lado da previsão.',
     'more.share.title': 'Partilha a previsão',
@@ -520,7 +542,10 @@ const TRANSLATIONS = {
     'download.desc': 'Grátis para iPhone, iPad e Android.',
 
     // ── privacy.html ────────────────────────────────────────────────
-    'page.title.privacy': 'Política de Privacidade — canIbreathe',
+    'page.title.privacy': 'Política de Privacidade, canIbreathe',
+    'page.title.changelog': 'Histórico de Versões, canIbreathe',
+    'changelog.heading': 'Histórico de versões',
+    'changelog.intro': 'Tudo o que fomos adicionando ao canIbreathe, versão a versão.',
     'policy.title': 'Política de Privacidade',
     'policy.date':  'Data de entrada em vigor: 1 de abril de 2025 &nbsp;·&nbsp; Última atualização: 14 de agosto de 2026',
     'policy.highlight': '<strong>Resumo:</strong> canIbreathe não recolhe, armazena nem partilha informações pessoais nos nossos servidores. O teu perfil de localização e alergias é guardado apenas no teu dispositivo.',
@@ -530,29 +555,29 @@ const TRANSLATIONS = {
     's2.body': `
     <p>canIbreathe guarda as seguintes informações <strong>apenas no teu dispositivo</strong>, utilizando o armazenamento privado do dispositivo. Estes dados nunca saem do dispositivo nem são transmitidos aos nossos servidores:</p>
     <ul>
-      <li><strong>Localização</strong> — a cidade ou estação de monitorização de pólen que escolhes manualmente na app. A app não acede ao GPS nem à localização precisa do dispositivo.</li>
-      <li><strong>Preferências de alergénios</strong> — a lista de tipos de pólen e alergénios que selecionas.</li>
-      <li><strong>Diário de alergias</strong> — os sintomas, a gravidade e as notas que escreves, e se tomaste medicação (apenas categorias, nunca nomes nem doses), com os níveis de pólen desse dia. Fica guardado num armazenamento próprio no dispositivo e não é enviado para nenhum lado. Podes exportar um relatório PDF quando quiseres e escolher para onde vai.</li>
-      <li><strong>Configurações de notificações</strong> — se os alertas diários estão ativados, a hora do alerta e o limiar do alerta.</li>
-      <li><strong>Dados do widget</strong> — uma captura da previsão de hoje (texto e cores já resolvidos) gravada no armazenamento partilhado do dispositivo para que o widget a possa mostrar sem abrir a app.</li>
-      <li><strong>Preferência de tema</strong> — o tema de visualização (claro, escuro ou sistema) que escolhes nas Definições.</li>
-      <li><strong>Preferência de idioma</strong> — o idioma de visualização que escolhes nas Definições.</li>
+      <li><strong>Localização</strong>: a cidade ou estação de monitorização de pólen que escolhes manualmente na app. A app não acede ao GPS nem à localização precisa do dispositivo.</li>
+      <li><strong>Preferências de alergénios</strong>: a lista de tipos de pólen e alergénios que selecionas.</li>
+      <li><strong>Diário de alergias</strong>: os sintomas, a gravidade e as notas que escreves, e se tomaste medicação (apenas categorias, nunca nomes nem doses), com os níveis de pólen desse dia. Fica guardado num armazenamento próprio no dispositivo e não é enviado para nenhum lado. Podes exportar um relatório PDF quando quiseres e escolher para onde vai.</li>
+      <li><strong>Configurações de notificações</strong>: se os alertas diários estão ativados, a hora do alerta e o limiar do alerta.</li>
+      <li><strong>Dados do widget</strong>: uma captura da previsão de hoje (texto e cores já resolvidos) gravada no armazenamento partilhado do dispositivo para que o widget a possa mostrar sem abrir a app.</li>
+      <li><strong>Preferência de tema</strong>: o tema de visualização (claro, escuro ou sistema) que escolhes nas Definições.</li>
+      <li><strong>Preferência de idioma</strong>: o idioma de visualização que escolhes nas Definições.</li>
     </ul>
     <p>Podes repor todos estes dados a qualquer momento em <em>Definições → Repor integração</em>.</p>`,
     's3.h':    '3. Serviços de terceiros',
     's3.intro': 'Para fornecer previsões de pólen, a app comunica com os seguintes serviços externos. Cada pedido é feito diretamente a partir do teu dispositivo.',
     's3.openmeteo': `<strong>Open-Meteo</strong> (<a href="https://open-meteo.com" target="_blank" rel="noopener">open-meteo.com</a>)<br>
     Utilizado para obter previsões de pólen na Europa, e qualidade do ar e meteorologia em todo o mundo. Também trata da pesquisa de cidades: o texto que escreves no campo de pesquisa é enviado para a API de geocodificação da Open-Meteo. As coordenadas selecionadas (latitude e longitude) são enviadas como parte do pedido à API. Open-Meteo não requer conta e não rastreia utilizadores individuais. Consulta os seus <a href="https://open-meteo.com/en/terms" target="_blank" rel="noopener">termos</a>.`,
-    's3.pia': `<strong>PIA — Programa de Informação Aerobiológica</strong> (<a href="https://aerobiologia.cat" target="_blank" rel="noopener">aerobiologia.cat</a>)<br>
+    's3.pia': `<strong>PIA, Programa de Informação Aerobiológica</strong> (<a href="https://aerobiologia.cat" target="_blank" rel="noopener">aerobiologia.cat</a>)<br>
     Utilizado para obter dados detalhados de estações de pólen para a Catalunha e as Ilhas Baleares. Dados sob licença <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" rel="noopener">CC BY-NC-SA 4.0</a>.`,
     's3.google': `<strong>API de Pólen da Google</strong> (<a href="https://developers.google.com/maps/documentation/pollen" target="_blank" rel="noopener">developers.google.com</a>)<br>
-    Utilizado para obter previsões de pólen fora da Europa, onde a Open-Meteo não tem, e para completar alergénios que a fonte principal de uma localização não cobre. Só as coordenadas selecionadas (latitude e longitude) são enviadas como parte do pedido — nenhum identificador nem dado pessoal. Consulta a <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">política de privacidade da Google</a>.`,
+    Utilizado para obter previsões de pólen fora da Europa, onde a Open-Meteo não tem, e para completar alergénios que a fonte principal de uma localização não cobre. Só as coordenadas selecionadas (latitude e longitude) são enviadas como parte do pedido, nenhum identificador nem dado pessoal. Consulta a <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">política de privacidade da Google</a>.`,
     's3.sentry': `<strong>Sentry</strong> (<a href="https://sentry.io" target="_blank" rel="noopener">sentry.io</a>)<br>
     Utilizado para relatórios de falhas em versões de produção. Se a app falhar, um relatório de erro anonimizado é enviado automaticamente. Os relatórios podem incluir o modelo do dispositivo, a versão do sistema operativo e um rastreamento de pilha. Não são incluídos nomes, endereços de e-mail ou detalhes de conta. Consulta a <a href="https://sentry.io/privacy/" target="_blank" rel="noopener">política de privacidade do Sentry</a>.`,
     's3.posthog': `<strong>PostHog</strong> (<a href="https://posthog.com" target="_blank" rel="noopener">posthog.com</a>)<br>
     Utilizado para análise anónima de utilização (ex. quais funcionalidades são usadas, quais idiomas são selecionados). Os eventos são capturados automaticamente e não incluem informações de identificação pessoal. Os dados são alojados nos servidores europeus do PostHog. Consulta a <a href="https://posthog.com/privacy" target="_blank" rel="noopener">política de privacidade do PostHog</a>.`,
     's4.h':    '4. Notificações',
-    's4.body': 'Se ativares os alertas diários, a app agenda notificações locais no teu dispositivo à hora que escolhes: uma para cada um dos próximos dias cuja previsão ultrapasse o teu limiar. Para não ficarem desatualizadas, a app também as recalcula em segundo plano aproximadamente a cada 12 horas, juntamente com a captura do widget. Tudo é gerado localmente — não é utilizado nenhum servidor de notificações nem serviço push. Podes desativar as notificações a qualquer momento nas Definições da app ou nas definições de sistema do dispositivo.',
+    's4.body': 'Se ativares os alertas diários, a app agenda notificações locais no teu dispositivo à hora que escolhes: uma para cada um dos próximos dias cuja previsão ultrapasse o teu limiar. Para não ficarem desatualizadas, a app também as recalcula em segundo plano aproximadamente a cada 12 horas, juntamente com a captura do widget. Tudo é gerado localmente, não é utilizado nenhum servidor de notificações nem serviço push. Podes desativar as notificações a qualquer momento nas Definições da app ou nas definições de sistema do dispositivo.',
     's5.h':    '5. Privacidade das crianças',
     's5.body': 'canIbreathe não se destina a crianças com menos de 13 anos. Não recolhemos conscientemente qualquer informação de crianças.',
     's6.h':    '6. Alterações a esta política',
@@ -573,53 +598,55 @@ const TRANSLATIONS = {
     // ── Shared ─────────────────────────────────────────────────────
     'nav.home':    'Home',
     'nav.privacy': 'Informativa sulla privacy',
+    'nav.changelog': 'Cronologia versioni',
     'lang-switcher.label': 'Cambia lingua',
     'meta.description.index': 'Previsioni quotidiane di pollini e allergeni, in tutto il mondo, adattate a ciò che ti colpisce, con un diario delle allergie che rivela cosa ti fa reagire. Disponibile su iOS e Android.',
     'meta.description.privacy': 'Informativa sulla privacy dell\'app canIbreathe per le previsioni di pollini e allergeni.',
+    'meta.description.changelog': 'Cronologia delle versioni dell\'app canIbreathe: cosa ha portato ogni aggiornamento.',
     'footer.privacy': 'Informativa sulla privacy',
     'footer.contact': 'Contatto',
     'footer.copy': '&copy; 2026 Arnau Tresserras',
 
     // ── index.html ──────────────────────────────────────────────────
-    'page.title.index': 'canIbreathe — Previsioni Pollini & Allergeni',
+    'page.title.index': 'canIbreathe, Previsioni Pollini & Allergeni',
     'hero.h1': 'Conosci il polline prima di uscire.',
-    'hero.lead': 'Previsioni quotidiane di pollini e allergeni adattate alle piante che ti colpiscono — per pianificare la tua giornata con fiducia.',
+    'hero.lead': 'Previsioni quotidiane di pollini e allergeni adattate alle piante che ti colpiscono, per pianificare la tua giornata con fiducia.',
     'store.apple.pre': 'Scarica su',
     'store.apple.name': 'App Store',
     'store.google.pre': 'Disponibile su',
     'store.google.name': 'Google Play',
     'f1.title': 'Solo gli allergeni che ti colpiscono',
-    'f1.desc':  'Scegli tra 29 pollini e spore quelli che ti fanno davvero reagire. canIbreathe mostra solo quelli — non un elenco infinito di specie che non ti riguardano.',
+    'f1.desc':  'Scegli tra 29 pollini e spore quelli che ti fanno davvero reagire. canIbreathe mostra solo quelli, non un elenco infinito di specie che non ti riguardano.',
     'fplan.title': 'Scopri il momento migliore per uscire',
-    'fplan.desc':  'La scheda Piano trova l\'aria più pulita della tua giornata con un grafico ora per ora e accanto mostra la stagione tipica di ogni allergene — così niente ti coglie di sorpresa.',
+    'fplan.desc':  'La scheda Piano trova l\'aria più pulita della tua giornata con un grafico ora per ora e accanto mostra la stagione tipica di ogni allergene, così niente ti coglie di sorpresa.',
     'f2.title': 'Tieni un diario delle allergie',
-    'f2.desc':  'Annota come stai ogni giorno — quali sintomi, quanto forti e se hai preso qualcosa. Ogni giornata viene salvata con i livelli di polline di quel giorno, tutto dentro il tuo telefono.',
+    'f2.desc':  'Annota come stai ogni giorno: quali sintomi, quanto forti e se hai preso qualcosa. Ogni giornata viene salvata con i livelli di polline di quel giorno, tutto dentro il tuo telefono.',
     'f3.title': 'Scopri cosa ti fa reagire',
     'f3.desc':  'Il diario incrocia i tuoi sintomi con i livelli di polline, ordina quali allergeni li seguono più da vicino e può segnalarti un fattore che non stai ancora monitorando. Ed esporti tutto in PDF per il tuo medico.',
     'f4.title': 'Previsioni locali, in qualsiasi parte del mondo',
-    'f4.desc':  'Rilevazioni reali da stazione per la Catalogna e le Isole Baleari — con la distanza dalla stazione — Open-Meteo in tutta Europa e l\'API Pollini di Google nel resto del mondo. Monitora ogni luogo in cui passi il tempo.',
+    'f4.desc':  'Rilevazioni reali da stazione per la Catalogna e le Isole Baleari (con la distanza dalla stazione), Open-Meteo in tutta Europa e l\'API Pollini di Google nel resto del mondo. Monitora ogni luogo in cui passi il tempo.',
     'fwidget.title': 'La risposta sulla schermata home',
-    'fwidget.desc':  'Aggiungi il widget in una delle due misure e il verdetto di oggi, i tuoi allergeni più alti e l\'andamento restano sulla schermata home — aggiornato in background, senza aprire l\'app. Su iPhone e Android.',
+    'fwidget.desc':  'Aggiungi il widget in una delle due misure e il verdetto di oggi, i tuoi allergeni più alti e l\'andamento restano sulla schermata home, aggiornato in background, senza aprire l\'app. Su iPhone e Android.',
     'trust.eyebrow': 'Privacy per progettazione',
-    'trust.lead': 'canIbreathe funziona senza account e conserva il tuo profilo allergie sul tuo dispositivo — mai sui nostri server.',
+    'trust.lead': 'canIbreathe funziona senza account e conserva il tuo profilo allergie sul tuo dispositivo, mai sui nostri server.',
     'trust.p1': 'Nessun account',
     'trust.p2': 'Non accede mai al tuo GPS',
     'trust.p3': 'I tuoi dati restano sul dispositivo',
     'trust.p4': 'Il tuo diario non esce dal telefono',
     'setup.title': 'Configurala in meno di un minuto',
     'setup.s1.title': 'Scegli la lingua',
-    'setup.s1.desc': 'Sette tra cui scegliere — o segui quella del dispositivo.',
+    'setup.s1.desc': 'Sette tra cui scegliere, o segui quella del dispositivo.',
     'setup.s2.title': 'Scegli i tuoi allergeni',
     'setup.s2.desc': 'Seleziona i pollini e le spore che ti fanno reagire.',
     'setup.s3.title': 'Imposta la posizione',
     'setup.s3.desc': 'Cerca qualsiasi città o usa una stazione PIA vicina.',
     'more.title': 'E qualche altra cosa',
     'more.alerts.title': 'Avvisi che guardano avanti',
-    'more.alerts.desc': 'Una notifica al mattino per ognuno dei prossimi cinque giorni in cui i tuoi allergeni superano il livello che scegli — ricalcolate in background anche se non apri mai l\'app.',
+    'more.alerts.desc': 'Una notifica al mattino per ognuno dei prossimi cinque giorni in cui i tuoi allergeni superano il livello che scegli, ricalcolate in background anche se non apri mai l\'app.',
     'more.preview.title': 'Guarda prima di aggiungere',
-    'more.preview.desc': 'Cerca una città e vedi la sua previsione prima di aggiungerla — utile per un posto dove stai per andare.',
+    'more.preview.desc': 'Cerca una città e vedi la sua previsione prima di aggiungerla, utile per un posto dove stai per andare.',
     'more.why.title': 'Perché i livelli sono alti',
-    'more.why.desc': 'Vedi il motivo del livello di oggi — pioggia in arrivo, condizioni secche e ventose, o un picco stagionale.',
+    'more.why.desc': 'Vedi il motivo del livello di oggi: pioggia in arrivo, condizioni secche e ventose, o un picco stagionale.',
     'more.conditions.title': 'Meteo e qualità dell\'aria UE',
     'more.conditions.desc': 'Temperatura, vento, precipitazioni e una barra AQI a 6 livelli, proprio accanto alla previsione.',
     'more.share.title': 'Condividi la previsione',
@@ -634,7 +661,10 @@ const TRANSLATIONS = {
     'download.desc': 'Gratis per iPhone, iPad e Android.',
 
     // ── privacy.html ────────────────────────────────────────────────
-    'page.title.privacy': 'Informativa sulla Privacy — canIbreathe',
+    'page.title.privacy': 'Informativa sulla Privacy, canIbreathe',
+    'page.title.changelog': 'Cronologia Versioni, canIbreathe',
+    'changelog.heading': 'Cronologia versioni',
+    'changelog.intro': 'Tutto ciò che abbiamo aggiunto a canIbreathe, versione dopo versione.',
     'policy.title': 'Informativa sulla Privacy',
     'policy.date':  'Data di entrata in vigore: 1 aprile 2025 &nbsp;·&nbsp; Ultimo aggiornamento: 14 agosto 2026',
     'policy.highlight': '<strong>In breve:</strong> canIbreathe non raccoglie, archivia né condivide informazioni personali sui nostri server. Il tuo profilo di posizione e allergie è memorizzato solo sul tuo dispositivo.',
@@ -644,29 +674,29 @@ const TRANSLATIONS = {
     's2.body': `
     <p>canIbreathe memorizza le seguenti informazioni <strong>solo sul tuo dispositivo</strong>, utilizzando lo spazio di archiviazione privato del dispositivo. Questi dati non lasciano mai il dispositivo e non vengono mai trasmessi ai nostri server:</p>
     <ul>
-      <li><strong>Posizione</strong> — la città o la stazione di monitoraggio del polline che scegli manualmente nell'app. L'app non accede al GPS né alla posizione precisa del dispositivo.</li>
-      <li><strong>Preferenze allergeni</strong> — l'elenco dei tipi di polline e allergeni che selezioni.</li>
-      <li><strong>Diario delle allergie</strong> — i sintomi, la gravità e le note che scrivi, e se hai preso farmaci (solo categorie, mai nomi né dosi), insieme ai livelli di polline di quel giorno. È conservato in un archivio dedicato sul dispositivo e non viene inviato da nessuna parte. Puoi esportarne un referto PDF quando vuoi e scegliere tu dove mandarlo.</li>
-      <li><strong>Impostazioni notifiche</strong> — se gli avvisi quotidiani sono attivi, l'orario e la soglia di avviso.</li>
-      <li><strong>Dati del widget</strong> — un'istantanea della previsione di oggi (testi e colori già risolti) scritta nell'archivio condiviso del dispositivo, così il widget può mostrarla senza aprire l'app.</li>
-      <li><strong>Preferenza tema</strong> — il tema di visualizzazione (chiaro, scuro o di sistema) che scegli nelle Impostazioni.</li>
-      <li><strong>Preferenza lingua</strong> — la lingua di visualizzazione che scegli nelle Impostazioni.</li>
+      <li><strong>Posizione</strong>: la città o la stazione di monitoraggio del polline che scegli manualmente nell'app. L'app non accede al GPS né alla posizione precisa del dispositivo.</li>
+      <li><strong>Preferenze allergeni</strong>: l'elenco dei tipi di polline e allergeni che selezioni.</li>
+      <li><strong>Diario delle allergie</strong>: i sintomi, la gravità e le note che scrivi, e se hai preso farmaci (solo categorie, mai nomi né dosi), insieme ai livelli di polline di quel giorno. È conservato in un archivio dedicato sul dispositivo e non viene inviato da nessuna parte. Puoi esportarne un referto PDF quando vuoi e scegliere tu dove mandarlo.</li>
+      <li><strong>Impostazioni notifiche</strong>: se gli avvisi quotidiani sono attivi, l'orario e la soglia di avviso.</li>
+      <li><strong>Dati del widget</strong>: un'istantanea della previsione di oggi (testi e colori già risolti) scritta nell'archivio condiviso del dispositivo, così il widget può mostrarla senza aprire l'app.</li>
+      <li><strong>Preferenza tema</strong>: il tema di visualizzazione (chiaro, scuro o di sistema) che scegli nelle Impostazioni.</li>
+      <li><strong>Preferenza lingua</strong>: la lingua di visualizzazione che scegli nelle Impostazioni.</li>
     </ul>
     <p>Puoi ripristinare tutti questi dati in qualsiasi momento tramite <em>Impostazioni → Ripristina configurazione</em>.</p>`,
     's3.h':    '3. Servizi di terze parti',
     's3.intro': 'Per fornire previsioni sul polline, l\'app comunica con i seguenti servizi esterni. Ogni richiesta viene effettuata direttamente dal tuo dispositivo.',
     's3.openmeteo': `<strong>Open-Meteo</strong> (<a href="https://open-meteo.com" target="_blank" rel="noopener">open-meteo.com</a>)<br>
     Utilizzato per ottenere previsioni sul polline in Europa, e qualità dell'aria e meteo in tutto il mondo. Gestisce anche la ricerca delle città: il testo digitato nel campo di ricerca viene inviato all'API di geocodifica di Open-Meteo. Le coordinate selezionate (latitudine e longitudine) vengono inviate come parte della richiesta API. Open-Meteo non richiede account e non traccia gli utenti singoli. Vedi i loro <a href="https://open-meteo.com/en/terms" target="_blank" rel="noopener">termini</a>.`,
-    's3.pia': `<strong>PIA — Programma di Informazione Aerobiologica</strong> (<a href="https://aerobiologia.cat" target="_blank" rel="noopener">aerobiologia.cat</a>)<br>
+    's3.pia': `<strong>PIA, Programma di Informazione Aerobiologica</strong> (<a href="https://aerobiologia.cat" target="_blank" rel="noopener">aerobiologia.cat</a>)<br>
     Utilizzato per ottenere dati dettagliati di stazioni di polline per la Catalogna e le Isole Baleari. Dati sotto licenza <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" rel="noopener">CC BY-NC-SA 4.0</a>.`,
     's3.google': `<strong>API Pollini di Google</strong> (<a href="https://developers.google.com/maps/documentation/pollen" target="_blank" rel="noopener">developers.google.com</a>)<br>
-    Utilizzato per ottenere previsioni sul polline fuori dall'Europa, dove Open-Meteo non ne ha, e per completare i singoli allergeni che la fonte principale di una posizione non copre. Vengono inviate solo le coordinate selezionate (latitudine e longitudine) come parte della richiesta — nessun identificatore e nessun dato personale. Vedi l'<a href="https://policies.google.com/privacy" target="_blank" rel="noopener">informativa sulla privacy di Google</a>.`,
+    Utilizzato per ottenere previsioni sul polline fuori dall'Europa, dove Open-Meteo non ne ha, e per completare i singoli allergeni che la fonte principale di una posizione non copre. Vengono inviate solo le coordinate selezionate (latitudine e longitudine) come parte della richiesta, nessun identificatore e nessun dato personale. Vedi l'<a href="https://policies.google.com/privacy" target="_blank" rel="noopener">informativa sulla privacy di Google</a>.`,
     's3.sentry': `<strong>Sentry</strong> (<a href="https://sentry.io" target="_blank" rel="noopener">sentry.io</a>)<br>
     Utilizzato per la segnalazione di crash nelle versioni di produzione. In caso di crash, viene inviato automaticamente un rapporto di errore anonimizzato. I rapporti possono includere il modello del dispositivo, la versione del sistema operativo e uno stack trace. Nessun nome, indirizzo email o dettaglio account è incluso. Vedi la <a href="https://sentry.io/privacy/" target="_blank" rel="noopener">informativa sulla privacy di Sentry</a>.`,
     's3.posthog': `<strong>PostHog</strong> (<a href="https://posthog.com" target="_blank" rel="noopener">posthog.com</a>)<br>
     Utilizzato per analisi d'uso anonime (es. quali funzionalità vengono usate, quali lingue vengono selezionate). Gli eventi vengono acquisiti automaticamente e non includono informazioni identificative. I dati sono ospitati sui server europei di PostHog. Vedi la <a href="https://posthog.com/privacy" target="_blank" rel="noopener">informativa sulla privacy di PostHog</a>.`,
     's4.h':    '4. Notifiche',
-    's4.body': 'Se attivi gli avvisi quotidiani, l\'app pianifica notifiche locali sul tuo dispositivo all\'orario che scegli: una per ciascuno dei giorni successivi la cui previsione supera la tua soglia. Perché non diventino obsolete, l\'app le ricalcola anche in background circa ogni 12 ore, insieme all\'istantanea del widget. Tutto viene generato localmente — non viene utilizzato alcun server di notifiche né servizio push. Puoi disattivare le notifiche in qualsiasi momento nelle Impostazioni dell\'app o nelle impostazioni di sistema del dispositivo.',
+    's4.body': 'Se attivi gli avvisi quotidiani, l\'app pianifica notifiche locali sul tuo dispositivo all\'orario che scegli: una per ciascuno dei giorni successivi la cui previsione supera la tua soglia. Perché non diventino obsolete, l\'app le ricalcola anche in background circa ogni 12 ore, insieme all\'istantanea del widget. Tutto viene generato localmente, non viene utilizzato alcun server di notifiche né servizio push. Puoi disattivare le notifiche in qualsiasi momento nelle Impostazioni dell\'app o nelle impostazioni di sistema del dispositivo.',
     's5.h':    '5. Privacy dei minori',
     's5.body': 'canIbreathe non è destinata a bambini di età inferiore ai 13 anni. Non raccogliamo consapevolmente informazioni da bambini.',
     's6.h':    '6. Modifiche a questa informativa',
@@ -687,53 +717,55 @@ const TRANSLATIONS = {
     // ── Shared ─────────────────────────────────────────────────────
     'nav.home':    'Startseite',
     'nav.privacy': 'Datenschutzerklärung',
+    'nav.changelog': 'Versionsverlauf',
     'lang-switcher.label': 'Sprache wechseln',
-    'meta.description.index': 'Tägliche Pollen- und Allergenvorhersagen, weltweit, zugeschnitten auf das, was dich betrifft — mit einem Allergie-Tagebuch, das deine Auslöser zeigt. Verfügbar für iOS und Android.',
+    'meta.description.index': 'Tägliche Pollen- und Allergenvorhersagen, weltweit, zugeschnitten auf das, was dich betrifft, mit einem Allergie-Tagebuch, das deine Auslöser zeigt. Verfügbar für iOS und Android.',
     'meta.description.privacy': 'Datenschutzerklärung der canIbreathe Pollen- und Allergenvorhersage-App.',
+    'meta.description.changelog': 'Versionsverlauf der canIbreathe-App: was jedes Update mitgebracht hat.',
     'footer.privacy': 'Datenschutzerklärung',
     'footer.contact': 'Kontakt',
     'footer.copy': '&copy; 2026 Arnau Tresserras',
 
     // ── index.html ──────────────────────────────────────────────────
-    'page.title.index': 'canIbreathe — Pollen- & Allergenvorhersage',
+    'page.title.index': 'canIbreathe, Pollen- & Allergenvorhersage',
     'hero.h1': 'Kenne deinen Pollen, bevor du rausgehst.',
-    'hero.lead': 'Tägliche Pollen- und Allergenvorhersagen, zugeschnitten auf die Pflanzen, die dich betreffen — um deinen Tag mit Zuversicht zu planen.',
+    'hero.lead': 'Tägliche Pollen- und Allergenvorhersagen, zugeschnitten auf die Pflanzen, die dich betreffen, um deinen Tag mit Zuversicht zu planen.',
     'store.apple.pre': 'Laden im',
     'store.apple.name': 'App Store',
     'store.google.pre': 'Jetzt bei',
     'store.google.name': 'Google Play',
     'f1.title': 'Nur die Allergene, die dich betreffen',
-    'f1.desc':  'Wähle aus 29 Pollen und Sporen die aus, auf die du wirklich reagierst. canIbreathe zeigt nur diese — keine endlose Liste von Arten, die dich nicht interessieren.',
+    'f1.desc':  'Wähle aus 29 Pollen und Sporen die aus, auf die du wirklich reagierst. canIbreathe zeigt nur diese, keine endlose Liste von Arten, die dich nicht interessieren.',
     'fplan.title': 'Erfahre die beste Zeit zum Rausgehen',
-    'fplan.desc':  'Der Plan-Tab findet die sauberste Luft deines Tages mit einem Stunden-für-Stunden-Diagramm und zeigt daneben die typische Saison jedes Allergens — damit dich nichts überrascht.',
+    'fplan.desc':  'Der Plan-Tab findet die sauberste Luft deines Tages mit einem Stunden-für-Stunden-Diagramm und zeigt daneben die typische Saison jedes Allergens, damit dich nichts überrascht.',
     'f2.title': 'Führe ein Allergie-Tagebuch',
-    'f2.desc':  'Halte fest, wie du dich jeden Tag fühlst — welche Symptome, wie stark und ob du etwas genommen hast. Jeder Tag wird mit den Pollenwerten dieses Tages gespeichert, komplett auf deinem Telefon.',
+    'f2.desc':  'Halte fest, wie du dich jeden Tag fühlst: welche Symptome, wie stark und ob du etwas genommen hast. Jeder Tag wird mit den Pollenwerten dieses Tages gespeichert, komplett auf deinem Telefon.',
     'f3.title': 'Finde heraus, was dich auslöst',
     'f3.desc':  'Das Tagebuch stellt deine Symptome den Pollenwerten gegenüber, sortiert, welche Allergene ihnen am nächsten folgen, und kann auf einen Auslöser hinweisen, den du noch nicht verfolgst. Als PDF für deine Ärztin oder deinen Arzt exportierbar.',
     'f4.title': 'Lokale Vorhersagen, überall auf der Welt',
-    'f4.desc':  'Echte Stationsmessungen für Katalonien und die Balearischen Inseln — mit der Entfernung zur Station — Open-Meteo in ganz Europa und die Google-Pollen-API im Rest der Welt. Verfolge jeden Ort, an dem du Zeit verbringst.',
+    'f4.desc':  'Echte Stationsmessungen für Katalonien und die Balearischen Inseln (mit der Entfernung zur Station), Open-Meteo in ganz Europa und die Google-Pollen-API im Rest der Welt. Verfolge jeden Ort, an dem du Zeit verbringst.',
     'fwidget.title': 'Die Antwort auf deinem Homescreen',
-    'fwidget.desc':  'Füge das Widget in einer der beiden Größen hinzu: das Urteil für heute, deine höchsten Allergene und ob die Werte steigen, stehen direkt auf dem Homescreen — im Hintergrund aktualisiert, ohne die App zu öffnen. Auf iPhone und Android.',
+    'fwidget.desc':  'Füge das Widget in einer der beiden Größen hinzu: das Urteil für heute, deine höchsten Allergene und ob die Werte steigen, stehen direkt auf dem Homescreen, im Hintergrund aktualisiert, ohne die App zu öffnen. Auf iPhone und Android.',
     'trust.eyebrow': 'Datenschutz von Grund auf',
-    'trust.lead': 'canIbreathe funktioniert ohne Konto und behält dein Allergieprofil auf deinem Gerät — niemals auf unseren Servern.',
+    'trust.lead': 'canIbreathe funktioniert ohne Konto und behält dein Allergieprofil auf deinem Gerät, niemals auf unseren Servern.',
     'trust.p1': 'Kein Konto nötig',
     'trust.p2': 'Greift nie auf dein GPS zu',
     'trust.p3': 'Deine Daten bleiben auf dem Gerät',
     'trust.p4': 'Dein Tagebuch verlässt das Telefon nie',
     'setup.title': 'In unter einer Minute eingerichtet',
     'setup.s1.title': 'Wähle deine Sprache',
-    'setup.s1.desc': 'Sieben zur Auswahl — oder folge der Gerätesprache.',
+    'setup.s1.desc': 'Sieben zur Auswahl, oder folge der Gerätesprache.',
     'setup.s2.title': 'Wähle deine Allergene',
     'setup.s2.desc': 'Markiere die Pollen und Sporen, auf die du reagierst.',
     'setup.s3.title': 'Lege deinen Standort fest',
     'setup.s3.desc': 'Suche eine beliebige Stadt oder nutze eine nahe PIA-Station.',
     'more.title': 'Und noch ein paar Dinge',
     'more.alerts.title': 'Warnungen, die vorausschauen',
-    'more.alerts.desc': 'Eine Benachrichtigung am Morgen für jeden der nächsten fünf Tage, an dem deine Allergene den gewählten Schwellenwert überschreiten — im Hintergrund neu berechnet, auch wenn du die App nie öffnest.',
+    'more.alerts.desc': 'Eine Benachrichtigung am Morgen für jeden der nächsten fünf Tage, an dem deine Allergene den gewählten Schwellenwert überschreiten, im Hintergrund neu berechnet, auch wenn du die App nie öffnest.',
     'more.preview.title': 'Vorschau, bevor du hinzufügst',
-    'more.preview.desc': 'Suche eine Stadt und sieh dir ihre Vorhersage an, bevor du sie hinzufügst — praktisch für ein Reiseziel.',
+    'more.preview.desc': 'Suche eine Stadt und sieh dir ihre Vorhersage an, bevor du sie hinzufügst, praktisch für ein Reiseziel.',
     'more.why.title': 'Warum die Werte hoch sind',
-    'more.why.desc': 'Sieh den Grund für das heutige Niveau — Regen im Anmarsch, trocken und windig, oder ein saisonaler Höhepunkt.',
+    'more.why.desc': 'Sieh den Grund für das heutige Niveau: Regen im Anmarsch, trocken und windig, oder ein saisonaler Höhepunkt.',
     'more.conditions.title': 'Wetter &amp; EU-Luftqualität',
     'more.conditions.desc': 'Temperatur, Wind, Niederschlag und ein 6-Stufen-AQI-Balken, direkt neben der Vorhersage.',
     'more.share.title': 'Vorhersage teilen',
@@ -748,7 +780,10 @@ const TRANSLATIONS = {
     'download.desc': 'Kostenlos für iPhone, iPad und Android.',
 
     // ── privacy.html ────────────────────────────────────────────────
-    'page.title.privacy': 'Datenschutzerklärung — canIbreathe',
+    'page.title.privacy': 'Datenschutzerklärung, canIbreathe',
+    'page.title.changelog': 'Versionsverlauf, canIbreathe',
+    'changelog.heading': 'Versionsverlauf',
+    'changelog.intro': 'Alles, was wir canIbreathe Version für Version hinzugefügt haben.',
     'policy.title': 'Datenschutzerklärung',
     'policy.date':  'Gültig ab: 1. April 2025 &nbsp;·&nbsp; Zuletzt aktualisiert: 14. August 2026',
     'policy.highlight': '<strong>Kurzfassung:</strong> canIbreathe erfasst, speichert oder teilt keine personenbezogenen Daten auf unseren Servern. Dein Standort- und Allergieprofil wird nur auf deinem Gerät gespeichert.',
@@ -758,29 +793,29 @@ const TRANSLATIONS = {
     's2.body': `
     <p>canIbreathe speichert folgende Informationen <strong>ausschließlich auf deinem Gerät</strong> im privaten Gerätespeicher. Diese Daten verlassen niemals dein Gerät und werden niemals an unsere Server übertragen:</p>
     <ul>
-      <li><strong>Standort</strong> — die Stadt oder Pollenüberwachungsstation, die du manuell in der App auswählst. Die App greift weder auf GPS noch auf den genauen Standort des Geräts zu.</li>
-      <li><strong>Allergeneinstellungen</strong> — die Liste der Pollenarten und Allergene, die du auswählst.</li>
-      <li><strong>Allergie-Tagebuch</strong> — die Symptome, deren Stärke und die Notizen, die du einträgst, sowie ob du Medikamente genommen hast (nur Kategorien, niemals Namen oder Dosierungen), zusammen mit den Pollenwerten des jeweiligen Tages. Es liegt in einem eigenen Speicher auf dem Gerät und wird nirgendwohin gesendet. Du kannst selbst einen PDF-Bericht exportieren und entscheiden, wohin er geht.</li>
-      <li><strong>Benachrichtigungseinstellungen</strong> — ob tägliche Warnungen aktiviert sind, die Warnzeit und der Warnschwellenwert.</li>
-      <li><strong>Widget-Daten</strong> — eine Momentaufnahme der heutigen Vorhersage (fertige Texte und Farben), die in den gemeinsamen Speicher des Geräts geschrieben wird, damit das Homescreen-Widget sie ohne Öffnen der App anzeigen kann.</li>
-      <li><strong>Thema-Einstellung</strong> — das Anzeigedesign (hell, dunkel oder System), das du in den Einstellungen wählst.</li>
-      <li><strong>Spracheinstellung</strong> — die Anzeigesprache, die du in den Einstellungen wählst.</li>
+      <li><strong>Standort</strong>: die Stadt oder Pollenüberwachungsstation, die du manuell in der App auswählst. Die App greift weder auf GPS noch auf den genauen Standort des Geräts zu.</li>
+      <li><strong>Allergeneinstellungen</strong>: die Liste der Pollenarten und Allergene, die du auswählst.</li>
+      <li><strong>Allergie-Tagebuch</strong>: die Symptome, deren Stärke und die Notizen, die du einträgst, sowie ob du Medikamente genommen hast (nur Kategorien, niemals Namen oder Dosierungen), zusammen mit den Pollenwerten des jeweiligen Tages. Es liegt in einem eigenen Speicher auf dem Gerät und wird nirgendwohin gesendet. Du kannst selbst einen PDF-Bericht exportieren und entscheiden, wohin er geht.</li>
+      <li><strong>Benachrichtigungseinstellungen</strong>: ob tägliche Warnungen aktiviert sind, die Warnzeit und der Warnschwellenwert.</li>
+      <li><strong>Widget-Daten</strong>: eine Momentaufnahme der heutigen Vorhersage (fertige Texte und Farben), die in den gemeinsamen Speicher des Geräts geschrieben wird, damit das Homescreen-Widget sie ohne Öffnen der App anzeigen kann.</li>
+      <li><strong>Thema-Einstellung</strong>: das Anzeigedesign (hell, dunkel oder System), das du in den Einstellungen wählst.</li>
+      <li><strong>Spracheinstellung</strong>: die Anzeigesprache, die du in den Einstellungen wählst.</li>
     </ul>
     <p>Du kannst alle diese Daten jederzeit über <em>Einstellungen → Einführung zurücksetzen</em> zurücksetzen.</p>`,
     's3.h':    '3. Drittanbieterdienste',
     's3.intro': 'Um Pollenvorhersagen zu liefern, kommuniziert die App mit folgenden externen Diensten. Jede Anfrage wird direkt von deinem Gerät aus gestellt.',
     's3.openmeteo': `<strong>Open-Meteo</strong> (<a href="https://open-meteo.com" target="_blank" rel="noopener">open-meteo.com</a>)<br>
     Wird verwendet, um Pollenvorhersagen in Europa sowie Luftqualität und Wetter weltweit abzurufen. Übernimmt außerdem die Städtesuche: Der Text, den du in das Suchfeld eingibst, wird an die Geocoding-API von Open-Meteo gesendet. Die ausgewählten Koordinaten (Breitengrad und Längengrad) werden als Teil der API-Anfrage gesendet. Open-Meteo erfordert kein Konto und verfolgt keine einzelnen Nutzer. Siehe deren <a href="https://open-meteo.com/en/terms" target="_blank" rel="noopener">Nutzungsbedingungen</a>.`,
-    's3.pia': `<strong>PIA — Aerobiologisches Informationsprogramm</strong> (<a href="https://aerobiologia.cat" target="_blank" rel="noopener">aerobiologia.cat</a>)<br>
+    's3.pia': `<strong>PIA, Aerobiologisches Informationsprogramm</strong> (<a href="https://aerobiologia.cat" target="_blank" rel="noopener">aerobiologia.cat</a>)<br>
     Wird verwendet, um detaillierte stationsbasierte Pollendaten für Katalonien und die Balearischen Inseln abzurufen. Daten unter der Lizenz <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" rel="noopener">CC BY-NC-SA 4.0</a>.`,
     's3.google': `<strong>Google-Pollen-API</strong> (<a href="https://developers.google.com/maps/documentation/pollen" target="_blank" rel="noopener">developers.google.com</a>)<br>
-    Wird verwendet, um Pollenvorhersagen außerhalb Europas abzurufen, wo Open-Meteo keine hat, und um einzelne Allergene zu ergänzen, die die Hauptquelle eines Standorts nicht abdeckt. Es werden nur die ausgewählten Koordinaten (Breitengrad und Längengrad) als Teil der Anfrage gesendet — keine Kennungen und keine personenbezogenen Daten. Siehe <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Googles Datenschutzerklärung</a>.`,
+    Wird verwendet, um Pollenvorhersagen außerhalb Europas abzurufen, wo Open-Meteo keine hat, und um einzelne Allergene zu ergänzen, die die Hauptquelle eines Standorts nicht abdeckt. Es werden nur die ausgewählten Koordinaten (Breitengrad und Längengrad) als Teil der Anfrage gesendet, keine Kennungen und keine personenbezogenen Daten. Siehe <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Googles Datenschutzerklärung</a>.`,
     's3.sentry': `<strong>Sentry</strong> (<a href="https://sentry.io" target="_blank" rel="noopener">sentry.io</a>)<br>
     Wird für Absturzberichte in Produktions-Builds verwendet. Bei einem Absturz wird automatisch ein anonymisierter Fehlerbericht gesendet. Berichte können das Gerätemodell, die Betriebssystemversion und einen Stack-Trace enthalten. Keine Namen, E-Mail-Adressen oder Kontodaten sind enthalten. Siehe <a href="https://sentry.io/privacy/" target="_blank" rel="noopener">Sentrys Datenschutzerklärung</a>.`,
     's3.posthog': `<strong>PostHog</strong> (<a href="https://posthog.com" target="_blank" rel="noopener">posthog.com</a>)<br>
     Wird für anonyme Nutzungsanalysen verwendet (z. B. welche Funktionen genutzt werden, welche Sprachen ausgewählt werden). Ereignisse werden automatisch erfasst und enthalten keine personenbezogenen Daten. Die Daten werden auf PostHogs europäischen Servern gehostet. Siehe <a href="https://posthog.com/privacy" target="_blank" rel="noopener">PostHogs Datenschutzerklärung</a>.`,
     's4.h':    '4. Benachrichtigungen',
-    's4.body': 'Wenn du tägliche Warnungen aktivierst, plant die App lokale Benachrichtigungen auf deinem Gerät zur gewählten Zeit — eine für jeden der kommenden Tage, deren Vorhersage deinen Schwellenwert überschreitet. Damit sie nicht veralten, berechnet die App sie zusätzlich etwa alle 12 Stunden im Hintergrund neu, gemeinsam mit der Widget-Momentaufnahme. Alles wird lokal generiert — es wird kein Benachrichtigungsserver oder Push-Dienst verwendet. Du kannst Benachrichtigungen jederzeit in den App-Einstellungen oder in den Systemeinstellungen deines Geräts deaktivieren.',
+    's4.body': 'Wenn du tägliche Warnungen aktivierst, plant die App lokale Benachrichtigungen auf deinem Gerät zur gewählten Zeit (eine für jeden der kommenden Tage, deren Vorhersage deinen Schwellenwert überschreitet. Damit sie nicht veralten, berechnet die App sie zusätzlich etwa alle 12 Stunden im Hintergrund neu, gemeinsam mit der Widget-Momentaufnahme. Alles wird lokal generiert), es wird kein Benachrichtigungsserver oder Push-Dienst verwendet. Du kannst Benachrichtigungen jederzeit in den App-Einstellungen oder in den Systemeinstellungen deines Geräts deaktivieren.',
     's5.h':    '5. Datenschutz für Kinder',
     's5.body': 'canIbreathe richtet sich nicht an Kinder unter 13 Jahren. Wir erfassen wissentlich keine Informationen von Kindern.',
     's6.h':    '6. Änderungen dieser Erklärung',
